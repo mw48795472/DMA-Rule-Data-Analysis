@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ site.description | escape }}">
+  <title>{{ page.title | escape }} · DMA Research Notebook</title>
+  <link rel="stylesheet" href="{{ '/assets/site.css' | relative_url }}">
+  <script src="{{ '/assets/site.js' | relative_url }}" defer></script>
+</head>
+<body>
+  <a class="skip" href="#content">본문 바로가기</a>
+  <header class="masthead">
+    <a class="brand" href="{{ '/' | relative_url }}"><span class="brand-mark">DMA</span><span>RESEARCH<br><strong>NOTEBOOK</strong></span></a>
+    <div class="header-meta">공간분석 · 규범 확산 · 국제 이동<span>2026.11.02 DATA SNAPSHOT</span></div>
+    <a class="repo-link" href="https://github.com/mw48795472/DMA-Rule-Data-Analysis">GitHub ↗</a>
+  </header>
+  <div class="shell">
+    <aside class="sidebar">
+      <p class="eyebrow">연구 읽기</p>
+      <nav aria-label="연구 문서">
+        <a {% if page.order == 1 %}aria-current="page"{% endif %} href="{{ '/' | relative_url }}"><span>01</span> 연구 요약</a>
+        <a {% if page.order == 2 %}aria-current="page"{% endif %} href="{{ '/analysis.html' | relative_url }}"><span>02</span> 전처리와 공간모형</a>
+        <a {% if page.order == 3 %}aria-current="page"{% endif %} href="{{ '/plots.html' | relative_url }}"><span>03</span> 23개 plot · 코드</a>
+        <a {% if page.order == 4 %}aria-current="page"{% endif %} href="{{ '/mechanisms.html' | relative_url }}"><span>04</span> 추가 자료와 연구설계</a>
+        <a {% if page.order == 5 %}aria-current="page"{% endif %} href="{{ '/reproduce.html' | relative_url }}"><span>05</span> 재현과 원천자료</a>
+      </nav>
+      <div class="side-note"><span class="status-dot"></span> PoC · 탐색적 분석<p>공간적 연관성과 정책의 인과효과를 구분합니다.</p></div>
+      <details class="toc-wrap" open><summary>이 문서의 내용</summary><nav id="toc" aria-label="현재 문서 목차"></nav></details>
+    </aside>
+    <main id="content" tabindex="-1">
+      <div class="page-kicker">{{ page.order | prepend: '0' }} / RESEARCH NOTES <span>CODE + EVIDENCE</span></div>
+      <article class="prose">{{ content }}</article>
+      <footer><a href="#content">문서 위로 ↑</a><p>공개 원천자료와 저장 결과를 연결한 연구 노트. 분석 코드와 파일별 출처는 저장소에서 확인할 수 있습니다.</p></footer>
+    </main>
+  </div>
+</body>
+</html>

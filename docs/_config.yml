@@ -1,0 +1,15 @@
+title: DMA Research Notebook
+description: 브뤼셀 효과와 티부형 이동을 구분하는 데이터·공간분석 연구
+url: https://mw48795472.github.io
+baseurl: /DMA-Rule-Data-Analysis
+lang: ko
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  auto_ids: true
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
