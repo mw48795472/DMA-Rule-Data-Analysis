@@ -1,0 +1,187 @@
+[ {
+  "IndicadorCod" : "0008273",
+  "IndicadorDsg" : "Resident population (No.) by Place of residence (NUTS - 2013), Sex and Age group; Annual - Statistics Portugal, Annual estimates of resident population",
+  "MetaInfUrl" : "https://www.ine.pt/bddXplorer/htdocs/minfo.jsp?var_cd=0008273&lingua=EN",
+  "DataExtracao" : "2026-11-02T02:10:55.065Z",
+  "DataUltimoAtualizacao" : "2026-07-17",
+  "UltimoPref" : "2023",
+  "Dados" : {
+    "2023" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "MF",
+      "dim_4" : "91",
+      "dim_4_t" : "80 - 84 years",
+      "ind_string" : "366 819",
+      "valor" : "366819"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "MF",
+      "dim_4" : "92",
+      "dim_4_t" : "85 and more years",
+      "ind_string" : "394 066",
+      "valor" : "394066"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "MF",
+      "dim_4" : "11",
+      "dim_4_t" : "0 - 4 years",
+      "ind_string" : "429 894",
+      "valor" : "429894"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "MF",
+      "dim_4" : "12",
+      "dim_4_t" : "5 - 9 years",
+      "ind_string" : "487 167",
+      "valor" : "487167"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "MF",
+      "dim_4" : "21",
+      "dim_4_t" : "10 - 14 years",
+      "ind_string" : "514 994",
+      "valor" : "514994"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "MF",
+      "dim_4" : "82",
+      "dim_4_t" : "75 - 79 years",
+      "ind_string" : "517 855",
+      "valor" : "517855"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "MF",
+      "dim_4" : "22",
+      "dim_4_t" : "15 - 19 years",
+      "ind_string" : "554 978",
+      "valor" : "554978"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "MF",
+      "dim_4" : "81",
+      "dim_4_t" : "70 - 74 years",
+      "ind_string" : "616 856",
+      "valor" : "616856"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "MF",
+      "dim_4" : "31",
+      "dim_4_t" : "20 - 24 years",
+      "ind_string" : "636 032",
+      "valor" : "636032"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "MF",
+      "dim_4" : "72",
+      "dim_4_t" : "65 - 69 years",
+      "ind_string" : "674 458",
+      "valor" : "674458"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "MF",
+      "dim_4" : "32",
+      "dim_4_t" : "25 - 29 years",
+      "ind_string" : "683 542",
+      "valor" : "683542"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "MF",
+      "dim_4" : "41",
+      "dim_4_t" : "30 - 34 years",
+      "ind_string" : "699 565",
+      "valor" : "699565"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "MF",
+      "dim_4" : "42",
+      "dim_4_t" : "35 - 39 years",
+      "ind_string" : "713 141",
+      "valor" : "713141"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "MF",
+      "dim_4" : "71",
+      "dim_4_t" : "60 - 64 years",
+      "ind_string" : "721 569",
+      "valor" : "721569"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "MF",
+      "dim_4" : "62",
+      "dim_4_t" : "55 - 59 years",
+      "ind_string" : "756 055",
+      "valor" : "756055"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "MF",
+      "dim_4" : "51",
+      "dim_4_t" : "40 - 44 years",
+      "ind_string" : "787 703",
+      "valor" : "787703"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "MF",
+      "dim_4" : "61",
+      "dim_4_t" : "50 - 54 years",
+      "ind_string" : "794 694",
+      "valor" : "794694"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "MF",
+      "dim_4" : "52",
+      "dim_4_t" : "45 - 49 years",
+      "ind_string" : "854 959",
+      "valor" : "854959"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "MF",
+      "dim_4" : "T",
+      "dim_4_t" : "Total",
+      "ind_string" : "11 204 347",
+      "valor" : "11204347"
+    } ]
+  },
+  "Sucesso" : {
+    "Verdadeiro" : [ {
+      "Msg" : "OK"
+    } ]
+  }
+} ]

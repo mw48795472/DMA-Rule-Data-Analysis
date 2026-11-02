@@ -1,0 +1,59 @@
+﻿dimension,code,label
+freq,A,Annual
+unit,THS_PER,Thousand persons
+nace_r2,TOTAL,Total - all NACE activities
+nace_r2,J,Information and communication
+na_item,EMP_DC,Total employment domestic concept
+geo,EU27_2020,European Union - 27 countries (from 2020)
+geo,EA,"Euro area (EA11-1999, EA12-2001, EA13-2007, EA15-2008, EA16-2009, EA17-2011, EA18-2014, EA19-2015, EA20-2023, EA21-2026)"
+geo,EA21,Euro area – 21 countries (from 2026)
+geo,EA20,Euro area – 20 countries (2023-2025)
+geo,EA19,Euro area - 19 countries  (2015-2022)
+geo,EA12,Euro area - 12 countries (2001-2006)
+geo,BE,Belgium
+geo,BG,Bulgaria
+geo,CZ,Czechia
+geo,DK,Denmark
+geo,DE,Germany
+geo,EE,Estonia
+geo,IE,Ireland
+geo,EL,Greece
+geo,ES,Spain
+geo,FR,France
+geo,HR,Croatia
+geo,IT,Italy
+geo,CY,Cyprus
+geo,LV,Latvia
+geo,LT,Lithuania
+geo,LU,Luxembourg
+geo,HU,Hungary
+geo,MT,Malta
+geo,NL,Netherlands
+geo,AT,Austria
+geo,PL,Poland
+geo,PT,Portugal
+geo,RO,Romania
+geo,SI,Slovenia
+geo,SK,Slovakia
+geo,FI,Finland
+geo,SE,Sweden
+geo,IS,Iceland
+geo,LI,Liechtenstein
+geo,NO,Norway
+geo,CH,Switzerland
+geo,BA,Bosnia and Herzegovina
+geo,ME,Montenegro
+geo,MD,Moldova
+geo,MK,North Macedonia
+geo,AL,Albania
+geo,RS,Serbia
+geo,XK,Kosovo*
+time,2017,2017
+time,2018,2018
+time,2019,2019
+time,2020,2020
+time,2021,2021
+time,2022,2022
+time,2023,2023
+time,2024,2024
+time,2025,2025

@@ -1,0 +1,32 @@
+
+Call:spatialreg::lagsarlm(formula = ff, data = dd, listw = lw, Durbin = du, 
+    method = "eigen", quiet = TRUE, interval = interval, control = list(pre_eig = eig))
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-1.574791 -0.480413  0.021375  0.529840  1.688349 
+
+Type: mixed 
+Coefficients: (asymptotic standard errors) 
+                Estimate Std. Error z value  Pr(>|z|)
+(Intercept)     4.196797   1.245241  3.3703 0.0007509
+z_exposure     -0.234055   0.229247 -1.0210 0.3072671
+z_income        0.166743   0.328662  0.5073 0.6119165
+z_cost          0.524925   0.317676  1.6524 0.0984551
+z_unemployment  0.095504   0.174904  0.5460 0.5850415
+z_pre_j         0.652717   0.217951  2.9948 0.0027464
+lag.z_exposure -0.230577   0.481019 -0.4794 0.6316887
+
+Rho: 0.20777, LR test value: 0.79805, p-value: 0.37168
+Asymptotic standard error: 0.23229
+    z-value: 0.89444, p-value: 0.37109
+Wald statistic: 0.80002, p-value: 0.37109
+
+Log likelihood: -33.07435 for mixed model
+ML residual variance (sigma squared): 0.67278, (sigma: 0.82023)
+Number of observations: 27 
+Number of parameters estimated: 9 
+AIC: 84.149, (AIC for lm: 82.947)
+LM test for residual autocorrelation
+test value: 7.0082, p-value: 0.0081138
+

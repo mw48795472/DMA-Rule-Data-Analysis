@@ -1,0 +1,14 @@
+{
+  "source_id": "erm_204598",
+  "url": "https://apps.eurofound.europa.eu/restructuring-events/detail/204598",
+  "source_type": "ERM_public_factsheet",
+  "retrieved_utc": "2026-11-02T07:52:37.388436+00:00",
+  "api_key_required": "no",
+  "free_access": "public_page",
+  "status": "downloaded",
+  "local_file": "inputs/mechanisms_20261102/firms/raw/erm_204598.html",
+  "bytes": 16676,
+  "sha256": "d41a73247a0d7cc95be32c5a647d42efe17a48487b3fb587807bbcff12924784",
+  "error": "",
+  "http_status": 200
+}

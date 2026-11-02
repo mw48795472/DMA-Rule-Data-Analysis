@@ -1,0 +1,4 @@
+"group","test","I","p","n","simulations"
+"industry","raw_permutation",0.0239176480526607,0.4908,27,9999
+"industry","OLS_adjusted_normal",0.167119300883638,0.0135274676874486,27,
+"industry","OLS_Gaussian_projection",0.167119300883638,0.0314,27,9999

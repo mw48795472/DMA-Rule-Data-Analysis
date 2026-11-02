@@ -1,0 +1,123 @@
+﻿dimension,code,label
+freq,A,Annual
+unit,NR,Number
+age,TOTAL,Total
+age,Y15,15 years
+age,Y16,16 years
+age,Y17,17 years
+age,Y18,18 years
+age,Y19,19 years
+age,Y20,20 years
+age,Y21,21 years
+age,Y22,22 years
+age,Y23,23 years
+age,Y24,24 years
+age,Y25,25 years
+age,Y26,26 years
+age,Y27,27 years
+age,Y28,28 years
+age,Y29,29 years
+age,Y30,30 years
+age,Y31,31 years
+age,Y32,32 years
+age,Y33,33 years
+age,Y34,34 years
+age,Y35,35 years
+age,Y36,36 years
+age,Y37,37 years
+age,Y38,38 years
+age,Y39,39 years
+age,Y40,40 years
+age,Y41,41 years
+age,Y42,42 years
+age,Y43,43 years
+age,Y44,44 years
+age,Y45,45 years
+age,Y46,46 years
+age,Y47,47 years
+age,Y48,48 years
+age,Y49,49 years
+age,Y50,50 years
+age,Y51,51 years
+age,Y52,52 years
+age,Y53,53 years
+age,Y54,54 years
+age,Y55,55 years
+age,Y56,56 years
+age,Y57,57 years
+age,Y58,58 years
+age,Y59,59 years
+age,Y60,60 years
+age,Y61,61 years
+age,Y62,62 years
+age,Y63,63 years
+age,Y64,64 years
+sex,T,Total
+geo,EU27_2020,European Union - 27 countries (from 2020)
+geo,EU28,European Union - 28 countries (2013-2020)
+geo,EU27_2007,European Union - 27 countries (2007-2013)
+geo,EA21,Euro area – 21 countries (from 2026)
+geo,EA20,Euro area – 20 countries (2023-2025)
+geo,BE,Belgium
+geo,BG,Bulgaria
+geo,CZ,Czechia
+geo,DK,Denmark
+geo,DE,Germany
+geo,DE_TOT,Germany including former GDR
+geo,EE,Estonia
+geo,IE,Ireland
+geo,EL,Greece
+geo,ES,Spain
+geo,FR,France
+geo,FX,Metropolitan France
+geo,HR,Croatia
+geo,IT,Italy
+geo,CY,Cyprus
+geo,LV,Latvia
+geo,LT,Lithuania
+geo,LU,Luxembourg
+geo,HU,Hungary
+geo,MT,Malta
+geo,NL,Netherlands
+geo,AT,Austria
+geo,PL,Poland
+geo,PT,Portugal
+geo,RO,Romania
+geo,SI,Slovenia
+geo,SK,Slovakia
+geo,FI,Finland
+geo,SE,Sweden
+geo,EEA31,"European Economic Area (EU28 - 2013-2020 and IS, LI, NO)"
+geo,EEA30_2007,"European Economic Area (EU27 - 2007-2013 and IS, LI, NO)"
+geo,EFTA,European Free Trade Association
+geo,IS,Iceland
+geo,LI,Liechtenstein
+geo,NO,Norway
+geo,CH,Switzerland
+geo,UK,United Kingdom
+geo,BA,Bosnia and Herzegovina
+geo,ME,Montenegro
+geo,MD,Moldova
+geo,MK,North Macedonia
+geo,GE,Georgia
+geo,AL,Albania
+geo,RS,Serbia
+geo,TR,Türkiye
+geo,UA,Ukraine
+geo,XK,Kosovo*
+geo,AD,Andorra
+geo,BY,Belarus
+geo,MC,Monaco
+geo,RU,Russia
+geo,SM,San Marino
+geo,AM,Armenia
+geo,AZ,Azerbaijan
+time,2017,2017
+time,2018,2018
+time,2019,2019
+time,2020,2020
+time,2021,2021
+time,2022,2022
+time,2023,2023
+time,2024,2024
+time,2025,2025

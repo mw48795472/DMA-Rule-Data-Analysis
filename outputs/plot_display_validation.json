@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "ggplot_objects": 20,
+  "expected_graphics_pages": 22,
+  "source_invocation": "Source from outside the project",
+  "analysis_outputs_unchanged": true,
+  "display_test": "Explicit print() on an R PDF graphics device; native RStudio UI not automated",
+  "file": "C:/Users/mw595/OneDrive/문서/ChatGPT/프로젝트 없음/dma_poc_v4_20261102/outputs/plot_device_smoke.pdf",
+  "verified_pdf_page_count": 22
+}

@@ -1,0 +1,18 @@
+﻿variable,description_ko,unit_or_type
+event_id,사건 식별자; 같은 계획의 후속 보도는 새로운 사건으로 세지 않음,key
+event_year,원칙상 발표연도; 법적 재편은 확인된 효력 월의 연도,year
+event_year_basis,발표연도와 효력연도 구분,category
+origin_country / destination_country,Eurostat 국가코드; UK/EL을 사용. 미보고 출발지는 NA,country
+event_kind,실물 활동 offshoring / 법적 모회사 재편 / 신규 확장 구분,category
+event_status,계획·부분 감원 보고·법적 완료·개설 대기 구분,category
+planned_job_losses_min / max,출발국 사건 단위 감원/영향 인원; 목적지 이전 인원 아님,persons_announced
+jobs_moved_verified,실제 국경을 이동한 사람 수; 이번 표본에서 미확보,persons
+jobs_allocated_to_destination,특정 목적지에 배분된 일자리 수; 미보고는 모두 NA,jobs
+source_stated_reason,조회한 출처가 서술한 동기; 독립적 인과 판정 아님,text
+dma_motive_evidence,조회 출처에서 DMA 동기가 명시되지 않은 경우 not_stated; 원인이 없다는 0 아님,category
+date_order_anomaly,고용영향 시작일이 발표일보다 앞서는 원문 보존 플래그,boolean
+collection_status,기존 3개 재검증과 신규 8개 사건 구분,category
+source_sha256 / raw_source_status,원문 보존 해시와 다운로드 상태; 실패를 성공으로 기록하지 않음,provenance
+*_country_year_row_present,정확한 국가-사건연도 행 결합 여부; 값 결측과 별개,boolean
+origin_* / destination_*,"기존 국가-연도 공변량; 원천 단위와 결측 유지, 전진 채움 없음",original_units
+sampling_denominator_available,목적표집 사건 표본으로 모집단 기업수/포착률 분모 없음,boolean

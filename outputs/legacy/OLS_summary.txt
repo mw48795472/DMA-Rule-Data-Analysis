@@ -1,0 +1,22 @@
+
+Call:
+lm(formula = ff, data = dd)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.99029 -0.53728  0.00223  0.66072  2.00714 
+
+Coefficients:
+               Estimate Std. Error t value Pr(>|t|)    
+(Intercept)     5.30741    0.21101  25.153   <2e-16 ***
+z_exposure     -0.46860    0.26102  -1.795   0.0864 .  
+z_income        0.43238    0.37607   1.150   0.2626    
+z_cost          0.78931    0.39713   1.988   0.0595 .  
+z_unemployment  0.08286    0.23032   0.360   0.7224    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 1.096 on 22 degrees of freedom
+Multiple R-squared:  0.5012,	Adjusted R-squared:  0.4105 
+F-statistic: 5.526 on 4 and 22 DF,  p-value: 0.003099
+

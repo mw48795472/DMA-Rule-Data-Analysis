@@ -1,0 +1,473 @@
+{
+  "status": "PASS",
+  "checks_passed": 87,
+  "checks": [
+    {
+      "check": "Regional point estimates unchanged",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "9999 finite refits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bootstrap p and binomial bounds B=199",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bootstrap p and binomial bounds B=999",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bootstrap p and binomial bounds B=1999",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bootstrap p and binomial bounds B=4999",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bootstrap p and binomial bounds B=9999",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "B199 result reproduced",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "B9999 result",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Independent spatialreg refits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "43 unique country keys",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "34 basic / 35 supplemented rates",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "All observed countries have geometry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Geometry exception recorded",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "UK gross immigration rate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PT revised source vintage retained",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PT harmonised columns not overwritten",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "complet rate recomputation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reach rate recomputation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Overlap with v3 is unchanged",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cross-dataset numerator agreement",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Eight scope by three k choices",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "EU_COMPLET W row order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "EU_COMPLET independently reconstructed W",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "EU_COMPLET independently recomputed Moran I",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "EU_COMPLET independent permutation check",
+      "passed": true,
+      "detail": {
+        "R_p": 0.262,
+        "Python_p": 0.2671,
+        "B_python": 19999
+      }
+    },
+    {
+      "check": "EU_REACH W row order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "EU_REACH independently reconstructed W",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "EU_REACH independently recomputed Moran I",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "EU_REACH independent permutation check",
+      "passed": true,
+      "detail": {
+        "R_p": 0.563,
+        "Python_p": 0.5534,
+        "B_python": 19999
+      }
+    },
+    {
+      "check": "EU_mixed_age W row order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "EU_mixed_age independently reconstructed W",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "EU_mixed_age independently recomputed Moran I",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "EU_mixed_age independent permutation check",
+      "passed": true,
+      "detail": {
+        "R_p": 0.256,
+        "Python_p": 0.2491,
+        "B_python": 19999
+      }
+    },
+    {
+      "check": "EU_all_ages W row order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "EU_all_ages independently reconstructed W",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "EU_all_ages independently recomputed Moran I",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "EU_all_ages independent permutation check",
+      "passed": true,
+      "detail": {
+        "R_p": 0.1938,
+        "Python_p": 0.1872,
+        "B_python": 19999
+      }
+    },
+    {
+      "check": "Europe_all_ages W row order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Europe_all_ages independently reconstructed W",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Europe_all_ages independently recomputed Moran I",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Europe_all_ages independent permutation check",
+      "passed": true,
+      "detail": {
+        "R_p": 0.7096,
+        "Python_p": 0.7143,
+        "B_python": 19999
+      }
+    },
+    {
+      "check": "Europe_without_UK W row order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Europe_without_UK independently reconstructed W",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Europe_without_UK independently recomputed Moran I",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Europe_without_UK independent permutation check",
+      "passed": true,
+      "detail": {
+        "R_p": 0.6788,
+        "Python_p": 0.6719,
+        "B_python": 19999
+      }
+    },
+    {
+      "check": "EU_age_plus_PT W row order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "EU_age_plus_PT independently reconstructed W",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "EU_age_plus_PT independently recomputed Moran I",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "EU_age_plus_PT independent permutation check",
+      "passed": true,
+      "detail": {
+        "R_p": 0.2152,
+        "Python_p": 0.2101,
+        "B_python": 19999
+      }
+    },
+    {
+      "check": "Europe_plus_PT W row order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Europe_plus_PT independently reconstructed W",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Europe_plus_PT independently recomputed Moran I",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Europe_plus_PT independent permutation check",
+      "passed": true,
+      "detail": {
+        "R_p": 0.8064,
+        "Python_p": 0.7897,
+        "B_python": 19999
+      }
+    },
+    {
+      "check": "Source hash migr_imm8_2024.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Source hash demo_pjan_2024_2025.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Source hash migr_imm1ctz_total_2024.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Source hash eurostat_migration_metadata.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Source hash ons_ltim_2026may.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Source hash ons_population_2026oct.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Source hash migr_imm5prv_world_2024.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Source hash CNTR_RG_20M_2024_4326.geojson",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Source hash ine_immigration_2024_S7A.inejson",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Source hash ine_population_nuts2024.inejson",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Source hash ine_immigration_metadata.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Source hash ine_population_nuts2024_metadata.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "country LTA unique unit-wave keys",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "country LTA missingness flags",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "country LTA counts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "country LTA observable pair 2021",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "country LTA observable pair 2022",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "country LTA observable pair 2023",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "regional LTA unique unit-wave keys",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "regional LTA missingness flags",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "regional LTA counts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "regional LTA observable pair 2021",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "regional LTA observable pair 2022",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "regional LTA observable pair 2023",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Plot 13 PNG/PDF exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Plot 14 PNG/PDF exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Plot 15 PNG/PDF exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Plot 16 PNG/PDF exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Plot 17 PNG/PDF exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Plot 18 PNG/PDF exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Plot 19 PNG/PDF exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Plot 20 PNG/PDF exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Report embedded figures and updated values",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+﻿event_id,source_id,observation_date,status
+CORP_REVOLUT_PARIS_202505,revolut_paris_20250520,2025-05-20,new_regional_HQ_announced
+CORP_REVOLUT_PARIS_202505,revolut_paris_20260408,2026-04-08,lease_signed_expected_opening_early_2027
+FILING_KLARNA_202405,klarna_sec_f1a_20250814,2025-08-14,retrospective_report_of_May_2024_legal_reorganisation

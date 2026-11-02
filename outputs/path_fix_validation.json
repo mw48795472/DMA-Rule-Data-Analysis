@@ -1,0 +1,5 @@
+{
+  "status": "PASS",
+  "checks": ["Source from an unrelated working directory reads the intended config and metadata", "Source from the code subdirectory resolves the project root", "A relocated folder with Korean characters and spaces uses its own files", "Malformed JSON has a distinct message with the actual file path", "Missing JSON is reported as a missing file, not parsed as literal JSON", "UTF-8 BOM and Korean JSON content are read correctly", "All root and code R files parse after the path fix"],
+  "project": "C:/Users/mw595/OneDrive/문서/ChatGPT/프로젝트 없음/dma_poc_v4_20261102"
+}

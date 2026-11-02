@@ -1,0 +1,4 @@
+"group","test","I","p","n","simulations"
+"regional","raw_permutation",0.00644378191384343,0.7728,218,9999
+"regional","OLS_adjusted_normal",0.276785267352526,0.0000000000268725024002526,218,
+"regional","OLS_Gaussian_projection",0.276785267352526,0.0002,218,9999

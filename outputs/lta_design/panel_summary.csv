@@ -1,0 +1,3 @@
+"scope","unique_units","countries","selected_years","rows_four_waves","complete_rows","balanced_units","incomplete_rows","latent_model_fitted"
+"country",27,27,"2021,2022,2023,2024",108,108,27,0,FALSE
+"regional",236,27,"2021,2022,2023,2024",944,858,205,86,FALSE

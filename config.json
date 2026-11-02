@@ -1,0 +1,17 @@
+{
+  "version": "4.0",
+  "year": 2024,
+  "k": 4,
+  "permutations": 9999,
+  "seed": 20261028,
+  "bootstrap_national": 999,
+  "bootstrap_regional": 199,
+  "min_n_national": 20,
+  "regional_window": [
+    -25,
+    34,
+    45,
+    72
+  ],
+  "regional_sdm_residual_bootstrap": 9999
+}

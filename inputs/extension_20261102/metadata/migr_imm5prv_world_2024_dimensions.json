@@ -1,0 +1,261 @@
+{
+  "id": [
+    "freq",
+    "partner",
+    "agedef",
+    "age",
+    "unit",
+    "sex",
+    "geo",
+    "time"
+  ],
+  "size": [
+    1,
+    1,
+    2,
+    27,
+    1,
+    1,
+    48,
+    1
+  ],
+  "dimension": {
+    "freq": {
+      "label": "Time frequency",
+      "category": {
+        "index": {
+          "A": 0
+        },
+        "label": {
+          "A": "Annual"
+        }
+      }
+    },
+    "partner": {
+      "label": "Geopolitical entity (partner)",
+      "category": {
+        "index": {
+          "TOTAL": 0
+        },
+        "label": {
+          "TOTAL": "Total"
+        }
+      }
+    },
+    "agedef": {
+      "label": "Age definition",
+      "category": {
+        "index": {
+          "REACH": 0,
+          "COMPLET": 1
+        },
+        "label": {
+          "REACH": "Age reached during the year",
+          "COMPLET": "Age in completed years"
+        }
+      }
+    },
+    "age": {
+      "label": "Age class",
+      "category": {
+        "index": {
+          "TOTAL": 0,
+          "Y_LT5": 1,
+          "Y5-9": 2,
+          "Y10-14": 3,
+          "Y_LT15": 4,
+          "Y15-19": 5,
+          "Y15-64": 6,
+          "Y20-24": 7,
+          "Y25-29": 8,
+          "Y30-34": 9,
+          "Y35-39": 10,
+          "Y40-44": 11,
+          "Y45-49": 12,
+          "Y50-54": 13,
+          "Y55-59": 14,
+          "Y60-64": 15,
+          "Y65-69": 16,
+          "Y_GE65": 17,
+          "Y70-74": 18,
+          "Y75-79": 19,
+          "Y80-84": 20,
+          "Y85-89": 21,
+          "Y_GE85": 22,
+          "Y90-94": 23,
+          "Y95-99": 24,
+          "Y_GE100": 25,
+          "UNK": 26
+        },
+        "label": {
+          "TOTAL": "Total",
+          "Y_LT5": "Less than 5 years",
+          "Y5-9": "From 5 to 9 years",
+          "Y10-14": "From 10 to 14 years",
+          "Y_LT15": "Less than 15 years",
+          "Y15-19": "From 15 to 19 years",
+          "Y15-64": "From 15 to 64 years",
+          "Y20-24": "From 20 to 24 years",
+          "Y25-29": "From 25 to 29 years",
+          "Y30-34": "From 30 to 34 years",
+          "Y35-39": "From 35 to 39 years",
+          "Y40-44": "From 40 to 44 years",
+          "Y45-49": "From 45 to 49 years",
+          "Y50-54": "From 50 to 54 years",
+          "Y55-59": "From 55 to 59 years",
+          "Y60-64": "From 60 to 64 years",
+          "Y65-69": "From 65 to 69 years",
+          "Y_GE65": "65 years or over",
+          "Y70-74": "From 70 to 74 years",
+          "Y75-79": "From 75 to 79 years",
+          "Y80-84": "From 80 to 84 years",
+          "Y85-89": "From 85 to 89 years",
+          "Y_GE85": "85 years or over",
+          "Y90-94": "From 90 to 94 years",
+          "Y95-99": "From 95 to 99 years",
+          "Y_GE100": "100 years or over",
+          "UNK": "Unknown"
+        }
+      }
+    },
+    "unit": {
+      "label": "Unit of measure",
+      "category": {
+        "index": {
+          "NR": 0
+        },
+        "label": {
+          "NR": "Number"
+        }
+      }
+    },
+    "sex": {
+      "label": "Sex",
+      "category": {
+        "index": {
+          "T": 0
+        },
+        "label": {
+          "T": "Total"
+        }
+      }
+    },
+    "geo": {
+      "label": "Geopolitical entity (reporting)",
+      "category": {
+        "index": {
+          "EU27_2020": 0,
+          "BE": 1,
+          "BG": 2,
+          "CZ": 3,
+          "DK": 4,
+          "DE": 5,
+          "EE": 6,
+          "IE": 7,
+          "EL": 8,
+          "ES": 9,
+          "FR": 10,
+          "HR": 11,
+          "IT": 12,
+          "CY": 13,
+          "LV": 14,
+          "LT": 15,
+          "LU": 16,
+          "HU": 17,
+          "MT": 18,
+          "NL": 19,
+          "AT": 20,
+          "PL": 21,
+          "PT": 22,
+          "RO": 23,
+          "SI": 24,
+          "SK": 25,
+          "FI": 26,
+          "SE": 27,
+          "IS": 28,
+          "LI": 29,
+          "NO": 30,
+          "CH": 31,
+          "UK": 32,
+          "BA": 33,
+          "ME": 34,
+          "MD": 35,
+          "MK": 36,
+          "TR": 37,
+          "UA": 38,
+          "BY": 39,
+          "RU": 40,
+          "SM": 41,
+          "KG": 42,
+          "TJ": 43,
+          "UZ": 44,
+          "AM": 45,
+          "AZ": 46,
+          "IL": 47
+        },
+        "label": {
+          "EU27_2020": "European Union - 27 countries (from 2020)",
+          "BE": "Belgium",
+          "BG": "Bulgaria",
+          "CZ": "Czechia",
+          "DK": "Denmark",
+          "DE": "Germany",
+          "EE": "Estonia",
+          "IE": "Ireland",
+          "EL": "Greece",
+          "ES": "Spain",
+          "FR": "France",
+          "HR": "Croatia",
+          "IT": "Italy",
+          "CY": "Cyprus",
+          "LV": "Latvia",
+          "LT": "Lithuania",
+          "LU": "Luxembourg",
+          "HU": "Hungary",
+          "MT": "Malta",
+          "NL": "Netherlands",
+          "AT": "Austria",
+          "PL": "Poland",
+          "PT": "Portugal",
+          "RO": "Romania",
+          "SI": "Slovenia",
+          "SK": "Slovakia",
+          "FI": "Finland",
+          "SE": "Sweden",
+          "IS": "Iceland",
+          "LI": "Liechtenstein",
+          "NO": "Norway",
+          "CH": "Switzerland",
+          "UK": "United Kingdom",
+          "BA": "Bosnia and Herzegovina",
+          "ME": "Montenegro",
+          "MD": "Moldova",
+          "MK": "North Macedonia",
+          "TR": "Türkiye",
+          "UA": "Ukraine",
+          "BY": "Belarus",
+          "RU": "Russia",
+          "SM": "San Marino",
+          "KG": "Kyrgyzstan",
+          "TJ": "Tajikistan",
+          "UZ": "Uzbekistan",
+          "AM": "Armenia",
+          "AZ": "Azerbaijan",
+          "IL": "Israel"
+        }
+      }
+    },
+    "time": {
+      "label": "Time",
+      "category": {
+        "index": {
+          "2024": 0
+        },
+        "label": {
+          "2024": "2024"
+        }
+      }
+    }
+  },
+  "updated": "2026-07-02T11:00:00+0200"
+}

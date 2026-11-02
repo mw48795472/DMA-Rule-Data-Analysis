@@ -1,0 +1,4 @@
+"group","test","I","p","n","simulations"
+"legacy","raw_permutation",0.30003274953013,0.00660000000000005,27,9999
+"legacy","OLS_adjusted_normal",0.128846443482276,0.0390054286572826,27,
+"legacy","OLS_Gaussian_projection",0.128846443482276,0.0606,27,9999

@@ -1,0 +1,294 @@
+[
+  [
+    "ict_specialists",
+    "isoc_sks_itspt",
+    {}
+  ],
+  [
+    "fdi_inward_j",
+    "bop_fdi6_flow",
+    {
+      "nace_r2": [
+        "J",
+        "J58_J62_J63",
+        "J61"
+      ],
+      "stk_flow": "NI",
+      "fdi_item": "DI__D__F",
+      "entity": [
+        "TOTAL",
+        "SPE"
+      ],
+      "partner": [
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "DE",
+        "EL",
+        "HU",
+        "IE",
+        "IT",
+        "LV",
+        "LT",
+        "LU",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SK",
+        "SI",
+        "ES",
+        "SE",
+        "IS",
+        "LI",
+        "NO",
+        "CH",
+        "UK",
+        "WRL_REST",
+        "EXT_EU27_2020",
+        "US",
+        "JP",
+        "IN"
+      ]
+    }
+  ],
+  [
+    "fdi_outward_j",
+    "bop_fdi6_flow",
+    {
+      "nace_r2": [
+        "J",
+        "J58_J62_J63",
+        "J61"
+      ],
+      "stk_flow": "NO",
+      "fdi_item": "DO__D__F",
+      "entity": [
+        "TOTAL",
+        "SPE"
+      ],
+      "partner": [
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "DE",
+        "EL",
+        "HU",
+        "IE",
+        "IT",
+        "LV",
+        "LT",
+        "LU",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SK",
+        "SI",
+        "ES",
+        "SE",
+        "IS",
+        "LI",
+        "NO",
+        "CH",
+        "UK",
+        "WRL_REST",
+        "EXT_EU27_2020",
+        "US",
+        "JP",
+        "IN"
+      ]
+    }
+  ],
+  [
+    "foreign_affiliates_j",
+    "fats_activ",
+    {
+      "nace_r2": [
+        "J",
+        "J62_J63"
+      ],
+      "indic_sbs": [
+        "EMP_NR",
+        "ENT_NR",
+        "AV_MEUR"
+      ]
+    }
+  ],
+  [
+    "marketplace_exposure",
+    "isoc_ec_eseln2",
+    {
+      "nace_r2": [
+        "C10-S951_X_K",
+        "J",
+        "J62_J63",
+        "G",
+        "I"
+      ],
+      "indic_is": [
+        "E_AWS_CMP",
+        "E_AWS_CMP_GE20"
+      ],
+      "size_emp": "GE10",
+      "unit": "PC_ENT"
+    }
+  ],
+  [
+    "migration_inward",
+    "migr_imm5prv",
+    {
+      "sex": "T",
+      "unit": "NR",
+      "age": [
+        "TOTAL",
+        "Y15-64"
+      ],
+      "partner": [
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "DE",
+        "EL",
+        "HU",
+        "IE",
+        "IT",
+        "LV",
+        "LT",
+        "LU",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SK",
+        "SI",
+        "ES",
+        "SE",
+        "IS",
+        "LI",
+        "NO",
+        "CH",
+        "UK",
+        "TOTAL",
+        "US",
+        "CN",
+        "IN"
+      ]
+    }
+  ],
+  [
+    "migration_outward",
+    "migr_emi3nxt",
+    {
+      "sex": "T",
+      "unit": "NR",
+      "age": [
+        "TOTAL",
+        "Y15-64"
+      ],
+      "partner": [
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "DE",
+        "EL",
+        "HU",
+        "IE",
+        "IT",
+        "LV",
+        "LT",
+        "LU",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SK",
+        "SI",
+        "ES",
+        "SE",
+        "IS",
+        "LI",
+        "NO",
+        "CH",
+        "UK",
+        "TOTAL",
+        "US",
+        "CN",
+        "IN"
+      ]
+    }
+  ],
+  [
+    "labour_cost_j",
+    "lc_lci_lev",
+    {
+      "nace_r2": [
+        "J",
+        "B-S_X_O"
+      ],
+      "lcstruct": "D1_D4_MD5",
+      "unit": "EUR"
+    }
+  ],
+  [
+    "gdp_per_capita",
+    "nama_10_pc",
+    {
+      "na_item": "B1GQ",
+      "unit": [
+        "CP_EUR_HAB",
+        "CP_PPS_EU27_2020_HAB",
+        "CLV20_EUR_HAB"
+      ]
+    }
+  ],
+  [
+    "gdp_total",
+    "nama_10_gdp",
+    {
+      "na_item": "B1GQ",
+      "unit": "CP_MEUR"
+    }
+  ],
+  [
+    "unemployment",
+    "une_rt_a",
+    {
+      "sex": "T",
+      "age": "Y15-74",
+      "unit": "PC_ACT"
+    }
+  ]
+]

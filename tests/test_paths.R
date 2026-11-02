@@ -1,0 +1,56 @@
+# Regression tests for invocation location, moved folders, missing JSON, UTF-8 and invalid JSON.
+if (.Platform$OS.type=="windows") invisible(suppressWarnings(Sys.setlocale("LC_CTYPE","English_United States.utf8")))
+arg <- grep("^--file=",commandArgs(FALSE),value=TRUE)
+test_file <- normalizePath(sub("^--file=","",arg[1]),winslash="/",mustWork=TRUE)
+real_root <- dirname(dirname(test_file))
+caller_dir <- getwd()
+checks <- character()
+pass <- function(x){checks <<- c(checks,x);cat("PASS:",x,"\n")}
+Sys.unsetenv("DMA_PROJECT_DIR")
+
+setwd(tempdir())
+source(file.path(real_root,"CHECK_PATHS.R"),encoding="UTF-8",chdir=FALSE)
+stopifnot(identical(getwd(),real_root))
+pass("Source from an unrelated working directory reads the intended config and metadata")
+
+setwd(file.path(real_root,"code"))
+source("../CHECK_PATHS.R",encoding="UTF-8")
+stopifnot(identical(getwd(),real_root))
+pass("Source from the code subdirectory resolves the project root")
+
+fixture <- file.path(tempdir(),"DMA 한글 및 공백 이동 테스트")
+dir.create(file.path(fixture,"code"),recursive=TRUE,showWarnings=FALSE)
+dir.create(file.path(fixture,"outputs"),showWarnings=FALSE)
+meta <- "inputs/extension_20261102/metadata/demo_pjan_2024_2025_dimensions.json"
+dir.create(dirname(file.path(fixture,meta)),recursive=TRUE,showWarnings=FALSE)
+for (f in c("CHECK_PATHS.R","project_paths.R","config.json",meta))
+  stopifnot(file.copy(file.path(real_root,f),file.path(fixture,f),overwrite=TRUE))
+setwd(tempdir())
+source(file.path(fixture,"CHECK_PATHS.R"),encoding="UTF-8")
+stopifnot(identical(getwd(),normalizePath(fixture,winslash="/")))
+pass("A relocated folder with Korean characters and spaces uses its own files")
+
+bad_file <- file.path(fixture,"bad.json")
+writeLines('{"broken": }',bad_file,useBytes=TRUE)
+err <- tryCatch(dma_read_json("bad.json"),error=function(e)conditionMessage(e))
+stopifnot(is.character(err),grepl("형식",err),grepl("bad.json",err,fixed=TRUE))
+pass("Malformed JSON has a distinct message with the actual file path")
+err <- tryCatch(dma_read_json("missing.json"),error=function(e)conditionMessage(e))
+stopifnot(is.character(err),grepl("찾을 수 없습니다",err),grepl("missing.json",err,fixed=TRUE))
+pass("Missing JSON is reported as a missing file, not parsed as literal JSON")
+
+bom_file <- file.path(fixture,"utf8_bom.json")
+con <- file(bom_file,"wb")
+writeBin(c(as.raw(c(239,187,191)),charToRaw(enc2utf8('{"label":"한글 경로","ok":true}'))),con)
+close(con)
+z <- dma_read_json("utf8_bom.json")
+stopifnot(identical(z$label,"한글 경로"),isTRUE(z$ok))
+pass("UTF-8 BOM and Korean JSON content are read correctly")
+
+source(file.path(real_root,"CHECK_PATHS.R"),encoding="UTF-8")
+rfiles <- c(list.files(real_root,pattern="[.]R$",full.names=TRUE),list.files(file.path(real_root,"code"),pattern="[.]R$",full.names=TRUE))
+invisible(lapply(rfiles,function(f)parse(f,encoding="UTF-8")))
+pass("All root and code R files parse after the path fix")
+jsonlite::write_json(list(status="PASS",checks=checks,project=real_root),
+ file.path(real_root,"outputs","path_fix_validation.json"),auto_unbox=TRUE,pretty=TRUE)
+setwd(caller_dir)

@@ -1,0 +1,14 @@
+{
+  "source_id": "revolut_paris_20250520",
+  "url": "https://www.revolut.com/en-FR/news/revolut_announces_new_western_europe_hq_based_in_paris_and_will_apply_for_french_banking_licence_to_support_regional_growth/",
+  "source_type": "company_press_release",
+  "retrieved_utc": "2026-11-02T07:52:37.388436+00:00",
+  "api_key_required": "no",
+  "free_access": "public_page",
+  "status": "downloaded",
+  "local_file": "inputs/mechanisms_20261102/firms/raw/revolut_paris_20250520.html",
+  "bytes": 259705,
+  "sha256": "d8452d0bc81f259cbd361cdbe80a37a390be386b302817cfc50c1a0d879c6c53",
+  "error": "",
+  "http_status": 200
+}

@@ -1,0 +1,15 @@
+"model","term","estimate_standardized_X"
+"OLS","(Intercept)",3.47844036697248
+"OLS","z_income",0.739920876846658
+"OLS","z_education",0.956622262558442
+"SAR","(Intercept)",3.65571846468623
+"SAR","z_income",0.735564122053475
+"SAR","z_education",0.964391635018545
+"SEM","(Intercept)",3.49031539308007
+"SEM","z_income",0.972101127545009
+"SEM","z_education",1.35107087740363
+"SDM_full","(Intercept)",2.06825861338761
+"SDM_full","z_income",0.894688564310684
+"SDM_full","z_education",1.38713698814732
+"SDM_full","lag.z_income",-0.736053769040644
+"SDM_full","lag.z_education",-1.0993548520716

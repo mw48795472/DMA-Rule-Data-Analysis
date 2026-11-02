@@ -1,0 +1,21 @@
+﻿variable_or_concept,definition
+origin / destination,"Normalized ISO alpha-2 country/economy. EL→GR, UK→GB. FATS CN_X_HK→CN retains raw code and explicit scope."
+origin_code_raw / destination_code_raw,"Original Eurostat geographic code, retained without substitution."
+migration inward direction,Previous residence partner → reporting country geo; people of any occupation. Does not identify skilled/ICT workers.
+migration outward direction,"Reporting country geo → next-residence partner. Separate mirror report, not added to inward reports."
+FDI inward / outward direction,"Partner → reporting country for inward; reporter → partner for outward. Net financial flow in million EUR, not company relocations."
+FATS direction,"Country of ultimate control c_ctrl → host geo. EMP_NR/ENT_NR annual affiliate activity counts, AV_MEUR annual value added; not new entries or migration."
+agedef,"REACH: age reached during reference year; COMPLET: age in completed years. Keep separate, never sum or silently pool."
+age,"TOTAL all ages versus Y15-64 age 15–64; TOTAL includes the age subset, so do not add them."
+entity,TOTAL and SPE are separate source entity scopes. SPE is not an additional component to add to TOTAL; no subtraction/adjustment applied.
+nace_r2,"J information and communication; J58_J62_J63 publishing, computer programming/consultancy and information services; J61 telecom; J62_J63 computer programming/consultancy and information services. Overlapping activity scopes remain separate."
+value,"Original numeric observation. Blank means missing, confidential, unavailable or not reported as indicated by status. Observed zero retained; negative FDI retained."
+status,Verbatim Eurostat source status. Blank flag does not imply that a blank value is zero.
+origin_* / destination_* covariates,Many-to-one country-year joins to existing combined_country_year. Flags accompany selected source measures; no extrapolation or imputation.
+*_join_status,"matched_country_year, country_outside_base_panel, year_outside_base_panel, missing_country_year_in_base, or unmapped_country_code. A matched key can still have a missing covariate."
+*_fixed_eu27 / *_sample_eu27,Fixed current EU27 analytical composition. Never interpreted as historical EU membership or DMA treatment.
+*_eu_membership_status_year,"Historical broad membership descriptor. UK member_full_year 2017–2019, uk_withdrawal_transition_year 2020, non_member thereafter. Does not encode regulation exposure."
+aggregate_partner_code,"Source-reported TOTAL, WRL_REST, WORLD and other aggregate codes remain distinct. No partial partner sums are country totals."
+flow_* wide columns,"Only source-native TOTAL migration and WRL_REST FDI/FATS rows, each dimension and aggregate code separately named; same snapshot as input. FATS WORLD is total economy including domestic control, not foreign-only."
+reporting_frame_presence / mirror diagnostics,Outer comparison of same origin-destination-year and measurement dimensions across reporting directions. Gaps are not causal outcomes or corrected values.
+source_snapshot,existing_base_actual_csv = frozen cached input; fresh_eurostat_20261102 = five newly downloaded datasets in separate fresh folder. No source snapshots are mixed. One-cut validation remains separate.

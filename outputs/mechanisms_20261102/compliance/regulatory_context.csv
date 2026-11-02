@@ -1,0 +1,3 @@
+﻿assessment_id,decision_date,authority,gatekeeper,finding,purpose,source_url
+R001,2025-04-23,European Commission,Apple,breach_of_DMA_anti_steering_obligation,Regulatory determination; not a certification that collected company measures comply,https://digital-markets-act.ec.europa.eu/commission-finds-apple-and-meta-breach-digital-markets-act-2025-04-23_en
+R002,2025-04-23,European Commission,Meta,breach_of_DMA_obligation_to_offer_less_personal_data_service_choice,Regulatory determination; do not equate self_report with lawful_compliance,https://digital-markets-act.ec.europa.eu/commission-finds-apple-and-meta-breach-digital-markets-act-2025-04-23_en

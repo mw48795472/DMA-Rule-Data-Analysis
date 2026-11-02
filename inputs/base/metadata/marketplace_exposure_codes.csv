@@ -1,0 +1,62 @@
+﻿dimension,dimension_label,code,label
+freq,Time frequency,A,Annual
+size_emp,Size classes in number of persons employed,GE10,10 persons employed or more
+nace_r2,Statistical classification of economic activities in the European Community (NACE Rev. 2),C10-S951_X_K,"All activities (except agriculture, forestry and fishing, and mining and quarrying), without financial sector"
+nace_r2,Statistical classification of economic activities in the European Community (NACE Rev. 2),G,Wholesale and retail trade; repair of motor vehicles and motorcycles
+nace_r2,Statistical classification of economic activities in the European Community (NACE Rev. 2),I,Accommodation and food service activities
+nace_r2,Statistical classification of economic activities in the European Community (NACE Rev. 2),J,Information and communication
+nace_r2,Statistical classification of economic activities in the European Community (NACE Rev. 2),J62_J63,"Computer programming, consultancy, and information service activities"
+indic_is,Information society indicator,E_AWS_CMP,Enterprises with web sales via e-commerce marketplaces
+indic_is,Information society indicator,E_AWS_CMP_GE20,Enterprises with at least 20% of web sales via e-commerce marketplaces
+unit,Unit of measure,PC_ENT,Percentage of enterprises
+geo,Geopolitical entity (reporting),EU27_2020,European Union - 27 countries (from 2020)
+geo,Geopolitical entity (reporting),EU28,European Union - 28 countries (2013-2020)
+geo,Geopolitical entity (reporting),EU27_2007,European Union - 27 countries (2007-2013)
+geo,Geopolitical entity (reporting),EU25,European Union - 25 countries (2004-2006)
+geo,Geopolitical entity (reporting),EU15,European Union - 15 countries (1995-2004)
+geo,Geopolitical entity (reporting),EA,"Euro area (EA11-1999, EA12-2001, EA13-2007, EA15-2008, EA16-2009, EA17-2011, EA18-2014, EA19-2015, EA20-2023, EA21-2026)"
+geo,Geopolitical entity (reporting),BE,Belgium
+geo,Geopolitical entity (reporting),BG,Bulgaria
+geo,Geopolitical entity (reporting),CZ,Czechia
+geo,Geopolitical entity (reporting),DK,Denmark
+geo,Geopolitical entity (reporting),DE,Germany
+geo,Geopolitical entity (reporting),EE,Estonia
+geo,Geopolitical entity (reporting),IE,Ireland
+geo,Geopolitical entity (reporting),EL,Greece
+geo,Geopolitical entity (reporting),ES,Spain
+geo,Geopolitical entity (reporting),FR,France
+geo,Geopolitical entity (reporting),HR,Croatia
+geo,Geopolitical entity (reporting),IT,Italy
+geo,Geopolitical entity (reporting),CY,Cyprus
+geo,Geopolitical entity (reporting),LV,Latvia
+geo,Geopolitical entity (reporting),LT,Lithuania
+geo,Geopolitical entity (reporting),LU,Luxembourg
+geo,Geopolitical entity (reporting),HU,Hungary
+geo,Geopolitical entity (reporting),MT,Malta
+geo,Geopolitical entity (reporting),NL,Netherlands
+geo,Geopolitical entity (reporting),AT,Austria
+geo,Geopolitical entity (reporting),PL,Poland
+geo,Geopolitical entity (reporting),PT,Portugal
+geo,Geopolitical entity (reporting),RO,Romania
+geo,Geopolitical entity (reporting),SI,Slovenia
+geo,Geopolitical entity (reporting),SK,Slovakia
+geo,Geopolitical entity (reporting),FI,Finland
+geo,Geopolitical entity (reporting),SE,Sweden
+geo,Geopolitical entity (reporting),IS,Iceland
+geo,Geopolitical entity (reporting),NO,Norway
+geo,Geopolitical entity (reporting),UK,United Kingdom
+geo,Geopolitical entity (reporting),BA,Bosnia and Herzegovina
+geo,Geopolitical entity (reporting),ME,Montenegro
+geo,Geopolitical entity (reporting),MK,North Macedonia
+geo,Geopolitical entity (reporting),AL,Albania
+geo,Geopolitical entity (reporting),RS,Serbia
+geo,Geopolitical entity (reporting),TR,Türkiye
+time,Time,2017,2017
+time,Time,2018,2018
+time,Time,2019,2019
+time,Time,2020,2020
+time,Time,2021,2021
+time,Time,2022,2022
+time,Time,2023,2023
+time,Time,2024,2024
+time,Time,2025,2025

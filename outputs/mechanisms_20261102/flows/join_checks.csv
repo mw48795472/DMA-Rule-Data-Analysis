@@ -1,0 +1,6 @@
+﻿check,passed,value
+base_country_year_key_unique,True,0
+country_year_left_join_preserves_rows,True,288
+base_country_codes_mapped,True,0
+source_native_keys_unique,True,0
+no_selected_partner_sums_as_totals,True,0

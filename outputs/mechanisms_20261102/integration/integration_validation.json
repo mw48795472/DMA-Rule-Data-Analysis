@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "source_csv_files": 72,
+  "legacy_bridge_rows": 288,
+  "legacy_bridge_countries": 32,
+  "legacy_bridge_duplicate_keys": 0,
+  "firm_cases": 11,
+  "compliance_records": 13,
+  "causal_model_fitted": false,
+  "missing_to_zero": false,
+  "forward_fill": false,
+  "scope": "three separate measurement layers plus exact country-year covariate bridge"
+}

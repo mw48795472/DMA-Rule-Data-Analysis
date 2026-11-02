@@ -1,0 +1,14 @@
+{
+  "source_id": "erm_calculator",
+  "url": "https://apps.eurofound.europa.eu/restructuring-events/calculator",
+  "source_type": "official_access_conditions",
+  "retrieved_utc": "2026-11-02T07:52:37.388436+00:00",
+  "api_key_required": "no",
+  "free_access": "public_page",
+  "status": "downloaded",
+  "local_file": "inputs/mechanisms_20261102/firms/raw/erm_calculator.html",
+  "bytes": 21436,
+  "sha256": "728f8f10c1c65ec402d5ac52c8c600cac0b7697bf26167ca097d64dbea1dc4b3",
+  "error": "",
+  "http_status": 200
+}

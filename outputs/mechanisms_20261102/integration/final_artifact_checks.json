@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "old_report_input_files_unchanged": 56,
+  "new_source_hashes_verified": 72,
+  "notebook_code_compiles": true,
+  "pdf_pages": 15,
+  "pdf_figures": 3,
+  "rendered_pages": 15,
+  "visual_review": "PASS",
+  "notebook_cells_executed": "PASS; all code cells executed using bundled Python; notebook display fallback used outside IPython",
+  "r_execution": "PASS: R 4.5.3; 3 ggplot objects printed, 3 PNG files and 3-page graphics PDF; row counts asserted",
+  "r_warning_log": "outputs/mechanisms_20261102/integration/r_warnings.txt"
+}

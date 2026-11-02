@@ -1,0 +1,14 @@
+{
+  "source_id": "revolut_paris_20260408",
+  "url": "https://www.revolut.com/fr-FR/news/revolut_locks_in_paris_headquarters_for_western_europe/",
+  "source_type": "company_press_release",
+  "retrieved_utc": "2026-11-02T07:52:37.388436+00:00",
+  "api_key_required": "no",
+  "free_access": "public_page",
+  "status": "downloaded",
+  "local_file": "inputs/mechanisms_20261102/firms/raw/revolut_paris_20260408.html",
+  "bytes": 257746,
+  "sha256": "53df276803f9d92946cd7fcb0822630b671024d21dcb92a07134ccb5b56e5f10",
+  "error": "",
+  "http_status": 200
+}

@@ -1,0 +1,527 @@
+﻿dimension,code,label
+freq,A,Annual
+sex,T,Total
+isced11,ED5-8,Tertiary education (levels 5-8)
+age,Y25-64,From 25 to 64 years
+unit,PC,Percentage
+geo,EU27_2020,European Union - 27 countries (from 2020)
+geo,EA21,Euro area – 21 countries (from 2026)
+geo,BE,Belgium
+geo,BE1,Région de Bruxelles-Capitale/Brussels Hoofdstedelijk Gewest
+geo,BE10,Région de Bruxelles-Capitale/Brussels Hoofdstedelijk Gewest
+geo,BE2,Vlaams Gewest
+geo,BE21,Prov. Antwerpen
+geo,BE22,Prov. Limburg (BE)
+geo,BE23,Prov. Oost-Vlaanderen
+geo,BE24,Prov. Vlaams-Brabant
+geo,BE25,Prov. West-Vlaanderen
+geo,BE3,Région wallonne
+geo,BE31,Prov. Brabant wallon
+geo,BE32,Prov. Hainaut
+geo,BE33,Prov. Liège
+geo,BE34,Prov. Luxembourg (BE)
+geo,BE35,Prov. Namur
+geo,BG,Bulgaria
+geo,BG3,Severna i Yugoiztochna Bulgaria
+geo,BG31,Severozapaden
+geo,BG32,Severen tsentralen
+geo,BG33,Severoiztochen
+geo,BG34,Yugoiztochen
+geo,BG4,Yugozapadna i Yuzhna tsentralna Bulgaria
+geo,BG41,Yugozapaden
+geo,BG42,Yuzhen tsentralen
+geo,CZ,Czechia
+geo,CZ0,Česko
+geo,CZ01,Praha
+geo,CZ02,Střední Čechy
+geo,CZ03,Jihozápad
+geo,CZ04,Severozápad
+geo,CZ05,Severovýchod
+geo,CZ06,Jihovýchod
+geo,CZ07,Střední Morava
+geo,CZ08,Moravskoslezsko
+geo,DK,Denmark
+geo,DK0,Danmark
+geo,DK01,Hovedstaden
+geo,DK02,Sjælland
+geo,DK03,Syddanmark
+geo,DK04,Midtjylland
+geo,DK05,Nordjylland
+geo,DE,Germany
+geo,DE1,Baden-Württemberg
+geo,DE11,Stuttgart
+geo,DE12,Karlsruhe
+geo,DE13,Freiburg
+geo,DE14,Tübingen
+geo,DE2,Bayern
+geo,DE21,Oberbayern
+geo,DE22,Niederbayern
+geo,DE23,Oberpfalz
+geo,DE24,Oberfranken
+geo,DE25,Mittelfranken
+geo,DE26,Unterfranken
+geo,DE27,Schwaben
+geo,DE3,Berlin
+geo,DE30,Berlin
+geo,DE4,Brandenburg
+geo,DE40,Brandenburg
+geo,DE5,Bremen
+geo,DE50,Bremen
+geo,DE6,Hamburg
+geo,DE60,Hamburg
+geo,DE7,Hessen
+geo,DE71,Darmstadt
+geo,DE72,Gießen
+geo,DE73,Kassel
+geo,DE8,Mecklenburg-Vorpommern
+geo,DE80,Mecklenburg-Vorpommern
+geo,DE9,Niedersachsen
+geo,DE91,Braunschweig
+geo,DE92,Hannover
+geo,DE93,Lüneburg
+geo,DE94,Weser-Ems
+geo,DEA,Nordrhein-Westfalen
+geo,DEA1,Düsseldorf
+geo,DEA2,Köln
+geo,DEA3,Münster
+geo,DEA4,Detmold
+geo,DEA5,Arnsberg
+geo,DEB,Rheinland-Pfalz
+geo,DEB1,Koblenz
+geo,DEB2,Trier
+geo,DEB3,Rheinhessen-Pfalz
+geo,DEC,Saarland
+geo,DEC0,Saarland
+geo,DED,Sachsen
+geo,DED2,Dresden
+geo,DED4,Chemnitz
+geo,DED5,Leipzig
+geo,DEE,Sachsen-Anhalt
+geo,DEE0,Sachsen-Anhalt
+geo,DEF,Schleswig-Holstein
+geo,DEF0,Schleswig-Holstein
+geo,DEG,Thüringen
+geo,DEG0,Thüringen
+geo,EE,Estonia
+geo,EE0,Eesti
+geo,EE00,Eesti
+geo,IE,Ireland
+geo,IE0,Ireland
+geo,IE04,Northern and Western
+geo,IE05,Southern
+geo,IE06,Eastern and Midland
+geo,IE01,"Border, Midland and Western (NUTS 2013)"
+geo,IE02,Southern and Eastern (NUTS 2013)
+geo,EL,Greece
+geo,EL3,Attiki
+geo,EL30,Attiki
+geo,EL4,"Nisia Aigaiou, Kriti"
+geo,EL41,Voreio Aigaio
+geo,EL42,Notio Aigaio
+geo,EL43,Kriti
+geo,EL5,Voreia Elláda
+geo,EL51,"Anatoliki Makedonia, Thraki"
+geo,EL52,Kentriki Makedonia
+geo,EL53,Dytiki Makedonia
+geo,EL54,Ipeiros
+geo,EL6,Kentriki Elláda
+geo,EL61,Thessalia
+geo,EL62,Ionia Nisia
+geo,EL63,Dytiki Elláda
+geo,EL64,Sterea Elláda
+geo,EL65,Peloponnisos
+geo,ES,Spain
+geo,ES1,Noroeste
+geo,ES11,Galicia
+geo,ES12,Principado de Asturias
+geo,ES13,Cantabria
+geo,ES2,Noreste
+geo,ES21,País Vasco
+geo,ES22,Comunidad Foral de Navarra
+geo,ES23,La Rioja
+geo,ES24,Aragón
+geo,ES3,Comunidad de Madrid
+geo,ES30,Comunidad de Madrid
+geo,ES4,Centro (ES)
+geo,ES41,Castilla y León
+geo,ES42,Castilla-La Mancha
+geo,ES43,Extremadura
+geo,ES5,Este
+geo,ES51,Cataluña
+geo,ES52,Comunitat Valenciana
+geo,ES53,Illes Balears
+geo,ES6,Sur
+geo,ES61,Andalucía
+geo,ES62,Región de Murcia
+geo,ES63,Ciudad de Ceuta
+geo,ES64,Ciudad de Melilla
+geo,ES7,Canarias
+geo,ES70,Canarias
+geo,FR,France
+geo,FR1,Ile de France
+geo,FR10,Ile de France
+geo,FRB,Centre — Val de Loire
+geo,FRB0,Centre — Val de Loire
+geo,FRC,Bourgogne-Franche-Comté
+geo,FRC1,Bourgogne
+geo,FRC2,Franche-Comté
+geo,FRD,Normandie
+geo,FRD1,Basse-Normandie
+geo,FRD2,Haute-Normandie
+geo,FRE,Hauts-de-France
+geo,FRE1,Nord-Pas de Calais
+geo,FRE2,Picardie
+geo,FRF,Grand Est
+geo,FRF1,Alsace
+geo,FRF2,Champagne-Ardenne
+geo,FRF3,Lorraine
+geo,FRG,Pays de la Loire
+geo,FRG0,Pays de la Loire
+geo,FRH,Bretagne
+geo,FRH0,Bretagne
+geo,FRI,Nouvelle-Aquitaine
+geo,FRI1,Aquitaine
+geo,FRI2,Limousin
+geo,FRI3,Poitou-Charentes
+geo,FRJ,Occitanie
+geo,FRJ1,Languedoc-Roussillon
+geo,FRJ2,Midi-Pyrénées
+geo,FRK,Auvergne-Rhône-Alpes
+geo,FRK1,Auvergne
+geo,FRK2,Rhône-Alpes
+geo,FRL,Provence-Alpes-Côte d’Azur
+geo,FRL0,Provence-Alpes-Côte d’Azur
+geo,FRM,Corse
+geo,FRM0,Corse
+geo,FRY,RUP FR — Régions Ultrapériphériques Françaises
+geo,FRY1,Guadeloupe
+geo,FRY2,Martinique
+geo,FRY3,Guyane
+geo,FRY4,La Réunion
+geo,FRY5,Mayotte
+geo,HR,Croatia
+geo,HR0,Hrvatska
+geo,HR02,Panonska Hrvatska
+geo,HR03,Jadranska Hrvatska
+geo,HR04,Kontinentalna Hrvatska (NUTS 2016)
+geo,HR05,Grad Zagreb
+geo,HR06,Sjeverna Hrvatska
+geo,IT,Italy
+geo,ITC,Nord-Ovest
+geo,ITC1,Piemonte
+geo,ITC2,Valle d’Aosta/Vallée d’Aoste
+geo,ITC3,Liguria
+geo,ITC4,Lombardia
+geo,ITF,Sud
+geo,ITF1,Abruzzo
+geo,ITF2,Molise
+geo,ITF3,Campania
+geo,ITF4,Puglia
+geo,ITF5,Basilicata
+geo,ITF6,Calabria
+geo,ITG,Isole
+geo,ITG1,Sicilia
+geo,ITG2,Sardegna
+geo,ITH,Nord-Est
+geo,ITH1,Provincia Autonoma di Bolzano/Bozen
+geo,ITH2,Provincia Autonoma di Trento
+geo,ITH3,Veneto
+geo,ITH4,Friuli-Venezia Giulia
+geo,ITH5,Emilia-Romagna
+geo,ITI,Centro (IT)
+geo,ITI1,Toscana
+geo,ITI2,Umbria
+geo,ITI3,Marche
+geo,ITI4,Lazio
+geo,CY,Cyprus
+geo,CY0,Kýpros
+geo,CY00,Kýpros
+geo,LV,Latvia
+geo,LV0,Latvija
+geo,LV00,Latvija
+geo,LT,Lithuania
+geo,LT0,Lietuva
+geo,LT01,Sostinės regionas
+geo,LT02,Vidurio ir vakarų Lietuvos regionas
+geo,LT00,Lietuva (NUTS 2013)
+geo,LU,Luxembourg
+geo,LU0,Luxembourg
+geo,LU00,Luxembourg
+geo,HU,Hungary
+geo,HU1,Közép-Magyarország
+geo,HU11,Budapest
+geo,HU12,Pest
+geo,HU10,Közép-Magyarország (NUTS 2013)
+geo,HU2,Dunántúl
+geo,HU21,Közép-Dunántúl
+geo,HU22,Nyugat-Dunántúl
+geo,HU23,Dél-Dunántúl
+geo,HU3,Alföld és Észak
+geo,HU31,Észak-Magyarország
+geo,HU32,Észak-Alföld
+geo,HU33,Dél-Alföld
+geo,MT,Malta
+geo,MT0,Malta
+geo,MT00,Malta
+geo,NL,Netherlands
+geo,NL1,Noord-Nederland
+geo,NL11,Groningen
+geo,NL12,Friesland (NL)
+geo,NL13,Drenthe
+geo,NL2,Oost-Nederland
+geo,NL21,Overijssel
+geo,NL22,Gelderland
+geo,NL23,Flevoland
+geo,NL3,West-Nederland
+geo,NL31,Utrecht (NUTS 2021)
+geo,NL32,Noord-Holland
+geo,NL33,Zuid-Holland (NUTS 2021)
+geo,NL34,Zeeland
+geo,NL35,Utrecht
+geo,NL36,Zuid-Holland
+geo,NL4,Zuid-Nederland
+geo,NL41,Noord-Brabant
+geo,NL42,Limburg (NL)
+geo,AT,Austria
+geo,AT1,Ostösterreich
+geo,AT11,Burgenland
+geo,AT12,Niederösterreich
+geo,AT13,Wien
+geo,AT2,Südösterreich
+geo,AT21,Kärnten
+geo,AT22,Steiermark
+geo,AT3,Westösterreich
+geo,AT31,Oberösterreich
+geo,AT32,Salzburg
+geo,AT33,Tirol
+geo,AT34,Vorarlberg
+geo,PL,Poland
+geo,PL2,Makroregion południowy
+geo,PL21,Małopolskie
+geo,PL22,Śląskie
+geo,PL4,Makroregion północno-zachodni
+geo,PL41,Wielkopolskie
+geo,PL42,Zachodniopomorskie
+geo,PL43,Lubuskie
+geo,PL5,Makroregion południowo-zachodni
+geo,PL51,Dolnośląskie
+geo,PL52,Opolskie
+geo,PL6,Makroregion północny
+geo,PL61,Kujawsko-pomorskie
+geo,PL62,Warmińsko-mazurskie
+geo,PL63,Pomorskie
+geo,PL7,Makroregion centralny
+geo,PL71,Łódzkie
+geo,PL72,Świętokrzyskie
+geo,PL8,Makroregion wschodni
+geo,PL81,Lubelskie
+geo,PL82,Podkarpackie
+geo,PL84,Podlaskie
+geo,PL9,Makroregion województwo mazowieckie
+geo,PL91,Warszawski stołeczny
+geo,PL92,Mazowiecki regionalny
+geo,PT,Portugal
+geo,PT1,Continente
+geo,PT11,Norte
+geo,PT15,Algarve
+geo,PT16,Centro (PT) (NUTS 2021)
+geo,PT17,Área Metropolitana de Lisboa (NUTS 2021)
+geo,PT18,Alentejo (NUTS 2021)
+geo,PT19,Centro (PT)
+geo,PT1A,Grande Lisboa
+geo,PT1B,Península de Setúbal
+geo,PT1C,Alentejo
+geo,PT1D,Oeste e Vale do Tejo
+geo,PT2,Região Autónoma dos Açores
+geo,PT20,Região Autónoma dos Açores
+geo,PT3,Região Autónoma da Madeira
+geo,PT30,Região Autónoma da Madeira
+geo,RO,Romania
+geo,RO1,Macroregiunea Unu
+geo,RO11,Nord-Vest
+geo,RO12,Centru
+geo,RO2,Macroregiunea Doi
+geo,RO21,Nord-Est
+geo,RO22,Sud-Est
+geo,RO3,Macroregiunea Trei
+geo,RO31,Sud-Muntenia
+geo,RO32,Bucureşti-Ilfov
+geo,RO4,Macroregiunea Patru
+geo,RO41,Sud-Vest Oltenia
+geo,RO42,Vest
+geo,SI,Slovenia
+geo,SI0,Slovenija
+geo,SI03,Vzhodna Slovenija
+geo,SI01,Vzhodna Slovenija (NUTS 2010)
+geo,SI04,Zahodna Slovenija
+geo,SI02,Zahodna Slovenija (NUTS 2010)
+geo,SK,Slovakia
+geo,SK0,Slovensko
+geo,SK01,Bratislavský kraj
+geo,SK02,Západné Slovensko
+geo,SK03,Stredné Slovensko
+geo,SK04,Východné Slovensko
+geo,FI,Finland
+geo,FI1,Manner-Suomi
+geo,FI19,Länsi-Suomi
+geo,FI1B,Helsinki-Uusimaa
+geo,FI1C,Etelä-Suomi
+geo,FI1D,Pohjois- ja Itä-Suomi
+geo,FI2,Åland
+geo,FI20,Åland
+geo,SE,Sweden
+geo,SE1,Östra Sverige
+geo,SE11,Stockholm
+geo,SE12,Östra Mellansverige
+geo,SE2,Södra Sverige
+geo,SE21,Småland med öarna
+geo,SE22,Sydsverige
+geo,SE23,Västsverige
+geo,SE3,Norra Sverige
+geo,SE31,Norra Mellansverige
+geo,SE32,Mellersta Norrland
+geo,SE33,Övre Norrland
+geo,IS,Iceland
+geo,IS0,Ísland
+geo,IS00,Ísland
+geo,NO,Norway
+geo,NO0,Norge
+geo,NO01,Oslo og Akershus (statistical region 2016)
+geo,NO02,Innlandet
+geo,NO03,Sør-Østlandet (statistical region 2016)
+geo,NO04,Agder og Rogaland (statistical region 2016)
+geo,NO05,Vestlandet (statistical region 2016)
+geo,NO06,Trøndelag
+geo,NO07,Nord-Norge
+geo,NO08,Oslo og Viken
+geo,NO09,Agder og Sør-Østlandet
+geo,NO0A,Vestlandet
+geo,CH,Switzerland
+geo,CH0,Schweiz/Suisse/Svizzera
+geo,CH01,Région lémanique
+geo,CH02,Espace Mittelland
+geo,CH03,Nordwestschweiz
+geo,CH04,Zürich
+geo,CH05,Ostschweiz
+geo,CH06,Zentralschweiz
+geo,CH07,Ticino
+geo,UK,United Kingdom
+geo,UKC,North East (UK) (NUTS 2021)
+geo,UKC1,Tees Valley and Durham (NUTS 2021)
+geo,UKC2,Northumberland and Tyne and Wear (NUTS 2021)
+geo,UKD,North West (UK) (NUTS 2021)
+geo,UKD1,Cumbria (NUTS 2021)
+geo,UKD3,Greater Manchester (NUTS 2021)
+geo,UKD4,Lancashire (NUTS 2021)
+geo,UKD6,Cheshire (NUTS 2021)
+geo,UKD7,Merseyside (NUTS 2021)
+geo,UKE,Yorkshire and The Humber (NUTS 2021)
+geo,UKE1,East Yorkshire and Northern Lincolnshire (NUTS 2021)
+geo,UKE2,North Yorkshire (NUTS 2021)
+geo,UKE3,South Yorkshire (NUTS 2021)
+geo,UKE4,West Yorkshire (NUTS 2021)
+geo,UKF,East Midlands (UK) (NUTS 2021)
+geo,UKF1,Derbyshire and Nottinghamshire (NUTS 2021)
+geo,UKF2,"Leicestershire, Rutland and Northamptonshire (NUTS 2021)"
+geo,UKF3,Lincolnshire (NUTS 2021)
+geo,UKG,West Midlands (UK) (NUTS 2021)
+geo,UKG1,"Herefordshire, Worcestershire and Warwickshire (NUTS 2021)"
+geo,UKG2,Shropshire and Staffordshire (NUTS 2021)
+geo,UKG3,West Midlands (NUTS 2021)
+geo,UKH,East of England (NUTS 2021)
+geo,UKH1,East Anglia (NUTS 2021)
+geo,UKH2,Bedfordshire and Hertfordshire (NUTS 2021)
+geo,UKH3,Essex (NUTS 2021)
+geo,UKI,London (NUTS 2021)
+geo,UKI1,Inner London (NUTS 2010)
+geo,UKI2,Outer London (NUTS 2010)
+geo,UKI3,Inner London - West (NUTS 2021)
+geo,UKI4,Inner London - East (NUTS 2021)
+geo,UKI5,Outer London - East and North East (NUTS 2021)
+geo,UKI6,Outer London - South (NUTS 2021)
+geo,UKI7,Outer London - West and North West (NUTS 2021)
+geo,UKJ,South East (UK) (NUTS 2021)
+geo,UKJ1,"Berkshire, Buckinghamshire and Oxfordshire (NUTS 2021)"
+geo,UKJ2,"Surrey, East and West Sussex (NUTS 2021)"
+geo,UKJ3,Hampshire and Isle of Wight (NUTS 2021)
+geo,UKJ4,Kent (NUTS 2021)
+geo,UKK,South West (UK) (NUTS 2021)
+geo,UKK1,"Gloucestershire, Wiltshire and Bristol/Bath area (NUTS 2021)"
+geo,UKK2,Dorset and Somerset (NUTS 2021)
+geo,UKK3,Cornwall and Isles of Scilly (NUTS 2021)
+geo,UKK4,Devon (NUTS 2021)
+geo,UKL,Wales (NUTS 2021)
+geo,UKL1,West Wales and The Valleys (NUTS 2021)
+geo,UKL2,East Wales (NUTS 2021)
+geo,UKM,Scotland (NUTS 2021)
+geo,UKM2,Eastern Scotland (NUTS 2013)
+geo,UKM3,South Western Scotland (NUTS 2013)
+geo,UKM5,North Eastern Scotland (NUTS 2021)
+geo,UKM6,Highlands and Islands (NUTS 2021)
+geo,UKM7,Eastern Scotland (NUTS 2021)
+geo,UKM8,West Central Scotland (NUTS 2021)
+geo,UKM9,Southern Scotland (NUTS 2021)
+geo,UKN,Northern Ireland (UK) (NUTS 2021)
+geo,UKN0,Northern Ireland (UK) (NUTS 2021)
+geo,BA,Bosnia and Herzegovina
+geo,ME,Montenegro
+geo,ME0,Crna Gora
+geo,ME00,Crna Gora
+geo,MK,North Macedonia
+geo,MK0,Severna Makedonija
+geo,MK00,Severna Makedonija
+geo,RS,Serbia
+geo,RS1,Srbija - sever
+geo,RS11,Beogradski region
+geo,RS12,Region Vojvodine
+geo,RS2,Srbija - jug
+geo,RS21,Region Sumadije i Zapadne Srbije
+geo,RS22,Region Juzne i Istocne Srbije
+geo,TR,Türkiye
+geo,TR1,İstanbul
+geo,TR10,İstanbul
+geo,TR2,Batı Marmara
+geo,TR21,"Tekirdağ, Edirne, Kırklareli"
+geo,TR22,"Balıkesir, Çanakkale"
+geo,TR3,Ege
+geo,TR31,İzmir
+geo,TR32,"Aydın, Denizli, Muğla"
+geo,TR33,"Manisa, Afyonkarahisar, Kütahya, Uşak"
+geo,TR4,Doğu Marmara
+geo,TR41,"Bursa, Eskişehir, Bilecik"
+geo,TR42,"Kocaeli, Sakarya, Düzce, Bolu, Yalova"
+geo,TR5,Batı Anadolu
+geo,TR51,Ankara
+geo,TR52,"Konya, Karaman"
+geo,TR6,Akdeniz
+geo,TR61,"Antalya, Isparta, Burdur"
+geo,TR62,"Adana, Mersin"
+geo,TR63,"Hatay, Kahramanmaraş, Osmaniye"
+geo,TR7,Orta Anadolu
+geo,TR71,"Kırıkkale, Aksaray, Niğde, Nevşehir, Kırşehir"
+geo,TR72,"Kayseri, Sivas, Yozgat"
+geo,TR8,Batı Karadeniz
+geo,TR81,"Zonguldak, Karabük, Bartın"
+geo,TR82,"Kastamonu, Çankırı, Sinop"
+geo,TR83,"Samsun, Tokat, Çorum, Amasya"
+geo,TR9,Doğu Karadeniz
+geo,TR90,"Trabzon, Ordu, Giresun, Rize, Artvin, Gümüşhane"
+geo,TRA,Kuzeydoğu Anadolu
+geo,TRA1,"Erzurum, Erzincan, Bayburt"
+geo,TRA2,"Ağrı, Kars, Iğdır, Ardahan"
+geo,TRB,Ortadoğu Anadolu
+geo,TRB1,"Malatya, Elazığ, Bingöl, Tunceli"
+geo,TRB2,"Van, Muş, Bitlis, Hakkari"
+geo,TRC,Güneydoğu Anadolu
+geo,TRC1,"Gaziantep, Adıyaman, Kilis"
+geo,TRC2,"Şanlıurfa, Diyarbakır"
+geo,TRC3,"Mardin, Batman, Şırnak, Siirt"
+time,2017,2017
+time,2018,2018
+time,2019,2019
+time,2020,2020
+time,2021,2021
+time,2022,2022
+time,2023,2023
+time,2024,2024
+time,2025,2025

@@ -1,0 +1,1 @@
+Initial requests rejected by INE: Dim1=2024 must be S7A2024. Old population indicator 0008273 stops at 2023. The valid current population indicator is 0012905. These diagnostic responses are not used in analysis. TLS verification was retained; Windows trusted certificate store was used where the Python store failed.

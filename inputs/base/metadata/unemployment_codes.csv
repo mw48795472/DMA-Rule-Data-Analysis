@@ -1,0 +1,52 @@
+﻿dimension,dimension_label,code,label
+freq,Time frequency,A,Annual
+age,Age class,Y15-74,From 15 to 74 years
+unit,Unit of measure,PC_ACT,Percentage of population in the labour force
+sex,Sex,T,Total
+geo,Geopolitical entity (reporting),EU27_2020,European Union - 27 countries (from 2020)
+geo,Geopolitical entity (reporting),EA21,Euro area – 21 countries (from 2026)
+geo,Geopolitical entity (reporting),EA20,Euro area – 20 countries (2023-2025)
+geo,Geopolitical entity (reporting),BE,Belgium
+geo,Geopolitical entity (reporting),BG,Bulgaria
+geo,Geopolitical entity (reporting),CZ,Czechia
+geo,Geopolitical entity (reporting),DK,Denmark
+geo,Geopolitical entity (reporting),DE,Germany
+geo,Geopolitical entity (reporting),EE,Estonia
+geo,Geopolitical entity (reporting),IE,Ireland
+geo,Geopolitical entity (reporting),EL,Greece
+geo,Geopolitical entity (reporting),ES,Spain
+geo,Geopolitical entity (reporting),FR,France
+geo,Geopolitical entity (reporting),HR,Croatia
+geo,Geopolitical entity (reporting),IT,Italy
+geo,Geopolitical entity (reporting),CY,Cyprus
+geo,Geopolitical entity (reporting),LV,Latvia
+geo,Geopolitical entity (reporting),LT,Lithuania
+geo,Geopolitical entity (reporting),LU,Luxembourg
+geo,Geopolitical entity (reporting),HU,Hungary
+geo,Geopolitical entity (reporting),MT,Malta
+geo,Geopolitical entity (reporting),NL,Netherlands
+geo,Geopolitical entity (reporting),AT,Austria
+geo,Geopolitical entity (reporting),PL,Poland
+geo,Geopolitical entity (reporting),PT,Portugal
+geo,Geopolitical entity (reporting),RO,Romania
+geo,Geopolitical entity (reporting),SI,Slovenia
+geo,Geopolitical entity (reporting),SK,Slovakia
+geo,Geopolitical entity (reporting),FI,Finland
+geo,Geopolitical entity (reporting),SE,Sweden
+geo,Geopolitical entity (reporting),IS,Iceland
+geo,Geopolitical entity (reporting),NO,Norway
+geo,Geopolitical entity (reporting),CH,Switzerland
+geo,Geopolitical entity (reporting),BA,Bosnia and Herzegovina
+geo,Geopolitical entity (reporting),ME,Montenegro
+geo,Geopolitical entity (reporting),MK,North Macedonia
+geo,Geopolitical entity (reporting),RS,Serbia
+geo,Geopolitical entity (reporting),TR,Türkiye
+time,Time,2017,2017
+time,Time,2018,2018
+time,Time,2019,2019
+time,Time,2020,2020
+time,Time,2021,2021
+time,Time,2022,2022
+time,Time,2023,2023
+time,Time,2024,2024
+time,Time,2025,2025

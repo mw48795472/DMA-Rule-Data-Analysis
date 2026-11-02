@@ -1,0 +1,16 @@
+"model","term","max_difference"
+"OLS","z_exposure",0
+"OLS","z_income",0
+"OLS","z_unemployment",0
+"SAR","z_exposure",0
+"SAR","z_income",5.55111512312578e-17
+"SAR","z_unemployment",1.38777878078145e-17
+"SEM","z_exposure",0
+"SEM","z_income",0
+"SEM","z_unemployment",0
+"SDM_full","z_exposure",1.11022302462516e-16
+"SDM_full","z_income",1.11022302462516e-16
+"SDM_full","z_unemployment",1.38777878078145e-16
+"SDM_exposure","z_exposure",5.55111512312578e-17
+"SDM_exposure","z_income",5.55111512312578e-17
+"SDM_exposure","z_unemployment",1.38777878078145e-17

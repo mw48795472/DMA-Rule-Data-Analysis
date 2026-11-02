@@ -1,0 +1,53 @@
+{
+  "events": 11,
+  "newly_collected": 8,
+  "reused_reverified": 3,
+  "event_destination_relations": 17,
+  "known_origin_destination_relations": 16,
+  "events_with_known_od": 10,
+  "event_years": [
+    2017,
+    2022,
+    2024,
+    2025,
+    2026
+  ],
+  "event_kinds": {
+    "operational_offshoring_or_outsourcing": 9,
+    "legal_parent_redomiciliation": 1,
+    "new_regional_hq_and_investment_expansion": 1
+  },
+  "event_statuses": {
+    "announced_only": 7,
+    "partial_downsizing_reported_relocation_completion_unverified": 1,
+    "relocation_reported_no_independent_completion_verification": 1,
+    "completed_legal_reorganisation_reported_in_filing": 1,
+    "announced_lease_signed_opening_pending": 1
+  },
+  "completed_legal_reorganisations": 1,
+  "completed_physical_moves_verified": 0,
+  "actual_people_moved_observed": 0,
+  "destination_job_allocations_observed": 0,
+  "dma_reason_explicit_in_consulted_sources": 0,
+  "dma_reason_absence_interpretation": "not_stated_in_sources_does_not_prove_no_effect",
+  "date_order_anomalies": 1,
+  "downloads": 13,
+  "source_requests": 14,
+  "failed_raw_downloads": [
+    "klarna_sec_f1a_20250814"
+  ],
+  "join_rows": 17,
+  "join_audit_counts": {
+    "('destination', 'country_not_in_existing_panel')": 8,
+    "('destination', 'event_year_outside_existing_panel')": 4,
+    "('destination', 'matched')": 5,
+    "('origin', 'event_year_outside_existing_panel')": 4,
+    "('origin', 'matched')": 6,
+    "('origin', 'origin_not_reported_new_expansion')": 1
+  },
+  "sampling": "purposive_public_case_sample_not_exhaustive",
+  "sampling_denominator_available": false,
+  "unobserved_event_cells": "missing_not_zero",
+  "no_forward_fill": true,
+  "existing_analysis_untouched": true
+}

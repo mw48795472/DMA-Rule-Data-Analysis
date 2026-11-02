@@ -1,0 +1,312 @@
+{
+  "id": [
+    "freq",
+    "partner",
+    "agedef",
+    "age",
+    "unit",
+    "sex",
+    "geo",
+    "time"
+  ],
+  "size": [
+    1,
+    48,
+    2,
+    2,
+    1,
+    1,
+    44,
+    8
+  ],
+  "dimension": {
+    "freq": {
+      "label": "Time frequency",
+      "category": {
+        "index": {
+          "A": 0
+        },
+        "label": {
+          "A": "Annual"
+        }
+      }
+    },
+    "partner": {
+      "label": "Geopolitical entity (partner)",
+      "category": {
+        "index": {
+          "BE": 0,
+          "BG": 1,
+          "CZ": 2,
+          "DK": 3,
+          "DE": 4,
+          "EE": 5,
+          "IE": 6,
+          "EL": 7,
+          "ES": 8,
+          "FR": 9,
+          "HR": 10,
+          "IT": 11,
+          "CY": 12,
+          "LV": 13,
+          "LT": 14,
+          "LU": 15,
+          "HU": 16,
+          "MT": 17,
+          "NL": 18,
+          "AT": 19,
+          "PL": 20,
+          "PT": 21,
+          "RO": 22,
+          "SI": 23,
+          "SK": 24,
+          "FI": 25,
+          "SE": 26,
+          "IS": 27,
+          "LI": 28,
+          "NO": 29,
+          "CH": 30,
+          "UK": 31,
+          "BA": 32,
+          "ME": 33,
+          "MD": 34,
+          "MK": 35,
+          "AL": 36,
+          "RS": 37,
+          "TR": 38,
+          "UA": 39,
+          "XK": 40,
+          "BY": 41,
+          "RU": 42,
+          "US": 43,
+          "CN": 44,
+          "JP": 45,
+          "IN": 46,
+          "TOTAL": 47
+        },
+        "label": {
+          "BE": "Belgium",
+          "BG": "Bulgaria",
+          "CZ": "Czechia",
+          "DK": "Denmark",
+          "DE": "Germany",
+          "EE": "Estonia",
+          "IE": "Ireland",
+          "EL": "Greece",
+          "ES": "Spain",
+          "FR": "France",
+          "HR": "Croatia",
+          "IT": "Italy",
+          "CY": "Cyprus",
+          "LV": "Latvia",
+          "LT": "Lithuania",
+          "LU": "Luxembourg",
+          "HU": "Hungary",
+          "MT": "Malta",
+          "NL": "Netherlands",
+          "AT": "Austria",
+          "PL": "Poland",
+          "PT": "Portugal",
+          "RO": "Romania",
+          "SI": "Slovenia",
+          "SK": "Slovakia",
+          "FI": "Finland",
+          "SE": "Sweden",
+          "IS": "Iceland",
+          "LI": "Liechtenstein",
+          "NO": "Norway",
+          "CH": "Switzerland",
+          "UK": "United Kingdom",
+          "BA": "Bosnia and Herzegovina",
+          "ME": "Montenegro",
+          "MD": "Moldova",
+          "MK": "North Macedonia",
+          "AL": "Albania",
+          "RS": "Serbia",
+          "TR": "Türkiye",
+          "UA": "Ukraine",
+          "XK": "Kosovo*",
+          "BY": "Belarus",
+          "RU": "Russia",
+          "US": "United States",
+          "CN": "China",
+          "JP": "Japan",
+          "IN": "India",
+          "TOTAL": "Total"
+        }
+      }
+    },
+    "agedef": {
+      "label": "Age definition",
+      "category": {
+        "index": {
+          "REACH": 0,
+          "COMPLET": 1
+        },
+        "label": {
+          "REACH": "Age reached during the year",
+          "COMPLET": "Age in completed years"
+        }
+      }
+    },
+    "age": {
+      "label": "Age class",
+      "category": {
+        "index": {
+          "TOTAL": 0,
+          "Y15-64": 1
+        },
+        "label": {
+          "TOTAL": "Total",
+          "Y15-64": "From 15 to 64 years"
+        }
+      }
+    },
+    "unit": {
+      "label": "Unit of measure",
+      "category": {
+        "index": {
+          "NR": 0
+        },
+        "label": {
+          "NR": "Number"
+        }
+      }
+    },
+    "sex": {
+      "label": "Sex",
+      "category": {
+        "index": {
+          "T": 0
+        },
+        "label": {
+          "T": "Total"
+        }
+      }
+    },
+    "geo": {
+      "label": "Geopolitical entity (reporting)",
+      "category": {
+        "index": {
+          "EU27_2020": 0,
+          "BE": 1,
+          "BG": 2,
+          "CZ": 3,
+          "DK": 4,
+          "DE": 5,
+          "EE": 6,
+          "IE": 7,
+          "EL": 8,
+          "ES": 9,
+          "FR": 10,
+          "HR": 11,
+          "IT": 12,
+          "CY": 13,
+          "LV": 14,
+          "LT": 15,
+          "LU": 16,
+          "HU": 17,
+          "MT": 18,
+          "NL": 19,
+          "AT": 20,
+          "PL": 21,
+          "PT": 22,
+          "RO": 23,
+          "SI": 24,
+          "SK": 25,
+          "FI": 26,
+          "SE": 27,
+          "IS": 28,
+          "LI": 29,
+          "NO": 30,
+          "CH": 31,
+          "UK": 32,
+          "MD": 33,
+          "MK": 34,
+          "UA": 35,
+          "BY": 36,
+          "RU": 37,
+          "KG": 38,
+          "TJ": 39,
+          "UZ": 40,
+          "AM": 41,
+          "AZ": 42,
+          "IL": 43
+        },
+        "label": {
+          "EU27_2020": "European Union - 27 countries (from 2020)",
+          "BE": "Belgium",
+          "BG": "Bulgaria",
+          "CZ": "Czechia",
+          "DK": "Denmark",
+          "DE": "Germany",
+          "EE": "Estonia",
+          "IE": "Ireland",
+          "EL": "Greece",
+          "ES": "Spain",
+          "FR": "France",
+          "HR": "Croatia",
+          "IT": "Italy",
+          "CY": "Cyprus",
+          "LV": "Latvia",
+          "LT": "Lithuania",
+          "LU": "Luxembourg",
+          "HU": "Hungary",
+          "MT": "Malta",
+          "NL": "Netherlands",
+          "AT": "Austria",
+          "PL": "Poland",
+          "PT": "Portugal",
+          "RO": "Romania",
+          "SI": "Slovenia",
+          "SK": "Slovakia",
+          "FI": "Finland",
+          "SE": "Sweden",
+          "IS": "Iceland",
+          "LI": "Liechtenstein",
+          "NO": "Norway",
+          "CH": "Switzerland",
+          "UK": "United Kingdom",
+          "MD": "Moldova",
+          "MK": "North Macedonia",
+          "UA": "Ukraine",
+          "BY": "Belarus",
+          "RU": "Russia",
+          "KG": "Kyrgyzstan",
+          "TJ": "Tajikistan",
+          "UZ": "Uzbekistan",
+          "AM": "Armenia",
+          "AZ": "Azerbaijan",
+          "IL": "Israel"
+        }
+      }
+    },
+    "time": {
+      "label": "Time",
+      "category": {
+        "index": {
+          "2017": 0,
+          "2018": 1,
+          "2019": 2,
+          "2020": 3,
+          "2021": 4,
+          "2022": 5,
+          "2023": 6,
+          "2024": 7
+        },
+        "label": {
+          "2017": "2017",
+          "2018": "2018",
+          "2019": "2019",
+          "2020": "2020",
+          "2021": "2021",
+          "2022": "2022",
+          "2023": "2023",
+          "2024": "2024"
+        }
+      }
+    }
+  },
+  "updated": "2026-09-22T23:00:00+0200",
+  "label": "Emigration by age group, sex and country of next usual residence"
+}

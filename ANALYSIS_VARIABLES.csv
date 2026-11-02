@@ -1,0 +1,20 @@
+﻿variable,description_ko,unit,transformation,source_file,analysis_role
+country / country_iso2,국가 결합키,Eurostat / ISO2 코드,"EL↔GR, UK↔GB 구별",inputs/base/csv/country_year_core.csv,결합키
+year,관측연도,연도,주 분석 2024; 결합 표 2017~2025,원천 각 CSV,결합키
+ict_share_pct,ICT 전문가 직업 고용 비율,%,원천값 유지,inputs/base/csv/country_year_core.csv,국가 주 결과변수
+exposure_pre_2017_2019_pct,사전 마켓플레이스 판매 노출도,%,기존 지표의 2017~2019 평균; 원분모는 기존 코드북 참조,inputs/base/csv/country_year_core.csv,국가 X; 제한형 SDM의 유일한 WX
+log_gdp_pc_pps,1인당 PPS GDP 로그,log(PPS),양수만 자연로그,inputs/base/csv/country_year_core.csv,국가 통제
+log_labour_cost_j,J 산업 시간당 노동비용 로그,log(EUR),양수만 자연로그,inputs/base/csv/country_year_core.csv,기존·확장·산업 결과 통제
+unemployment_pct,실업률,%,원천값 유지,inputs/base/csv/country_year_core.csv,국가 통제
+employment_na_j_share_pct,국민계정 J 산업 고용비중,%,J 산업 고용 / 전체 고용 ×100; 국내개념,inputs/additional/csv/employment_national_accounts.csv,추가 국가 결과변수
+pre_j_share_pct,사전 J 산업 고용비중,%,2017~2019 세 해 모두 있을 때 평균,inputs/additional/csv/employment_national_accounts.csv,확장·간결 구성 추가 통제
+population_15_64_annual_mean_approx,15~64세 연평균 인구 근사,명,Y15~Y64 완전 관측 합계; (t년초+t+1년초)/2,inputs/additional/csv/population_single_age.csv,이입·이출 강도 분모
+immigration_15_64_complet_per1000,COMPLET 정의 일반 이입 강도,인구 1천 명당,15~64세 이입 / 연평균 근사 인구 ×1000,기존 immigration CSV + 추가 population_single_age.csv,추가 결과변수의 원척도
+asinh_immigration_15_64_complet_per1000,일반 이입 강도 asinh,asinh(인구 1천 명당),asinh 변환; REACH와 혼합하지 않음,outputs/combined_country_year.csv,이입 분석 결과변수
+geo,NUTS2 지역코드,NUTS 코드,NUTS 2024 SHP 정확 일치; 과거 코드는 강제 변환 안 함,추가 지역 CSV + GISCO 경계,지역 결합키
+regional_j_share_pct,지역 J 산업 고용비중,전체 고용 대비 %,"sex=T, unit=PC_EMP, NACE=J",inputs/additional/csv/regional_hightech_employment.csv,지역 결과변수
+log_regional_gdp_pc_pps,지역 1인당 PPS GDP 로그,log(PPS),양수만 자연로그,inputs/additional/csv/regional_gdp.csv,지역 통제
+tertiary_pct,25~64세 고등교육 비율,%,"ISCED ED5-8, sex=T",inputs/additional/csv/regional_tertiary_education.csv,지역 통제
+z_*,분석 표본별 설명변수 표준화,표준편차 단위,(X-표본평균)/표본표준편차; VIF 자체는 불변,outputs/<group>/scaling.csv,수치 계산; 효과는 원척도로 환산
+lag.z_*,공간지연 설명변수 WX,표준편차 단위,행표준화 W × z_X; X별 lag 이름,outputs/<group>/weights.csv,전체 SDM 또는 노출도 제한형
+*_flag,원천 품질 플래그,문자열,결측·신뢰도·단절 등 원천 표시 보존,원천 CSV 및 outputs/sample_quality_flags.csv,품질 점검; 기본 표본에서 일괄 제거하지 않음

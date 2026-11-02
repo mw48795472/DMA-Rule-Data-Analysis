@@ -1,0 +1,2 @@
+﻿key,rows,countries,min_year,max_year,duplicate_keys,no_forward_fill,meaning
+country + year,288,32,2017,2025,0,True,covariates_only_not_treatment_or_causal_identification

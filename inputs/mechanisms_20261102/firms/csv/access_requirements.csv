@@ -1,0 +1,4 @@
+﻿source,url,free_access,api_key_required,downloaded_count,source_count,notes
+ERM full bulk CSV,https://apps.eurofound.europa.eu/restructuring-events/calculator,noncommercial_research_request_required,not_a_key_issue_request_access,0,,Official form not submitted; only public event pages coded
+ERM public factsheets,https://apps.eurofound.europa.eu/restructuring-events/methodology,public,no,9,9.0,"Purposive sample with size/media selection, not representative; announced losses may differ from realised"
+Company official press/SEC public filing,https://www.sec.gov/Archives/edgar/data/2003292/000200329225000015/klarnagroupplcf-1a2.htm,public,no,2,3.0,Per-source actual HTTP/archive status is in SOURCE_MANIFEST.csv

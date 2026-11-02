@@ -1,0 +1,14 @@
+{
+  "source_id": "erm_301236",
+  "url": "https://apps.eurofound.europa.eu/restructuring-events/detail/301236",
+  "source_type": "ERM_public_factsheet",
+  "retrieved_utc": "2026-11-02T07:52:37.388436+00:00",
+  "api_key_required": "no",
+  "free_access": "public_page",
+  "status": "downloaded",
+  "local_file": "inputs/mechanisms_20261102/firms/raw/erm_301236.html",
+  "bytes": 16784,
+  "sha256": "4bb32e564d825fb5be250a2b79217fd23d0781cc3e187dfe46c24ba01bd125f6",
+  "error": "",
+  "http_status": 200
+}

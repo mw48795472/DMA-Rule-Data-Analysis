@@ -1,0 +1,20 @@
+﻿variable,description_ko,unit,definition_or_caution
+geo,원천 Eurostat 국가 또는 NUTS 지역 코드,code,"원천 그대로. 국가 연결 시 EL→GR, UK→GB"
+time,원천 통계 기준연도,year,조사/연간/연초 개념은 자료별 상이
+value,원천 관측값,unit 열 참조,결측 보간·대체·0 치환 없음
+status,Eurostat 품질·기밀·단절 표식,code,공백은 결측값 여부를 대신하지 않음
+unit,원천 단위,code,"THS_PER 천 명, PC_EMP 취업자 비율, PC 백분율 등 코드북 참조"
+population_15_64_jan1,15~64세 연초 인구,persons,Y15~Y64 50개 값 완전관측 합계
+population_15_64_annual_mean_approx,연간 평균 인구 근사,persons,(t년 1월1일+t+1년 1월1일)/2. 양 끝 관측 필수
+employment_lfs_15_64_persons,LFS 15~64세 거주자 취업자,persons,원천 THS_PER×1000. 실제 국경간 이동 아님
+employment_lfs_15plus_persons,LFS 15세 이상 거주자 취업자,persons,원천 THS_PER×1000
+employment_na_j_persons,국내개념 정보통신업 취업자,persons,"원천 EMP_DC, J, THS_PER×1000"
+employment_na_total_persons,국내개념 전체 산업 취업자,persons,"원천 EMP_DC, TOTAL, THS_PER×1000"
+employment_na_j_share_pct,국내개념 정보통신업 고용비율,percent,100×J/TOTAL. 직업기준 ICT 전문가 비율과 다름
+compliance_start_date,확인된 서비스별 DMA 준수 개시일,ISO date,iPadOS는 정확한 날짜 미확인으로 공란
+compliance_confirmed_by_date,EC가 준수 의무를 확인한 발표일,ISO date,정확한 개시일과 자동 동일시하지 않음
+planned_job_losses,ERM 사건 발표 일자리 감소 수,jobs,이동 인원·실현 감원·목적지 배분 인원 아님
+jobs_moved_verified,기업 공시로 검증한 실제 이동 인원,persons,이번 표본에서는 미확인 공란
+dma_reason_evidence,DMA가 이전 동기라는 근거,category,이번 3건 모두 unknown. 규제 무관으로 판정한 것이 아님
+date_order_anomaly,고용영향 시작일이 발표일보다 이른지,0/1,BrainRocket 원문 시점 차이를 보존
+dma_alignment_code,DMA 의무별 법제 정렬,category,이번 영국 사건표에서는 unknown. 신규 코딩 필요

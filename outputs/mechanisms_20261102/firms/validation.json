@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "unique_events": true,
+  "unique_event_destination": true,
+  "row_count_preserved": true,
+  "no_destination_job_duplication": true,
+  "no_missing_to_zero": true,
+  "no_forward_fill": true,
+  "original_pilot_event_ids_preserved": true
+}

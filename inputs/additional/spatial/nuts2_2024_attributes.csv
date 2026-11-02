@@ -1,0 +1,300 @@
+﻿NUTS_ID,LEVL_CODE,CNTR_CODE,NAME_LATN,NUTS_NAME,MOUNT_TYPE,URBN_TYPE,COAST_TYPE,NAME_ENGL,NAME_FREN,ISO3_CODE,SVRG_UN,CAPT,EU_STAT,EFTA_STAT,CC_STAT,NAME_GERM
+ITC4,2,IT,Lombardia,Lombardia,0,0,0,Italy,Italie,ITA,UN Member State,Rome,T,F,F,Italien
+ITF1,2,IT,Abruzzo,Abruzzo,0,0,0,Italy,Italie,ITA,UN Member State,Rome,T,F,F,Italien
+ITF2,2,IT,Molise,Molise,0,0,0,Italy,Italie,ITA,UN Member State,Rome,T,F,F,Italien
+ITF3,2,IT,Campania,Campania,0,0,0,Italy,Italie,ITA,UN Member State,Rome,T,F,F,Italien
+ITF4,2,IT,Puglia,Puglia,0,0,0,Italy,Italie,ITA,UN Member State,Rome,T,F,F,Italien
+ITF5,2,IT,Basilicata,Basilicata,0,0,0,Italy,Italie,ITA,UN Member State,Rome,T,F,F,Italien
+ITF6,2,IT,Calabria,Calabria,0,0,0,Italy,Italie,ITA,UN Member State,Rome,T,F,F,Italien
+ITG1,2,IT,Sicilia,Sicilia,0,0,0,Italy,Italie,ITA,UN Member State,Rome,T,F,F,Italien
+ITG2,2,IT,Sardegna,Sardegna,0,0,0,Italy,Italie,ITA,UN Member State,Rome,T,F,F,Italien
+ITH1,2,IT,Provincia Autonoma di Bolzano/Bozen,Provincia Autonoma di Bolzano/Bozen,0,0,0,Italy,Italie,ITA,UN Member State,Rome,T,F,F,Italien
+ITH2,2,IT,Provincia Autonoma di Trento,Provincia Autonoma di Trento,0,0,0,Italy,Italie,ITA,UN Member State,Rome,T,F,F,Italien
+ITH3,2,IT,Veneto,Veneto,0,0,0,Italy,Italie,ITA,UN Member State,Rome,T,F,F,Italien
+ITH4,2,IT,Friuli-Venezia Giulia,Friuli-Venezia Giulia,0,0,0,Italy,Italie,ITA,UN Member State,Rome,T,F,F,Italien
+ITH5,2,IT,Emilia-Romagna,Emilia-Romagna,0,0,0,Italy,Italie,ITA,UN Member State,Rome,T,F,F,Italien
+ITI1,2,IT,Toscana,Toscana,0,0,0,Italy,Italie,ITA,UN Member State,Rome,T,F,F,Italien
+ITI2,2,IT,Umbria,Umbria,0,0,0,Italy,Italie,ITA,UN Member State,Rome,T,F,F,Italien
+ITI3,2,IT,Marche,Marche,0,0,0,Italy,Italie,ITA,UN Member State,Rome,T,F,F,Italien
+ITI4,2,IT,Lazio,Lazio,0,0,0,Italy,Italie,ITA,UN Member State,Rome,T,F,F,Italien
+LI00,2,LI,Liechtenstein,Liechtenstein,0,0,0,Liechtenstein,Liechtenstein,LIE,UN Member State,Vaduz,F,T,F,Liechtenstein
+LT01,2,LT,Sostinės regionas,Sostinės regionas,0,0,0,Lithuania,Lituanie,LTU,UN Member State,Vilnius,T,F,F,Litauen
+LT02,2,LT,Vidurio ir vakarų Lietuvos regionas ,Vidurio ir vakarų Lietuvos regionas ,0,0,0,Lithuania,Lituanie,LTU,UN Member State,Vilnius,T,F,F,Litauen
+LU00,2,LU,Luxembourg,Luxembourg,0,0,0,Luxembourg,Luxembourg,LUX,UN Member State,Luxembourg,T,F,F,Luxemburg
+LV00,2,LV,Latvija,Latvija,0,0,0,Latvia,Lettonie,LVA,UN Member State,Riga,T,F,F,Lettland
+ME00,2,ME,Crna Gora,Црна Гора,,,,Montenegro,Monténégro,MNE,UN Member State,Podgorica,F,F,T,Montenegro
+MK00,2,MK,Severna Makedonija ,Северна Македонија,,,,North Macedonia,Macédoine du Nord,MKD,UN Member State,Skopje,F,F,T,Nordmazedonien
+MT00,2,MT,Malta,Malta,0,0,0,Malta,Malte,MLT,UN Member State,Valletta,T,F,F,Malta
+NL11,2,NL,Groningen,Groningen,0,0,0,Netherlands,Pays-Bas,NLD,UN Member State,Amsterdam,T,F,F,Niederlande
+BA03,2,BA,Brčko District BiH,Brčko District BiH,0,,,Bosnia and Herzegovina,Bosnie-et-Herzégovine,BIH,UN Member State,Sarajevo,F,F,T,Bosnien und Herzegowina
+NL12,2,NL,Friesland (NL),Friesland (NL),0,0,0,Netherlands,Pays-Bas,NLD,UN Member State,Amsterdam,T,F,F,Niederlande
+NL13,2,NL,Drenthe,Drenthe,0,0,0,Netherlands,Pays-Bas,NLD,UN Member State,Amsterdam,T,F,F,Niederlande
+NL21,2,NL,Overijssel,Overijssel,0,0,0,Netherlands,Pays-Bas,NLD,UN Member State,Amsterdam,T,F,F,Niederlande
+NL22,2,NL,Gelderland,Gelderland,0,0,0,Netherlands,Pays-Bas,NLD,UN Member State,Amsterdam,T,F,F,Niederlande
+NL23,2,NL,Flevoland,Flevoland,0,0,0,Netherlands,Pays-Bas,NLD,UN Member State,Amsterdam,T,F,F,Niederlande
+NL32,2,NL,Noord-Holland,Noord-Holland,0,0,0,Netherlands,Pays-Bas,NLD,UN Member State,Amsterdam,T,F,F,Niederlande
+NL34,2,NL,Zeeland,Zeeland,0,0,0,Netherlands,Pays-Bas,NLD,UN Member State,Amsterdam,T,F,F,Niederlande
+NL35,2,NL,Utrecht,Utrecht,0,0,0,Netherlands,Pays-Bas,NLD,UN Member State,Amsterdam,T,F,F,Niederlande
+NL36,2,NL,Zuid-Holland,Zuid-Holland,0,0,0,Netherlands,Pays-Bas,NLD,UN Member State,Amsterdam,T,F,F,Niederlande
+NL41,2,NL,Noord-Brabant,Noord-Brabant,0,0,0,Netherlands,Pays-Bas,NLD,UN Member State,Amsterdam,T,F,F,Niederlande
+NL42,2,NL,Limburg (NL),Limburg (NL),0,0,0,Netherlands,Pays-Bas,NLD,UN Member State,Amsterdam,T,F,F,Niederlande
+NO02,2,NO,Innlandet,Innlandet,0,0,0,Norway,Norvège,NOR,UN Member State,Oslo,F,T,F,Norwegen
+NO06,2,NO,Trøndelag/Trööndelage,Trøndelag/Trööndelage,0,0,0,Norway,Norvège,NOR,UN Member State,Oslo,F,T,F,Norwegen
+NO0A,2,NO,Vestlandet,Vestlandet,0,0,0,Norway,Norvège,NOR,UN Member State,Oslo,F,T,F,Norwegen
+NO07,2,NO,Nord-Norge,Nord-Norge,0,0,0,Norway,Norvège,NOR,UN Member State,Oslo,F,T,F,Norwegen
+NO08,2,NO,Oslo og Viken,Oslo og Viken,0,0,0,Norway,Norvège,NOR,UN Member State,Oslo,F,T,F,Norwegen
+NO09,2,NO,Agder og Sør-Østlandet,Agder og Sør-Østlandet,0,0,0,Norway,Norvège,NOR,UN Member State,Oslo,F,T,F,Norwegen
+NO0B,2,NO,Svalbard og Jan Mayen,Svalbard og Jan Mayen,0,0,0,Norway,Norvège,NOR,UN Member State,Oslo,F,T,F,Norwegen
+PL21,2,PL,Małopolskie,Małopolskie,0,0,0,Poland,Pologne,POL,UN Member State,Warsaw,T,F,F,Polen
+PL22,2,PL,Śląskie,Śląskie,0,0,0,Poland,Pologne,POL,UN Member State,Warsaw,T,F,F,Polen
+PL41,2,PL,Wielkopolskie,Wielkopolskie,0,0,0,Poland,Pologne,POL,UN Member State,Warsaw,T,F,F,Polen
+PL42,2,PL,Zachodniopomorskie,Zachodniopomorskie,0,0,0,Poland,Pologne,POL,UN Member State,Warsaw,T,F,F,Polen
+PL43,2,PL,Lubuskie,Lubuskie,0,0,0,Poland,Pologne,POL,UN Member State,Warsaw,T,F,F,Polen
+PL51,2,PL,Dolnośląskie,Dolnośląskie,0,0,0,Poland,Pologne,POL,UN Member State,Warsaw,T,F,F,Polen
+PL52,2,PL,Opolskie,Opolskie,0,0,0,Poland,Pologne,POL,UN Member State,Warsaw,T,F,F,Polen
+PL61,2,PL,Kujawsko-pomorskie,Kujawsko-pomorskie,0,0,0,Poland,Pologne,POL,UN Member State,Warsaw,T,F,F,Polen
+PL62,2,PL,Warmińsko-mazurskie,Warmińsko-mazurskie,0,0,0,Poland,Pologne,POL,UN Member State,Warsaw,T,F,F,Polen
+PL63,2,PL,Pomorskie,Pomorskie,0,0,0,Poland,Pologne,POL,UN Member State,Warsaw,T,F,F,Polen
+PL71,2,PL,Łódzkie,Łódzkie,0,0,0,Poland,Pologne,POL,UN Member State,Warsaw,T,F,F,Polen
+PL72,2,PL,Świętokrzyskie,Świętokrzyskie,0,0,0,Poland,Pologne,POL,UN Member State,Warsaw,T,F,F,Polen
+PL81,2,PL,Lubelskie,Lubelskie,0,0,0,Poland,Pologne,POL,UN Member State,Warsaw,T,F,F,Polen
+PL82,2,PL,Podkarpackie,Podkarpackie,0,0,0,Poland,Pologne,POL,UN Member State,Warsaw,T,F,F,Polen
+PL84,2,PL,Podlaskie,Podlaskie,0,0,0,Poland,Pologne,POL,UN Member State,Warsaw,T,F,F,Polen
+PL91,2,PL,Warszawski stołeczny,Warszawski stołeczny,0,0,0,Poland,Pologne,POL,UN Member State,Warsaw,T,F,F,Polen
+PL92,2,PL,Mazowiecki regionalny,Mazowiecki regionalny,0,0,0,Poland,Pologne,POL,UN Member State,Warsaw,T,F,F,Polen
+PT11,2,PT,Norte,Norte,0,0,0,Portugal,Portugal,PRT,UN Member State,Lisbon,T,F,F,Portugal
+PT15,2,PT,Algarve,Algarve,0,0,0,Portugal,Portugal,PRT,UN Member State,Lisbon,T,F,F,Portugal
+PT19,2,PT,Centro (PT),Centro (PT),0,0,0,Portugal,Portugal,PRT,UN Member State,Lisbon,T,F,F,Portugal
+PT1A,2,PT,Grande Lisboa,Grande Lisboa,0,0,0,Portugal,Portugal,PRT,UN Member State,Lisbon,T,F,F,Portugal
+PT1B,2,PT,Península de Setúbal,Península de Setúbal,0,0,0,Portugal,Portugal,PRT,UN Member State,Lisbon,T,F,F,Portugal
+PT1C,2,PT,Alentejo,Alentejo,0,0,0,Portugal,Portugal,PRT,UN Member State,Lisbon,T,F,F,Portugal
+PT1D,2,PT,Oeste e Vale do Tejo,Oeste e Vale do Tejo,0,0,0,Portugal,Portugal,PRT,UN Member State,Lisbon,T,F,F,Portugal
+PT20,2,PT,Região Autónoma dos Açores,Região Autónoma dos Açores,0,0,0,Portugal,Portugal,PRT,UN Member State,Lisbon,T,F,F,Portugal
+PT30,2,PT,Região Autónoma da Madeira,Região Autónoma da Madeira,0,0,0,Portugal,Portugal,PRT,UN Member State,Lisbon,T,F,F,Portugal
+RO11,2,RO,Nord-Vest,Nord-Vest,0,0,0,Romania,Roumanie,ROU,UN Member State,Bucharest,T,F,F,Rumänien
+RO12,2,RO,Centru,Centru,0,0,0,Romania,Roumanie,ROU,UN Member State,Bucharest,T,F,F,Rumänien
+RO21,2,RO,Nord-Est,Nord-Est,0,0,0,Romania,Roumanie,ROU,UN Member State,Bucharest,T,F,F,Rumänien
+RO22,2,RO,Sud-Est,Sud-Est,0,0,0,Romania,Roumanie,ROU,UN Member State,Bucharest,T,F,F,Rumänien
+RO31,2,RO,Sud-Muntenia,Sud-Muntenia,0,0,0,Romania,Roumanie,ROU,UN Member State,Bucharest,T,F,F,Rumänien
+RO32,2,RO,Bucureşti-Ilfov,Bucureşti-Ilfov,0,0,0,Romania,Roumanie,ROU,UN Member State,Bucharest,T,F,F,Rumänien
+RO41,2,RO,Sud-Vest Oltenia,Sud-Vest Oltenia,0,0,0,Romania,Roumanie,ROU,UN Member State,Bucharest,T,F,F,Rumänien
+RO42,2,RO,Vest,Vest,0,0,0,Romania,Roumanie,ROU,UN Member State,Bucharest,T,F,F,Rumänien
+RS11,2,RS,City of Belgrade,Београдски регион,,,,Serbia,Serbie,SRB,UN Member State,Belgrade,F,F,T,Serbien
+RS12,2,RS,Autonomous Province of Vojvodina,Регион Војводине,,,,Serbia,Serbie,SRB,UN Member State,Belgrade,F,F,T,Serbien
+RS21,2,RS,Region Šumadije i Zapadne Srbije,Регион Шумадије и Западне Србије,,,,Serbia,Serbie,SRB,UN Member State,Belgrade,F,F,T,Serbien
+RS22,2,RS,Region Južne i Istočne Srbije,Регион Јужне и Источне Србије,,,,Serbia,Serbie,SRB,UN Member State,Belgrade,F,F,T,Serbien
+SE11,2,SE,Stockholm,Stockholm,0,0,0,Sweden,Suède,SWE,UN Member State,Stockholm,T,F,F,Schweden
+SE12,2,SE,Östra Mellansverige,Östra Mellansverige,0,0,0,Sweden,Suède,SWE,UN Member State,Stockholm,T,F,F,Schweden
+SE21,2,SE,Småland med öarna,Småland med öarna,0,0,0,Sweden,Suède,SWE,UN Member State,Stockholm,T,F,F,Schweden
+SE22,2,SE,Sydsverige,Sydsverige,0,0,0,Sweden,Suède,SWE,UN Member State,Stockholm,T,F,F,Schweden
+SE23,2,SE,Västsverige,Västsverige,0,0,0,Sweden,Suède,SWE,UN Member State,Stockholm,T,F,F,Schweden
+SE31,2,SE,Norra Mellansverige,Norra Mellansverige,0,0,0,Sweden,Suède,SWE,UN Member State,Stockholm,T,F,F,Schweden
+SE32,2,SE,Mellersta Norrland,Mellersta Norrland,0,0,0,Sweden,Suède,SWE,UN Member State,Stockholm,T,F,F,Schweden
+SE33,2,SE,Övre Norrland,Övre Norrland,0,0,0,Sweden,Suède,SWE,UN Member State,Stockholm,T,F,F,Schweden
+SI03,2,SI,Vzhodna Slovenija,Vzhodna Slovenija,0,0,0,Slovenia,Slovénie,SVN,UN Member State,Ljubljana,T,F,F,Slowenien
+SI04,2,SI,Zahodna Slovenija,Zahodna Slovenija,0,0,0,Slovenia,Slovénie,SVN,UN Member State,Ljubljana,T,F,F,Slowenien
+SK01,2,SK,Bratislavský kraj,Bratislavský kraj,0,0,0,Slovakia,Slovaquie,SVK,UN Member State,Bratislava,T,F,F,Slowakei
+SK02,2,SK,Západné Slovensko,Západné Slovensko,0,0,0,Slovakia,Slovaquie,SVK,UN Member State,Bratislava,T,F,F,Slowakei
+SK03,2,SK,Stredné Slovensko,Stredné Slovensko,0,0,0,Slovakia,Slovaquie,SVK,UN Member State,Bratislava,T,F,F,Slowakei
+SK04,2,SK,Východné Slovensko,Východné Slovensko,0,0,0,Slovakia,Slovaquie,SVK,UN Member State,Bratislava,T,F,F,Slowakei
+TR10,2,TR,İstanbul,İstanbul,,,,Türkiye,Turquie,TUR,UN Member State,Ankara,F,F,T,Türkei
+TR21,2,TR,"Tekirdağ, Edirne, Kırklareli","Tekirdağ, Edirne, Kırklareli",,,,Türkiye,Turquie,TUR,UN Member State,Ankara,F,F,T,Türkei
+TR22,2,TR,"Balıkesir, Çanakkale","Balıkesir, Çanakkale",,,,Türkiye,Turquie,TUR,UN Member State,Ankara,F,F,T,Türkei
+TR31,2,TR,İzmir,İzmir,,,,Türkiye,Turquie,TUR,UN Member State,Ankara,F,F,T,Türkei
+TR32,2,TR,"Aydın, Denizli, Muğla","Aydın, Denizli, Muğla",,,,Türkiye,Turquie,TUR,UN Member State,Ankara,F,F,T,Türkei
+TR33,2,TR,"Manisa, Afyonkarahisar, Kütahya, Uşak","Manisa, Afyonkarahisar, Kütahya, Uşak",,,,Türkiye,Turquie,TUR,UN Member State,Ankara,F,F,T,Türkei
+TR41,2,TR,"Bursa, Eskişehir, Bilecik","Bursa, Eskişehir, Bilecik",,,,Türkiye,Turquie,TUR,UN Member State,Ankara,F,F,T,Türkei
+TR42,2,TR,"Kocaeli, Sakarya, Düzce, Bolu, Yalova","Kocaeli, Sakarya, Düzce, Bolu, Yalova",,,,Türkiye,Turquie,TUR,UN Member State,Ankara,F,F,T,Türkei
+TR51,2,TR,Ankara,Ankara,,,,Türkiye,Turquie,TUR,UN Member State,Ankara,F,F,T,Türkei
+TR52,2,TR,"Konya, Karaman","Konya, Karaman",,,,Türkiye,Turquie,TUR,UN Member State,Ankara,F,F,T,Türkei
+TR61,2,TR,"Antalya, Isparta, Burdur","Antalya, Isparta, Burdur",,,,Türkiye,Turquie,TUR,UN Member State,Ankara,F,F,T,Türkei
+TR62,2,TR,"Adana, Mersin","Adana, Mersin",,,,Türkiye,Turquie,TUR,UN Member State,Ankara,F,F,T,Türkei
+TR63,2,TR,"Hatay, Kahramanmaraş, Osmaniye","Hatay, Kahramanmaraş, Osmaniye",,,,Türkiye,Turquie,TUR,UN Member State,Ankara,F,F,T,Türkei
+TR71,2,TR,"Kırıkkale, Aksaray, Niğde, Nevşehir, Kırşehir","Kırıkkale, Aksaray, Niğde, Nevşehir, Kırşehir",,,,Türkiye,Turquie,TUR,UN Member State,Ankara,F,F,T,Türkei
+ES13,2,ES,Cantabria,Cantabria,0,0,0,Spain,Espagne,ESP,UN Member State,Madrid,T,F,F,Spanien
+ES21,2,ES,País Vasco,País Vasco,0,0,0,Spain,Espagne,ESP,UN Member State,Madrid,T,F,F,Spanien
+ES22,2,ES,Comunidad Foral de Navarra,Comunidad Foral de Navarra,0,0,0,Spain,Espagne,ESP,UN Member State,Madrid,T,F,F,Spanien
+ES23,2,ES,La Rioja,La Rioja,0,0,0,Spain,Espagne,ESP,UN Member State,Madrid,T,F,F,Spanien
+ES24,2,ES,Aragón,Aragón,0,0,0,Spain,Espagne,ESP,UN Member State,Madrid,T,F,F,Spanien
+ES30,2,ES,Comunidad de Madrid,Comunidad de Madrid,0,0,0,Spain,Espagne,ESP,UN Member State,Madrid,T,F,F,Spanien
+ES41,2,ES,Castilla y León,Castilla y León,0,0,0,Spain,Espagne,ESP,UN Member State,Madrid,T,F,F,Spanien
+ES42,2,ES,Castilla-La Mancha,Castilla-La Mancha,0,0,0,Spain,Espagne,ESP,UN Member State,Madrid,T,F,F,Spanien
+ES43,2,ES,Extremadura,Extremadura,0,0,0,Spain,Espagne,ESP,UN Member State,Madrid,T,F,F,Spanien
+ES51,2,ES,Cataluña,Cataluña,0,0,0,Spain,Espagne,ESP,UN Member State,Madrid,T,F,F,Spanien
+ES52,2,ES,Comunitat Valenciana ,Comunitat Valenciana ,0,0,0,Spain,Espagne,ESP,UN Member State,Madrid,T,F,F,Spanien
+TR72,2,TR,"Kayseri, Sivas, Yozgat","Kayseri, Sivas, Yozgat",,,,Türkiye,Turquie,TUR,UN Member State,Ankara,F,F,T,Türkei
+TR81,2,TR,"Zonguldak, Karabük, Bartın","Zonguldak, Karabük, Bartın",,,,Türkiye,Turquie,TUR,UN Member State,Ankara,F,F,T,Türkei
+TR82,2,TR,"Kastamonu, Çankırı, Sinop","Kastamonu, Çankırı, Sinop",,,,Türkiye,Turquie,TUR,UN Member State,Ankara,F,F,T,Türkei
+TR83,2,TR,"Samsun, Tokat, Çorum, Amasya","Samsun, Tokat, Çorum, Amasya",,,,Türkiye,Turquie,TUR,UN Member State,Ankara,F,F,T,Türkei
+TR90,2,TR,"Trabzon, Ordu, Giresun, Rize, Artvin, Gümüşhane","Trabzon, Ordu, Giresun, Rize, Artvin, Gümüşhane",,,,Türkiye,Turquie,TUR,UN Member State,Ankara,F,F,T,Türkei
+TRA1,2,TR,"Erzurum, Erzincan, Bayburt","Erzurum, Erzincan, Bayburt",,,,Türkiye,Turquie,TUR,UN Member State,Ankara,F,F,T,Türkei
+TRA2,2,TR,"Ağrı, Kars, Iğdır, Ardahan","Ağrı, Kars, Iğdır, Ardahan",,,,Türkiye,Turquie,TUR,UN Member State,Ankara,F,F,T,Türkei
+TRB1,2,TR,"Malatya, Elazığ, Bingöl, Tunceli","Malatya, Elazığ, Bingöl, Tunceli",,,,Türkiye,Turquie,TUR,UN Member State,Ankara,F,F,T,Türkei
+TRB2,2,TR,"Van, Muş, Bitlis, Hakkari","Van, Muş, Bitlis, Hakkari",,,,Türkiye,Turquie,TUR,UN Member State,Ankara,F,F,T,Türkei
+TRC1,2,TR,"Gaziantep, Adıyaman, Kilis","Gaziantep, Adıyaman, Kilis",,,,Türkiye,Turquie,TUR,UN Member State,Ankara,F,F,T,Türkei
+ES53,2,ES,Illes Balears,Illes Balears,0,0,0,Spain,Espagne,ESP,UN Member State,Madrid,T,F,F,Spanien
+ES61,2,ES,Andalucía,Andalucía,0,0,0,Spain,Espagne,ESP,UN Member State,Madrid,T,F,F,Spanien
+ES62,2,ES,Región de Murcia,Región de Murcia,0,0,0,Spain,Espagne,ESP,UN Member State,Madrid,T,F,F,Spanien
+ES63,2,ES,Ciudad de Ceuta,Ciudad de Ceuta,0,0,0,Spain,Espagne,ESP,UN Member State,Madrid,T,F,F,Spanien
+ES64,2,ES,Ciudad de Melilla,Ciudad de Melilla,0,0,0,Spain,Espagne,ESP,UN Member State,Madrid,T,F,F,Spanien
+ES70,2,ES,Canarias,Canarias,0,0,0,Spain,Espagne,ESP,UN Member State,Madrid,T,F,F,Spanien
+FI19,2,FI,Länsi-Suomi,Länsi-Suomi,0,0,0,Finland,Finlande,FIN,UN Member State,Helsinki,T,F,F,Finnland
+FI1B,2,FI,Helsinki-Uusimaa,Helsinki-Uusimaa,0,0,0,Finland,Finlande,FIN,UN Member State,Helsinki,T,F,F,Finnland
+FI1C,2,FI,Etelä-Suomi,Etelä-Suomi,0,0,0,Finland,Finlande,FIN,UN Member State,Helsinki,T,F,F,Finnland
+TRC2,2,TR,"Şanlıurfa, Diyarbakır","Şanlıurfa, Diyarbakır",,,,Türkiye,Turquie,TUR,UN Member State,Ankara,F,F,T,Türkei
+TRC3,2,TR,"Mardin, Batman, Şırnak, Siirt","Mardin, Batman, Şırnak, Siirt",,,,Türkiye,Turquie,TUR,UN Member State,Ankara,F,F,T,Türkei
+FI1D,2,FI,Pohjois- ja Itä-Suomi,Pohjois- ja Itä-Suomi,0,0,0,Finland,Finlande,FIN,UN Member State,Helsinki,T,F,F,Finnland
+FI20,2,FI,Åland,Åland,0,0,0,Finland,Finlande,FIN,UN Member State,Helsinki,T,F,F,Finnland
+FR10,2,FR,Ile-de-France,Ile-de-France,0,0,0,France,France,FRA,UN Member State,Paris,T,F,F,Frankreich
+FRB0,2,FR,Centre — Val de Loire,Centre — Val de Loire,0,0,0,France,France,FRA,UN Member State,Paris,T,F,F,Frankreich
+FRC1,2,FR,Bourgogne,Bourgogne,0,0,0,France,France,FRA,UN Member State,Paris,T,F,F,Frankreich
+FRC2,2,FR,Franche-Comté,Franche-Comté,0,0,0,France,France,FRA,UN Member State,Paris,T,F,F,Frankreich
+FRD1,2,FR,Basse-Normandie ,Basse-Normandie ,0,0,0,France,France,FRA,UN Member State,Paris,T,F,F,Frankreich
+FRD2,2,FR,Haute-Normandie ,Haute-Normandie ,0,0,0,France,France,FRA,UN Member State,Paris,T,F,F,Frankreich
+FRE1,2,FR,Nord-Pas de Calais,Nord-Pas de Calais,0,0,0,France,France,FRA,UN Member State,Paris,T,F,F,Frankreich
+FRE2,2,FR,Picardie,Picardie,0,0,0,France,France,FRA,UN Member State,Paris,T,F,F,Frankreich
+FRF1,2,FR,Alsace,Alsace,0,0,0,France,France,FRA,UN Member State,Paris,T,F,F,Frankreich
+FRF2,2,FR,Champagne-Ardenne,Champagne-Ardenne,0,0,0,France,France,FRA,UN Member State,Paris,T,F,F,Frankreich
+FRF3,2,FR,Lorraine,Lorraine,0,0,0,France,France,FRA,UN Member State,Paris,T,F,F,Frankreich
+FRG0,2,FR,Pays de la Loire,Pays de la Loire,0,0,0,France,France,FRA,UN Member State,Paris,T,F,F,Frankreich
+FRH0,2,FR,Bretagne,Bretagne,0,0,0,France,France,FRA,UN Member State,Paris,T,F,F,Frankreich
+FRI1,2,FR,Aquitaine,Aquitaine,0,0,0,France,France,FRA,UN Member State,Paris,T,F,F,Frankreich
+FRI2,2,FR,Limousin,Limousin,0,0,0,France,France,FRA,UN Member State,Paris,T,F,F,Frankreich
+FRI3,2,FR,Poitou-Charentes,Poitou-Charentes,0,0,0,France,France,FRA,UN Member State,Paris,T,F,F,Frankreich
+FRJ1,2,FR,Languedoc-Roussillon,Languedoc-Roussillon,0,0,0,France,France,FRA,UN Member State,Paris,T,F,F,Frankreich
+FRJ2,2,FR,Midi-Pyrénées,Midi-Pyrénées,0,0,0,France,France,FRA,UN Member State,Paris,T,F,F,Frankreich
+FRK1,2,FR,Auvergne,Auvergne,0,0,0,France,France,FRA,UN Member State,Paris,T,F,F,Frankreich
+FRK2,2,FR,Rhône-Alpes,Rhône-Alpes,0,0,0,France,France,FRA,UN Member State,Paris,T,F,F,Frankreich
+FRL0,2,FR,Provence-Alpes-Côte d’Azur,Provence-Alpes-Côte d’Azur,0,0,0,France,France,FRA,UN Member State,Paris,T,F,F,Frankreich
+FRM0,2,FR,Corse,Corse,0,0,0,France,France,FRA,UN Member State,Paris,T,F,F,Frankreich
+FRY1,2,FR,Guadeloupe,Guadeloupe,0,0,0,France,France,FRA,UN Member State,Paris,T,F,F,Frankreich
+FRY2,2,FR,Martinique ,Martinique ,0,0,0,France,France,FRA,UN Member State,Paris,T,F,F,Frankreich
+FRY3,2,FR,Guyane,Guyane,0,0,0,France,France,FRA,UN Member State,Paris,T,F,F,Frankreich
+FRY4,2,FR,La Réunion ,La Réunion ,0,0,0,France,France,FRA,UN Member State,Paris,T,F,F,Frankreich
+FRY5,2,FR,Mayotte,Mayotte,0,0,0,France,France,FRA,UN Member State,Paris,T,F,F,Frankreich
+HR02,2,HR,Panonska Hrvatska,Panonska Hrvatska,0,0,0,Croatia,Croatie,HRV,UN Member State,Zagreb,T,F,F,Kroatien
+HR03,2,HR,Jadranska Hrvatska,Jadranska Hrvatska,0,0,0,Croatia,Croatie,HRV,UN Member State,Zagreb,T,F,F,Kroatien
+HR05,2,HR,Grad Zagreb,Grad Zagreb,0,0,0,Croatia,Croatie,HRV,UN Member State,Zagreb,T,F,F,Kroatien
+HR06,2,HR,Sjeverna Hrvatska,Sjeverna Hrvatska,0,0,0,Croatia,Croatie,HRV,UN Member State,Zagreb,T,F,F,Kroatien
+HU11,2,HU,Budapest,Budapest,0,0,0,Hungary,Hongrie,HUN,UN Member State,Budapest,T,F,F,Ungarn
+HU12,2,HU,Pest,Pest,0,0,0,Hungary,Hongrie,HUN,UN Member State,Budapest,T,F,F,Ungarn
+HU21,2,HU,Közép-Dunántúl,Közép-Dunántúl,0,0,0,Hungary,Hongrie,HUN,UN Member State,Budapest,T,F,F,Ungarn
+XK00,2,XK,Kosovo,Kosovo,,,,Kosovo,,XK,Sovereignty unsettled,,F,F,F,
+HU22,2,HU,Nyugat-Dunántúl,Nyugat-Dunántúl,0,0,0,Hungary,Hongrie,HUN,UN Member State,Budapest,T,F,F,Ungarn
+HU23,2,HU,Dél-Dunántúl,Dél-Dunántúl,0,0,0,Hungary,Hongrie,HUN,UN Member State,Budapest,T,F,F,Ungarn
+HU31,2,HU,Észak-Magyarország,Észak-Magyarország,0,0,0,Hungary,Hongrie,HUN,UN Member State,Budapest,T,F,F,Ungarn
+HU32,2,HU,Észak-Alföld,Észak-Alföld,0,0,0,Hungary,Hongrie,HUN,UN Member State,Budapest,T,F,F,Ungarn
+HU33,2,HU,Dél-Alföld,Dél-Alföld,0,0,0,Hungary,Hongrie,HUN,UN Member State,Budapest,T,F,F,Ungarn
+IE04,2,IE,Northern and Western,Northern and Western,0,0,0,Ireland,Irlande,IRL,UN Member State,Dublin,T,F,F,Irland
+IE05,2,IE,Southern,Southern,0,0,0,Ireland,Irlande,IRL,UN Member State,Dublin,T,F,F,Irland
+IE06,2,IE,Eastern and Midland,Eastern and Midland,0,0,0,Ireland,Irlande,IRL,UN Member State,Dublin,T,F,F,Irland
+IS00,2,IS,Ísland,Ísland,0,0,0,Iceland,Islande,ISL,UN Member State,Reykjavík,F,T,F,Island
+ITC1,2,IT,Piemonte,Piemonte,0,0,0,Italy,Italie,ITA,UN Member State,Rome,T,F,F,Italien
+ITC2,2,IT,Valle d’Aosta/Vallée d’Aoste,Valle d’Aosta/Vallée d’Aoste,0,0,0,Italy,Italie,ITA,UN Member State,Rome,T,F,F,Italien
+ITC3,2,IT,Liguria,Liguria,0,0,0,Italy,Italie,ITA,UN Member State,Rome,T,F,F,Italien
+AL01,2,AL,Veri,Veri,,,,Albania,Albanie,ALB,UN Member State,Tirana,F,F,T,Albanien
+AL02,2,AL,Qender,Qender,,,,Albania,Albanie,ALB,UN Member State,Tirana,F,F,T,Albanien
+AL03,2,AL,Jug,Jug,,,,Albania,Albanie,ALB,UN Member State,Tirana,F,F,T,Albanien
+AT11,2,AT,Burgenland,Burgenland,0,0,0,Austria,Autriche,AUT,UN Member State,Vienna,T,F,F,Österreich
+AT12,2,AT,Niederösterreich,Niederösterreich,0,0,0,Austria,Autriche,AUT,UN Member State,Vienna,T,F,F,Österreich
+AT13,2,AT,Wien,Wien,0,0,0,Austria,Autriche,AUT,UN Member State,Vienna,T,F,F,Österreich
+AT21,2,AT,Kärnten,Kärnten,0,0,0,Austria,Autriche,AUT,UN Member State,Vienna,T,F,F,Österreich
+AT22,2,AT,Steiermark,Steiermark,0,0,0,Austria,Autriche,AUT,UN Member State,Vienna,T,F,F,Österreich
+AT31,2,AT,Oberösterreich,Oberösterreich,0,0,0,Austria,Autriche,AUT,UN Member State,Vienna,T,F,F,Österreich
+AT32,2,AT,Salzburg,Salzburg,0,0,0,Austria,Autriche,AUT,UN Member State,Vienna,T,F,F,Österreich
+AT33,2,AT,Tirol,Tirol,0,0,0,Austria,Autriche,AUT,UN Member State,Vienna,T,F,F,Österreich
+AT34,2,AT,Vorarlberg,Vorarlberg,0,0,0,Austria,Autriche,AUT,UN Member State,Vienna,T,F,F,Österreich
+BA01,2,BA,Federacija Bosne i Hercegovine,Federacija Bosne i Hercegovine,0,,,Bosnia and Herzegovina,Bosnie-et-Herzégovine,BIH,UN Member State,Sarajevo,F,F,T,Bosnien und Herzegowina
+BA02,2,BA,Republika Srpska,Republika Srpska,0,,,Bosnia and Herzegovina,Bosnie-et-Herzégovine,BIH,UN Member State,Sarajevo,F,F,T,Bosnien und Herzegowina
+BE10,2,BE,Région de Bruxelles-Capitale/ Brussels Hoofdstedelijk Gewest,Région de Bruxelles-Capitale/ Brussels Hoofdstedelijk Gewest,0,0,0,Belgium,Belgique,BEL,UN Member State,Brussels,T,F,F,Belgien
+BE21,2,BE,Prov. Antwerpen,Prov. Antwerpen,0,0,0,Belgium,Belgique,BEL,UN Member State,Brussels,T,F,F,Belgien
+BE22,2,BE,Prov. Limburg (BE),Prov. Limburg (BE),0,0,0,Belgium,Belgique,BEL,UN Member State,Brussels,T,F,F,Belgien
+BE23,2,BE,Prov. Oost-Vlaanderen,Prov. Oost-Vlaanderen,0,0,0,Belgium,Belgique,BEL,UN Member State,Brussels,T,F,F,Belgien
+BE24,2,BE,Prov. Vlaams-Brabant,Prov. Vlaams-Brabant,0,0,0,Belgium,Belgique,BEL,UN Member State,Brussels,T,F,F,Belgien
+BE25,2,BE,Prov. West-Vlaanderen,Prov. West-Vlaanderen,0,0,0,Belgium,Belgique,BEL,UN Member State,Brussels,T,F,F,Belgien
+BE31,2,BE,Prov. Brabant wallon,Prov. Brabant wallon,0,0,0,Belgium,Belgique,BEL,UN Member State,Brussels,T,F,F,Belgien
+BE32,2,BE,Prov. Hainaut,Prov. Hainaut,0,0,0,Belgium,Belgique,BEL,UN Member State,Brussels,T,F,F,Belgien
+BE33,2,BE,Prov. Liège,Prov. Liège,0,0,0,Belgium,Belgique,BEL,UN Member State,Brussels,T,F,F,Belgien
+BE34,2,BE,Prov. Luxembourg (BE),Prov. Luxembourg (BE),0,0,0,Belgium,Belgique,BEL,UN Member State,Brussels,T,F,F,Belgien
+BE35,2,BE,Prov. Namur,Prov. Namur,0,0,0,Belgium,Belgique,BEL,UN Member State,Brussels,T,F,F,Belgien
+BG31,2,BG,Severozapaden,Северозападен,0,0,0,Bulgaria,Bulgarie,BGR,UN Member State,Sofia,T,F,F,Bulgarien
+DK03,2,DK,Syddanmark,Syddanmark,0,0,0,Denmark,Danemark,DNK,UN Member State,Copenhagen,T,F,F,Dänemark
+DK04,2,DK,Midtjylland,Midtjylland,0,0,0,Denmark,Danemark,DNK,UN Member State,Copenhagen,T,F,F,Dänemark
+DK05,2,DK,Nordjylland,Nordjylland,0,0,0,Denmark,Danemark,DNK,UN Member State,Copenhagen,T,F,F,Dänemark
+EE00,2,EE,Eesti,Eesti,0,0,0,Estonia,Estonie,EST,UN Member State,Tallinn,T,F,F,Estland
+EL30,2,EL,Attiki,Aττική,0,0,0,Greece,Grèce,GRC,UN Member State,Athens,T,F,F,Griechenland
+EL41,2,EL,Voreio Aigaio,Βόρειο Αιγαίο,0,0,0,Greece,Grèce,GRC,UN Member State,Athens,T,F,F,Griechenland
+EL42,2,EL,Notio Aigaio,Νότιο Αιγαίο,0,0,0,Greece,Grèce,GRC,UN Member State,Athens,T,F,F,Griechenland
+EL43,2,EL,Kriti,Κρήτη,0,0,0,Greece,Grèce,GRC,UN Member State,Athens,T,F,F,Griechenland
+EL51,2,EL,"Anatoliki Makedonia, Thraki","Aνατολική Μακεδονία, Θράκη",0,0,0,Greece,Grèce,GRC,UN Member State,Athens,T,F,F,Griechenland
+EL52,2,EL,Kentriki Makedonia,Κεντρική Μακεδονία,0,0,0,Greece,Grèce,GRC,UN Member State,Athens,T,F,F,Griechenland
+EL53,2,EL,Dytiki Makedonia,Δυτική Μακεδονία,0,0,0,Greece,Grèce,GRC,UN Member State,Athens,T,F,F,Griechenland
+EL54,2,EL,Ipeiros,Ήπειρος,0,0,0,Greece,Grèce,GRC,UN Member State,Athens,T,F,F,Griechenland
+EL61,2,EL,Thessalia,Θεσσαλία,0,0,0,Greece,Grèce,GRC,UN Member State,Athens,T,F,F,Griechenland
+EL62,2,EL,Ionia Nisia,Ιόνια Νησιά,0,0,0,Greece,Grèce,GRC,UN Member State,Athens,T,F,F,Griechenland
+EL63,2,EL,Dytiki Elláda,Δυτική Ελλάδα,0,0,0,Greece,Grèce,GRC,UN Member State,Athens,T,F,F,Griechenland
+EL64,2,EL,Sterea Elláda,Στερεά Ελλάδα,0,0,0,Greece,Grèce,GRC,UN Member State,Athens,T,F,F,Griechenland
+EL65,2,EL,Peloponnisos,Πελοπόννησος,0,0,0,Greece,Grèce,GRC,UN Member State,Athens,T,F,F,Griechenland
+ES11,2,ES,Galicia,Galicia,0,0,0,Spain,Espagne,ESP,UN Member State,Madrid,T,F,F,Spanien
+ES12,2,ES,Principado de Asturias,Principado de Asturias,0,0,0,Spain,Espagne,ESP,UN Member State,Madrid,T,F,F,Spanien
+BG32,2,BG,Severen tsentralen,Северен централен,0,0,0,Bulgaria,Bulgarie,BGR,UN Member State,Sofia,T,F,F,Bulgarien
+BG33,2,BG,Severoiztochen,Североизточен,0,0,0,Bulgaria,Bulgarie,BGR,UN Member State,Sofia,T,F,F,Bulgarien
+BG34,2,BG,Yugoiztochen,Югоизточен,0,0,0,Bulgaria,Bulgarie,BGR,UN Member State,Sofia,T,F,F,Bulgarien
+BG41,2,BG,Yugozapaden,Югозападен,0,0,0,Bulgaria,Bulgarie,BGR,UN Member State,Sofia,T,F,F,Bulgarien
+BG42,2,BG,Yuzhen tsentralen,Южен централен,0,0,0,Bulgaria,Bulgarie,BGR,UN Member State,Sofia,T,F,F,Bulgarien
+CH01,2,CH,Région lémanique,Région lémanique,0,0,0,Switzerland,Suisse,CHE,UN Member State,Bern,F,T,F,Schweiz
+CH02,2,CH,Espace Mittelland,Espace Mittelland,0,0,0,Switzerland,Suisse,CHE,UN Member State,Bern,F,T,F,Schweiz
+CH03,2,CH,Nordwestschweiz,Nordwestschweiz,0,0,0,Switzerland,Suisse,CHE,UN Member State,Bern,F,T,F,Schweiz
+CH04,2,CH,Zürich,Zürich,0,0,0,Switzerland,Suisse,CHE,UN Member State,Bern,F,T,F,Schweiz
+CH05,2,CH,Ostschweiz,Ostschweiz,0,0,0,Switzerland,Suisse,CHE,UN Member State,Bern,F,T,F,Schweiz
+CH06,2,CH,Zentralschweiz,Zentralschweiz,0,0,0,Switzerland,Suisse,CHE,UN Member State,Bern,F,T,F,Schweiz
+CH07,2,CH,Ticino,Ticino,0,0,0,Switzerland,Suisse,CHE,UN Member State,Bern,F,T,F,Schweiz
+CY00,2,CY,Kýpros,Κύπρος,0,0,0,Cyprus,Chypre,CYP,UN Member State,Nicosia,T,F,F,Zypern
+CZ01,2,CZ,Praha,Praha,0,0,0,Czechia,Tchéquie,CZE,UN Member State,Prague,T,F,F,Tschechien
+CZ02,2,CZ,Střední Čechy,Střední Čechy,0,0,0,Czechia,Tchéquie,CZE,UN Member State,Prague,T,F,F,Tschechien
+CZ03,2,CZ,Jihozápad,Jihozápad,0,0,0,Czechia,Tchéquie,CZE,UN Member State,Prague,T,F,F,Tschechien
+CZ04,2,CZ,Severozápad,Severozápad,0,0,0,Czechia,Tchéquie,CZE,UN Member State,Prague,T,F,F,Tschechien
+CZ05,2,CZ,Severovýchod,Severovýchod,0,0,0,Czechia,Tchéquie,CZE,UN Member State,Prague,T,F,F,Tschechien
+CZ06,2,CZ,Jihovýchod,Jihovýchod,0,0,0,Czechia,Tchéquie,CZE,UN Member State,Prague,T,F,F,Tschechien
+CZ07,2,CZ,Střední Morava,Střední Morava,0,0,0,Czechia,Tchéquie,CZE,UN Member State,Prague,T,F,F,Tschechien
+CZ08,2,CZ,Moravskoslezsko,Moravskoslezsko,0,0,0,Czechia,Tchéquie,CZE,UN Member State,Prague,T,F,F,Tschechien
+DE11,2,DE,Stuttgart,Stuttgart,0,0,0,Germany,Allemagne,DEU,UN Member State,Berlin,T,F,F,Deutschland
+DE12,2,DE,Karlsruhe,Karlsruhe,0,0,0,Germany,Allemagne,DEU,UN Member State,Berlin,T,F,F,Deutschland
+DE13,2,DE,Freiburg,Freiburg,0,0,0,Germany,Allemagne,DEU,UN Member State,Berlin,T,F,F,Deutschland
+DE14,2,DE,Tübingen,Tübingen,0,0,0,Germany,Allemagne,DEU,UN Member State,Berlin,T,F,F,Deutschland
+DE21,2,DE,Oberbayern,Oberbayern,0,0,0,Germany,Allemagne,DEU,UN Member State,Berlin,T,F,F,Deutschland
+DE22,2,DE,Niederbayern,Niederbayern,0,0,0,Germany,Allemagne,DEU,UN Member State,Berlin,T,F,F,Deutschland
+DE23,2,DE,Oberpfalz,Oberpfalz,0,0,0,Germany,Allemagne,DEU,UN Member State,Berlin,T,F,F,Deutschland
+DE24,2,DE,Oberfranken,Oberfranken,0,0,0,Germany,Allemagne,DEU,UN Member State,Berlin,T,F,F,Deutschland
+DE25,2,DE,Mittelfranken,Mittelfranken,0,0,0,Germany,Allemagne,DEU,UN Member State,Berlin,T,F,F,Deutschland
+DE26,2,DE,Unterfranken,Unterfranken,0,0,0,Germany,Allemagne,DEU,UN Member State,Berlin,T,F,F,Deutschland
+DE27,2,DE,Schwaben,Schwaben,0,0,0,Germany,Allemagne,DEU,UN Member State,Berlin,T,F,F,Deutschland
+DE30,2,DE,Berlin,Berlin,0,0,0,Germany,Allemagne,DEU,UN Member State,Berlin,T,F,F,Deutschland
+DE40,2,DE,Brandenburg,Brandenburg,0,0,0,Germany,Allemagne,DEU,UN Member State,Berlin,T,F,F,Deutschland
+DE50,2,DE,Bremen,Bremen,0,0,0,Germany,Allemagne,DEU,UN Member State,Berlin,T,F,F,Deutschland
+DE60,2,DE,Hamburg,Hamburg,0,0,0,Germany,Allemagne,DEU,UN Member State,Berlin,T,F,F,Deutschland
+DE71,2,DE,Darmstadt,Darmstadt,0,0,0,Germany,Allemagne,DEU,UN Member State,Berlin,T,F,F,Deutschland
+DE72,2,DE,Gießen,Gießen,0,0,0,Germany,Allemagne,DEU,UN Member State,Berlin,T,F,F,Deutschland
+DE73,2,DE,Kassel,Kassel,0,0,0,Germany,Allemagne,DEU,UN Member State,Berlin,T,F,F,Deutschland
+DE80,2,DE,Mecklenburg-Vorpommern,Mecklenburg-Vorpommern,0,0,0,Germany,Allemagne,DEU,UN Member State,Berlin,T,F,F,Deutschland
+DE91,2,DE,Braunschweig,Braunschweig,0,0,0,Germany,Allemagne,DEU,UN Member State,Berlin,T,F,F,Deutschland
+DE92,2,DE,Hannover,Hannover,0,0,0,Germany,Allemagne,DEU,UN Member State,Berlin,T,F,F,Deutschland
+DE93,2,DE,Lüneburg,Lüneburg,0,0,0,Germany,Allemagne,DEU,UN Member State,Berlin,T,F,F,Deutschland
+DE94,2,DE,Weser-Ems,Weser-Ems,0,0,0,Germany,Allemagne,DEU,UN Member State,Berlin,T,F,F,Deutschland
+DEA1,2,DE,Düsseldorf,Düsseldorf,0,0,0,Germany,Allemagne,DEU,UN Member State,Berlin,T,F,F,Deutschland
+DEA2,2,DE,Köln,Köln,0,0,0,Germany,Allemagne,DEU,UN Member State,Berlin,T,F,F,Deutschland
+DEA3,2,DE,Münster,Münster,0,0,0,Germany,Allemagne,DEU,UN Member State,Berlin,T,F,F,Deutschland
+DEA4,2,DE,Detmold,Detmold,0,0,0,Germany,Allemagne,DEU,UN Member State,Berlin,T,F,F,Deutschland
+DEA5,2,DE,Arnsberg,Arnsberg,0,0,0,Germany,Allemagne,DEU,UN Member State,Berlin,T,F,F,Deutschland
+DEB1,2,DE,Koblenz,Koblenz,0,0,0,Germany,Allemagne,DEU,UN Member State,Berlin,T,F,F,Deutschland
+DEB2,2,DE,Trier,Trier,0,0,0,Germany,Allemagne,DEU,UN Member State,Berlin,T,F,F,Deutschland
+DEB3,2,DE,Rheinhessen-Pfalz,Rheinhessen-Pfalz,0,0,0,Germany,Allemagne,DEU,UN Member State,Berlin,T,F,F,Deutschland
+DEC0,2,DE,Saarland,Saarland,0,0,0,Germany,Allemagne,DEU,UN Member State,Berlin,T,F,F,Deutschland
+DED2,2,DE,Dresden,Dresden,0,0,0,Germany,Allemagne,DEU,UN Member State,Berlin,T,F,F,Deutschland
+DED4,2,DE,Chemnitz,Chemnitz,0,0,0,Germany,Allemagne,DEU,UN Member State,Berlin,T,F,F,Deutschland
+DED5,2,DE,Leipzig,Leipzig,0,0,0,Germany,Allemagne,DEU,UN Member State,Berlin,T,F,F,Deutschland
+DEE0,2,DE,Sachsen-Anhalt,Sachsen-Anhalt,0,0,0,Germany,Allemagne,DEU,UN Member State,Berlin,T,F,F,Deutschland
+DEF0,2,DE,Schleswig-Holstein,Schleswig-Holstein,0,0,0,Germany,Allemagne,DEU,UN Member State,Berlin,T,F,F,Deutschland
+DEG0,2,DE,Thüringen,Thüringen,0,0,0,Germany,Allemagne,DEU,UN Member State,Berlin,T,F,F,Deutschland
+DK01,2,DK,Hovedstaden,Hovedstaden,0,0,0,Denmark,Danemark,DNK,UN Member State,Copenhagen,T,F,F,Dänemark
+DK02,2,DK,Sjælland,Sjælland,0,0,0,Denmark,Danemark,DNK,UN Member State,Copenhagen,T,F,F,Dänemark

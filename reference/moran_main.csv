@@ -1,0 +1,4 @@
+"variable","n","k","I","expected_I","p","method","components"
+"ict_share_pct",27,4,0.30003274953013,-0.0384615384615385,0.00660000000000005,"random-label permutation; two.sided; spdep::moran.mc",1
+"OLS_residual",27,4,0.128846443482276,-0.0660026439837229,0.039005428657613,"Cliff-Ord regression-adjusted normal approximation; spdep::lm.morantest",1
+"OLS_residual",27,4,0.128846443482276,-0.0660026439837229,0.0606,"Gaussian iid null simulation with residual-maker M; two-sided equal tails",1

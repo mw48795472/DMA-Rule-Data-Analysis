@@ -1,0 +1,9 @@
+"model","term","max_difference"
+"OLS","z_income",0
+"OLS","z_education",0
+"SAR","z_income",0
+"SAR","z_education",1.11022302462516e-16
+"SEM","z_income",0
+"SEM","z_education",0
+"SDM_full","z_income",1.11022302462516e-16
+"SDM_full","z_education",2.22044604925031e-16

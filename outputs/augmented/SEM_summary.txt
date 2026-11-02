@@ -1,0 +1,30 @@
+
+Call:
+spatialreg::errorsarlm(formula = ff, data = dd, listw = lw, method = "eigen", 
+    quiet = TRUE, interval = interval, control = list(pre_eig = eig))
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.54002 -0.38248  0.04503  0.28929  1.34618 
+
+Type: error 
+Coefficients: (asymptotic standard errors) 
+                Estimate Std. Error z value        Pr(>|z|)
+(Intercept)     5.325649   0.067234 79.2107       < 2.2e-16
+z_exposure     -0.115171   0.192764 -0.5975         0.55019
+z_income       -0.524818   0.237452 -2.2102         0.02709
+z_cost          1.017203   0.231004  4.4034 0.0000106568599
+z_unemployment  0.191900   0.126257  1.5199         0.12853
+z_pre_j         1.084658   0.169264  6.4081 0.0000000001474
+
+Lambda: -0.999, LR test value: 5.6418, p-value: 0.017537
+Asymptotic standard error: 0.31405
+    z-value: -3.181, p-value: 0.0014675
+Wald statistic: 10.119, p-value: 0.0014675
+
+Log likelihood: -30.65427 for error model
+ML residual variance (sigma squared): 0.48291, (sigma: 0.69492)
+Number of observations: 27 
+Number of parameters estimated: 8 
+AIC: 77.309, (AIC for lm: 80.95)
+

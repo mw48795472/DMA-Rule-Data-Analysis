@@ -1,0 +1,6 @@
+﻿source_id,base_raw_rows,fresh_raw_rows,base_od_rows,fresh_od_rows,base_observed,fresh_observed,scope_comparable,note
+migration_inward,36864,73728,34816,69408,17826,24330,False,Selected reporting/partner and activity frames differ; counts are not economic changes.
+migration_outward,36864,67584,34816,63488,16200,22841,False,Selected reporting/partner and activity frames differ; counts are not economic changes.
+fdi_inward_j,55056,31584,50592,28800,22384,13514,False,Selected reporting/partner and activity frames differ; counts are not economic changes.
+fdi_outward_j,55056,31584,50592,28800,21988,13036,False,Selected reporting/partner and activity frames differ; counts are not economic changes.
+foreign_affiliates_j,33600,19200,27552,15288,20202,11557,False,Selected reporting/partner and activity frames differ; counts are not economic changes.

@@ -1,0 +1,6 @@
+"file","use","reason"
+"dma_service_calendar.csv","descriptive_calendar_only","EU-wide service dates lack national exposure variation; iPadOS exact date missing"
+"erm_offshoring_pilot.csv","case_context_only","3 purposively selected events; no exhaustive denominator or DMA causal evidence"
+"erm_event_destinations.csv","case_context_only","destination jobs unallocated; no duplication of event counts"
+"uk_regulatory_events_selected.csv","descriptive_legal_context_only","selected UK events do not measure DMA alignment"
+"platform_scope_pilot.csv","descriptive_scope_only","EU-only announcement does not measure cross-country feature diffusion"

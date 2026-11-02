@@ -1,0 +1,28 @@
+﻿file,description_ko
+inputs/extension_20261102/csv/migr_imm5prv_world_2024.csv,"이전 거주지 TOTAL, 양성, 2024 이입. 연령/연령정의/국가별 셀. 원래 분자 재현"
+inputs/extension_20261102/csv/migr_imm8_2024.csv,단일연령 및 전체연령 이입; 15–64 합계와 전체 이입 교차검증
+inputs/extension_20261102/csv/migr_imm1ctz_total_2024.csv,"국적 TOTAL, 연령 TOTAL 이입; 전체 연령 합계 교차검증"
+inputs/extension_20261102/csv/demo_pjan_2024_2025.csv,2024·2025 1월1일 인구; 연령별/전체 분모
+inputs/extension_20261102/csv/uk_ons_2024_all_ages.csv,"ONS 공식 발표문에서 전사·원문 대조한 UK2024 이입과 개정 인구, URL/발표일/반올림 정보"
+inputs/extension_20261102/csv/ine_immigration_2024_S7A.csv,"INE 0006055의 전체 성별, 연령·국적별 2024 이입. 중첩 연령구간이므로 전체 행 합산 금지"
+inputs/extension_20261102/csv/ine_population_nuts2024.csv,"INE 0012905, 2023/2024 연말 개정 인구, 단일연령과 중첩 집계 포함"
+inputs/extension_20261102/csv/pt_ine_2024_supplement.csv,"위 INE 원문에서 엄격하게 추출한 PT 분자·분모와 정의, 코드 및 개정일"
+outputs/regional_sdm_bootstrap_comparison.csv,199/999/1999/4999/9999회별 p와 MC 오차
+outputs/regional_sdm_bootstrap_extended_draws.csv,9999개 실제 SDM 재적합에서 얻은 잔차 Moran I 및 rho
+outputs/migration_extension/migration_europe_2024.csv,43개국의 기본 및 보완 이입률과 정의/출처/경계 플래그
+outputs/migration_extension/figure7_missing_country_audit.csv,원래 그림7에서 빠진 CY/CZ/EE/FR/LV/NL/PT 감사
+outputs/migration_extension/portugal_revision_audit.csv,INE 개정 분모와 Eurostat 분모 차이를 보존
+outputs/migration_extension/geometry_audit.csv,GISCO 경계 일치 여부; XK 예외
+outputs/migration_extension/cross_dataset_checks.csv,동일 정의의 Eurostat 데이터셋 간 분자 일치
+outputs/migration_extension/v3_source_comparison.csv,기존값과 추가 다운로드 겹치는 셀의 변화량
+outputs/migration_extension/migration_moran_tests.csv,8개 표본 범위 × k3/4/5의 원자료 공간자기상관
+outputs/migration_extension/sample_*.csv,각 Moran 검정의 완전관측 표본; 원천열 보존
+outputs/migration_extension/weights_*.csv,각 범위의 k4 행 표준화 가중치; id와 열순서 동일
+outputs/lta_design/LTA_research_design.csv,LTA 종단 연구설계표; 실제 적합 결과와 구분
+outputs/lta_design/*_long_2017_2025.csv,"실제 EU27·지역 종단값, 원천 플래그, 고정 2021 표준화"
+outputs/lta_design/*_waves_2021_2024.csv,2021–24 네 파동 후보의 long 테이블; 결측 보존
+outputs/lta_design/*_wide_2021_2024.csv,단위당 한 행의 네 파동 wide 테이블
+outputs/lta_design/panel_summary.csv,고유 단위 수·네 파동 전체행·완전행·완전 단위 수
+outputs/lta_design/wave_coverage.csv,연도별 후보 지표 3개 가용성
+outputs/lta_design/transition_pair_coverage.csv,연속 연도 관측쌍 수; 전이확률 아님
+outputs/lta_design/indicator_dictionary.csv,LTA 후보 지표와 실제 원천 데이터셋 코드

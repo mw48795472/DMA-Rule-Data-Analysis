@@ -1,0 +1,13 @@
+{
+  "source_id": "klarna_sec_f1a_20250814",
+  "url": "https://www.sec.gov/Archives/edgar/data/2003292/000200329225000015/klarnagroupplcf-1a2.htm",
+  "source_type": "company_regulatory_filing",
+  "retrieved_utc": "2026-11-02T07:52:37.388436+00:00",
+  "api_key_required": "no",
+  "free_access": "public_page",
+  "status": "raw_download_unavailable_web_verified",
+  "local_file": "",
+  "bytes": null,
+  "sha256": "",
+  "error": "HTTP Error 403: Forbidden"
+}

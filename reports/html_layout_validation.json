@@ -1,0 +1,89 @@
+{
+  "title": "DMA 공간분석 PoC: 20개 그림의 해석",
+  "figureSections": 20,
+  "images": [
+    {
+      "complete": true,
+      "width": 2040
+    },
+    {
+      "complete": true,
+      "width": 1870
+    },
+    {
+      "complete": true,
+      "width": 2040
+    },
+    {
+      "complete": true,
+      "width": 1870
+    },
+    {
+      "complete": true,
+      "width": 1700
+    },
+    {
+      "complete": true,
+      "width": 2040
+    },
+    {
+      "complete": true,
+      "width": 2040
+    },
+    {
+      "complete": true,
+      "width": 1700
+    },
+    {
+      "complete": true,
+      "width": 2040
+    },
+    {
+      "complete": true,
+      "width": 2040
+    },
+    {
+      "complete": true,
+      "width": 1700
+    },
+    {
+      "complete": true,
+      "width": 1870
+    },
+    {
+      "complete": true,
+      "width": 1700
+    },
+    {
+      "complete": true,
+      "width": 2040
+    },
+    {
+      "complete": true,
+      "width": 1700
+    },
+    {
+      "complete": true,
+      "width": 1870
+    },
+    {
+      "complete": true,
+      "width": 1870
+    },
+    {
+      "complete": true,
+      "width": 1870
+    },
+    {
+      "complete": true,
+      "width": 2040
+    },
+    {
+      "complete": true,
+      "width": 1870
+    }
+  ],
+  "horizontalOverflow": false,
+  "localReferenceLinksValid": true,
+  "mobileOverflow": false
+}

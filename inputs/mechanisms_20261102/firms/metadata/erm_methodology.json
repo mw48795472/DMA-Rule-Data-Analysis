@@ -1,0 +1,14 @@
+{
+  "source_id": "erm_methodology",
+  "url": "https://apps.eurofound.europa.eu/restructuring-events/methodology",
+  "source_type": "official_methodology",
+  "retrieved_utc": "2026-11-02T07:52:37.388436+00:00",
+  "api_key_required": "no",
+  "free_access": "public_page",
+  "status": "downloaded",
+  "local_file": "inputs/mechanisms_20261102/firms/raw/erm_methodology.html",
+  "bytes": 35431,
+  "sha256": "dd406ff0a4c7ab533b8ecc2bcfd112c70a3e4b11ec36cb78a950e4401d0fe473",
+  "error": "",
+  "http_status": 200
+}

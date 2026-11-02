@@ -1,0 +1,33 @@
+﻿variable_name,description_ko,source_dataset,source_field,selection_or_formula,unit,observation_unit,role,availability,caution_ko
+country,Eurostat 보고국 코드,all,geo,EU27+IS/LI/NO/CH/UK,code,국가,key,downloaded,"그리스 EL, 영국 UK를 ISO2와 구별"
+country_iso2,ISO2 국가코드,derived,geo,"EL→GR, UK→GB",code,국가,key,derived,GISCO와 연결하는 코드
+year,연도 또는 조사연도,all,time,"2017–2025 요청, 실제 제공기간 상이",year,국가×연도,key,downloaded,전자상거래는 조사연도와 매출 기준연도 구별
+ict_specialists_persons,ICT 전문가 취업자 수,isoc_sks_itspt,value,unit=THS_PER ×1000,persons,국가×연도,outcome_proxy,derived,국제이동 유량이 아닌 취업자 규모
+ict_share_pct,전체 취업자 중 ICT 전문가 비율,isoc_sks_itspt,value,unit=PC_EMP,percent,국가×연도,outcome_proxy,downloaded,2021년 등 시계열 단절 플래그 확인
+fdi_inward_j_meur,정보통신업 순 FDI 유입,bop_fdi6_flow,value,nace_r2=J; stk_flow=NI; fdi_item=DI__D__F; entity=TOTAL; partner=WRL_REST,million EUR,국가×연도,outcome_proxy,downloaded,음수 가능; 실제 사업장 이전과 다름
+fdi_outward_j_meur,정보통신업 순 FDI 유출,bop_fdi6_flow,value,nace_r2=J; stk_flow=NO; fdi_item=DO__D__F; entity=TOTAL; partner=WRL_REST,million EUR,국가×연도,outcome_proxy,downloaded,J와 하위 산업을 합산하면 중복
+fdi_inward_j_pct_gdp,정보통신업 FDI 유입/GDP,derived,value,100*fdi_inward_j_meur/gdp_meur,percent GDP,국가×연도,outcome_proxy,derived,분자·분모 모두 당해가격 million EUR
+fdi_outward_j_pct_gdp,정보통신업 FDI 유출/GDP,derived,value,100*fdi_outward_j_meur/gdp_meur,percent GDP,국가×연도,outcome_proxy,derived,결측 또는 분모0이면 빈칸
+fdi_partner,FDI 상대국 또는 지역집계,bop_fdi6_flow,partner,선택한 유럽 국가 및 미국·중국·일본·인도 등,code,보고국×상대국×연도×산업,key,downloaded,국가와 EU/세계 집계를 합산 금지; entity TOTAL과 SPE도 합산 금지
+foreign_employment_j,해외 지배 정보통신기업의 취업자 수,fats_activ,value,nace_r2=J; indic_sbs=EMP_NR; c_ctrl=WRL_REST,persons,국가×연도,outcome_proxy,downloaded,기업의 소유·지배 변경도 영향을 줌
+foreign_enterprises_j,해외 지배 정보통신기업 수,fats_activ,value,nace_r2=J; indic_sbs=ENT_NR; c_ctrl=WRL_REST,enterprises,국가×연도,outcome_proxy,downloaded,이전 기업 건수가 아님
+foreign_value_added_j_meur,해외 지배 정보통신기업 부가가치,fats_activ,value,nace_r2=J; indic_sbs=AV_MEUR; c_ctrl=WRL_REST,million EUR,국가×연도,outcome_proxy,downloaded,매출과 다른 변수; 단위 확인
+control_country,기업 최종 지배국,fats_activ,c_ctrl,개별국/DOM/WORLD/WRL_REST/INT_EU27_2020 등,code,기업 소재국×지배국×연도,key,downloaded,지배국은 인력 이동 출발국이 아님
+marketplace_firm_share_pct,마켓플레이스 판매 기업 비율,isoc_ec_eseln2,value,indic_is=E_AWS_CMP; unit=PC_ENT; size_emp=GE10; nace_r2=C10-S951_X_K,percent enterprises,국가×조사연도,exposure_candidate,downloaded,10명 이상 기업; 지정 게이트키퍼 의존도와 다름
+marketplace20_firm_share_pct,웹매출 20% 이상을 마켓플레이스로 올린 기업 비율,isoc_ec_eseln2,value,indic_is=E_AWS_CMP_GE20; 기타 위와 같음,percent enterprises,국가×조사연도,exposure_candidate,downloaded,웹판매 기업 중 비율(PC_ENT_AWSELL)과 분모가 다름
+exposure_pre_2017_2019_pct,2017–2019 조사연도 마켓플레이스 판매 비율 평균,derived,marketplace_firm_share_pct,세 연도가 모두 존재할 때만 평균,percent enterprises,국가,exposure_candidate,derived,조사연도 평균이며 매출연도 평균이 아님; 인과적 처치강도로 확정하지 않음
+immigration_flow,이전 거주국에서 보고국으로 유입한 사람 수,migr_imm5prv,value,sex=T; age=TOTAL 또는 Y15-64; agedef 유지,persons,출발국×도착국×연도×연령정의,outcome_context,downloaded,"이입자료 geo=도착국, partner=출발국; ICT 인력 식별 불가"
+emigration_flow,보고국에서 다음 거주국으로 유출한 사람 수,migr_emi3nxt,value,sex=T; age=TOTAL 또는 Y15-64; agedef 유지,persons,출발국×도착국×연도×연령정의,outcome_context,downloaded,"이출자료 geo=출발국, partner=도착국; 이입 거울통계와 합산 금지"
+age_definition,나이의 기준,migration,agedef,REACH / COMPLET,code,이주 자료,key,downloaded,두 나이 기준 및 TOTAL/Y15-64를 합산하지 않음
+gdp_pc_eur,명목 1인당 GDP,nama_10_pc,value,na_item=B1GQ; unit=CP_EUR_HAB,EUR/person,국가×연도,control,downloaded,실질GDP와 구분
+gdp_pc_pps,구매력기준 1인당 GDP,nama_10_pc,value,na_item=B1GQ; unit=CP_PPS_EU27_2020_HAB,PPS/person,국가×연도,control,downloaded,실질 시계열 성장률로 해석하지 않음
+gdp_pc_real2020_eur,2020년 기준 연쇄물량 1인당 GDP,nama_10_pc,value,na_item=B1GQ; unit=CLV20_EUR_HAB,2020 EUR/person,국가×연도,control,downloaded,명목/실질/PPS 세 변수를 동시에 넣지 않음
+gdp_meur,명목 GDP,nama_10_gdp,value,na_item=B1GQ; unit=CP_MEUR,million EUR,국가×연도,denominator,downloaded,FDI/GDP 비율의 분모
+hourly_labour_cost_j_eur,정보통신업 시간당 노동비용,lc_lci_lev,value,nace_r2=J; lcstruct=D1_D4_MD5; unit=EUR,EUR/hour,국가×연도,control,downloaded,이번 추출에서 실제 값은 2020년부터 확인
+unemployment_pct,15–74세 실업률,une_rt_a,value,age=Y15-74; sex=T; unit=PC_ACT,percent labour force,국가×연도,control,downloaded,전체 인구 대비 비율과 다름
+geometry_wkt,국가 다각형 경계,GISCO Countries 2024,geometry,EPSG:4326; 1:20 million,WKT,국가,spatial,converted,경위도 각도를 거리 km로 사용하지 않음; 해외영토 처리 검토
+status,원자료 품질·기밀 플래그,Eurostat,status,원본 코드 보존,code,각 관측치,quality,downloaded,빈 value는 0이 아님; b/p/e/c 등 뜻은 데이터별 코드북 참조
+offshoring_events,국경 밖 이전·아웃소싱 사건 건수,Eurofound ERM,event,Offshoring/delocalisation,events,기업 사건→국가×연도,main_outcome,not_downloaded,전체 CSV는 연구용 신청 필요; Relocation은 국내 이전
+offshoring_jobs,해외 이전 사건 관련 일자리 수,Eurofound ERM,announced jobs,사건별 발표·실행 여부 구별,jobs,기업 사건,main_outcome,not_downloaded,발표 인원이며 실현 인원과 다를 수 있음
+brussels_legal_alignment,비EU 법제의 DMA 의무별 정렬,official laws,manual coding,국가×의무항목×시점,0/1/unknown,국가×의무항목×시점,main_outcome,not_collected,"법안/채택/시행을 구분, 별도 직접 코딩 필요"
+brussels_feature_extension,EU형 플랫폼 기능·약관의 역외 제공,DMA reports/platform policies,manual coding,플랫폼×기능×국가×시점,0/1/unknown,플랫폼×기능×국가×시점,main_outcome,not_collected,현지 독자규제에 따른 변경과 구별

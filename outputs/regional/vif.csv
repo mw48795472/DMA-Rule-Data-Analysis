@@ -1,0 +1,11 @@
+"group","model","term","VIF"
+"regional","OLS","z_income",1.5680276807703
+"regional","OLS","z_education",1.5680276807703
+"regional","SAR","z_income",1.5680276807703
+"regional","SAR","z_education",1.5680276807703
+"regional","SEM","z_income",1.5680276807703
+"regional","SEM","z_education",1.5680276807703
+"regional","SDM_full","z_income",3.40161226312107
+"regional","SDM_full","z_education",3.95774158235932
+"regional","SDM_full","lag.z_income",2.84033343791715
+"regional","SDM_full","lag.z_education",3.35284195192095

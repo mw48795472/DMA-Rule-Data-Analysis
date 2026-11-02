@@ -1,0 +1,19 @@
+# Local libraries, caches, editor state and credentials
+.Rlibrary/
+.Rproj.user/
+.Rhistory
+.RData
+.Renviron
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+# Render checks are reproducible and excluded from the research archive
+**/qa_pages/
+**/pdf_qa/

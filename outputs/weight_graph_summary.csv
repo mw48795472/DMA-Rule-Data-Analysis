@@ -1,0 +1,7 @@
+﻿group,n,connected_components,min_neighbours,max_neighbours
+augmented,27,1,4,8
+industry,27,1,4,8
+legacy,27,1,4,8
+migration,20,1,4,8
+parsimonious,27,1,4,8
+regional,218,1,4,9

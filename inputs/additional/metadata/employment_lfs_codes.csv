@@ -1,0 +1,54 @@
+﻿dimension,code,label
+freq,A,Annual
+unit,THS_PER,Thousand persons
+sex,T,Total
+age,Y15-64,From 15 to 64 years
+age,Y_GE15,15 years or over
+citizen,TOTAL,Total
+geo,EU27_2020,European Union - 27 countries (from 2020)
+geo,EA21,Euro area – 21 countries (from 2026)
+geo,BE,Belgium
+geo,BG,Bulgaria
+geo,CZ,Czechia
+geo,DK,Denmark
+geo,DE,Germany
+geo,EE,Estonia
+geo,IE,Ireland
+geo,EL,Greece
+geo,ES,Spain
+geo,FR,France
+geo,HR,Croatia
+geo,IT,Italy
+geo,CY,Cyprus
+geo,LV,Latvia
+geo,LT,Lithuania
+geo,LU,Luxembourg
+geo,HU,Hungary
+geo,MT,Malta
+geo,NL,Netherlands
+geo,AT,Austria
+geo,PL,Poland
+geo,PT,Portugal
+geo,RO,Romania
+geo,SI,Slovenia
+geo,SK,Slovakia
+geo,FI,Finland
+geo,SE,Sweden
+geo,IS,Iceland
+geo,NO,Norway
+geo,CH,Switzerland
+geo,UK,United Kingdom
+geo,BA,Bosnia and Herzegovina
+geo,ME,Montenegro
+geo,MK,North Macedonia
+geo,RS,Serbia
+geo,TR,Türkiye
+time,2017,2017
+time,2018,2018
+time,2019,2019
+time,2020,2020
+time,2021,2021
+time,2022,2022
+time,2023,2023
+time,2024,2024
+time,2025,2025

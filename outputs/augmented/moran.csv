@@ -1,0 +1,4 @@
+"group","test","I","p","n","simulations"
+"augmented","raw_permutation",0.30003274953013,0.00660000000000005,27,9999
+"augmented","OLS_adjusted_normal",-0.0920043439092885,0.81239472229817,27,
+"augmented","OLS_Gaussian_projection",-0.0920043439092885,0.8704,27,9999

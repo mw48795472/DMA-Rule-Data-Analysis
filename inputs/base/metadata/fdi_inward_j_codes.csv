@@ -1,0 +1,97 @@
+﻿dimension,dimension_label,code,label
+freq,Time frequency,A,Annual
+currency,Currency,MIO_EUR,Million euro
+nace_r2,Statistical classification of economic activities in the European Community (NACE Rev. 2),J,Information and communication
+nace_r2,Statistical classification of economic activities in the European Community (NACE Rev. 2),J58_J62_J63,"Publishing, computer programming and consultancy, information service activities"
+nace_r2,Statistical classification of economic activities in the European Community (NACE Rev. 2),J61,Telecommunications
+stk_flow,Stock or flow,NI,Net FDI inward
+entity,Entity,TOTAL,Total
+entity,Entity,SPE,Special purpose entities
+fdi_item,Foreign direct investment item,DI__D__F,Direct investment in the reporting economy (DIRE)
+partner,Geopolitical entity (partner),BE,Belgium
+partner,Geopolitical entity (partner),BG,Bulgaria
+partner,Geopolitical entity (partner),CZ,Czechia
+partner,Geopolitical entity (partner),DK,Denmark
+partner,Geopolitical entity (partner),DE,Germany
+partner,Geopolitical entity (partner),EE,Estonia
+partner,Geopolitical entity (partner),IE,Ireland
+partner,Geopolitical entity (partner),EL,Greece
+partner,Geopolitical entity (partner),ES,Spain
+partner,Geopolitical entity (partner),FR,France
+partner,Geopolitical entity (partner),HR,Croatia
+partner,Geopolitical entity (partner),IT,Italy
+partner,Geopolitical entity (partner),CY,Cyprus
+partner,Geopolitical entity (partner),LV,Latvia
+partner,Geopolitical entity (partner),LT,Lithuania
+partner,Geopolitical entity (partner),LU,Luxembourg
+partner,Geopolitical entity (partner),HU,Hungary
+partner,Geopolitical entity (partner),MT,Malta
+partner,Geopolitical entity (partner),NL,Netherlands
+partner,Geopolitical entity (partner),AT,Austria
+partner,Geopolitical entity (partner),PL,Poland
+partner,Geopolitical entity (partner),PT,Portugal
+partner,Geopolitical entity (partner),RO,Romania
+partner,Geopolitical entity (partner),SI,Slovenia
+partner,Geopolitical entity (partner),SK,Slovakia
+partner,Geopolitical entity (partner),FI,Finland
+partner,Geopolitical entity (partner),SE,Sweden
+partner,Geopolitical entity (partner),IS,Iceland
+partner,Geopolitical entity (partner),LI,Liechtenstein
+partner,Geopolitical entity (partner),NO,Norway
+partner,Geopolitical entity (partner),CH,Switzerland
+partner,Geopolitical entity (partner),UK,United Kingdom
+partner,Geopolitical entity (partner),EXT_EU27_2020,Extra-EU27 (from 2020)
+partner,Geopolitical entity (partner),US,United States
+partner,Geopolitical entity (partner),JP,Japan
+partner,Geopolitical entity (partner),IN,India
+partner,Geopolitical entity (partner),WRL_REST,Rest of the world
+geo,Geopolitical entity (reporting),EU27_2020,European Union - 27 countries (from 2020)
+geo,Geopolitical entity (reporting),EU28,European Union - 28 countries (2013-2020)
+geo,Geopolitical entity (reporting),BE,Belgium
+geo,Geopolitical entity (reporting),BG,Bulgaria
+geo,Geopolitical entity (reporting),CZ,Czechia
+geo,Geopolitical entity (reporting),DK,Denmark
+geo,Geopolitical entity (reporting),DE,Germany
+geo,Geopolitical entity (reporting),EE,Estonia
+geo,Geopolitical entity (reporting),IE,Ireland
+geo,Geopolitical entity (reporting),EL,Greece
+geo,Geopolitical entity (reporting),ES,Spain
+geo,Geopolitical entity (reporting),FR,France
+geo,Geopolitical entity (reporting),HR,Croatia
+geo,Geopolitical entity (reporting),IT,Italy
+geo,Geopolitical entity (reporting),CY,Cyprus
+geo,Geopolitical entity (reporting),LV,Latvia
+geo,Geopolitical entity (reporting),LT,Lithuania
+geo,Geopolitical entity (reporting),LU,Luxembourg
+geo,Geopolitical entity (reporting),HU,Hungary
+geo,Geopolitical entity (reporting),MT,Malta
+geo,Geopolitical entity (reporting),NL,Netherlands
+geo,Geopolitical entity (reporting),AT,Austria
+geo,Geopolitical entity (reporting),PL,Poland
+geo,Geopolitical entity (reporting),PT,Portugal
+geo,Geopolitical entity (reporting),RO,Romania
+geo,Geopolitical entity (reporting),SI,Slovenia
+geo,Geopolitical entity (reporting),SK,Slovakia
+geo,Geopolitical entity (reporting),FI,Finland
+geo,Geopolitical entity (reporting),SE,Sweden
+geo,Geopolitical entity (reporting),IS,Iceland
+geo,Geopolitical entity (reporting),NO,Norway
+geo,Geopolitical entity (reporting),CH,Switzerland
+geo,Geopolitical entity (reporting),UK,United Kingdom
+geo,Geopolitical entity (reporting),BA,Bosnia and Herzegovina
+geo,Geopolitical entity (reporting),ME,Montenegro
+geo,Geopolitical entity (reporting),MK,North Macedonia
+geo,Geopolitical entity (reporting),AL,Albania
+geo,Geopolitical entity (reporting),RS,Serbia
+geo,Geopolitical entity (reporting),TR,Türkiye
+geo,Geopolitical entity (reporting),XK,Kosovo*
+geo,Geopolitical entity (reporting),US,United States
+geo,Geopolitical entity (reporting),JP,Japan
+time,Time,2017,2017
+time,Time,2018,2018
+time,Time,2019,2019
+time,Time,2020,2020
+time,Time,2021,2021
+time,Time,2022,2022
+time,Time,2023,2023
+time,Time,2024,2024

@@ -1,0 +1,7 @@
+"scope","variable","source","role","scale"
+"country","ict_share_pct","Eurostat isoc_sks_itspt","candidate continuous latent-state indicator","original plus fixed-2021 z; not categorical state"
+"country","employment_na_j_share_pct","Eurostat nama_10_a10_e","candidate continuous latent-state indicator","original plus fixed-2021 z; not categorical state"
+"country","unemployment_pct","Eurostat une_rt_a","candidate continuous latent-state indicator","original plus fixed-2021 z; not categorical state"
+"regional","regional_j_share_pct","Eurostat htec_emp_reg2","candidate continuous latent-state indicator","original plus fixed-2021 z; not categorical state"
+"regional","tertiary_pct","Eurostat edat_lfse_04","candidate continuous latent-state indicator","original plus fixed-2021 z; not categorical state"
+"regional","log_regional_gdp_pc_pps","Eurostat nama_10r_2gdp","candidate continuous latent-state indicator","original plus fixed-2021 z; not categorical state"

@@ -1,0 +1,592 @@
+{
+  "status": "PASS",
+  "figures": 20,
+  "pdf_pages": 30,
+  "pdf_chart_images": 20,
+  "html_embedded_images": 20,
+  "checks": [
+    {
+      "check": "exactly 20 ordered figures",
+      "pass": true
+    },
+    {
+      "check": "unique row {'group': 'regional', 'model': 'SDM_full'}",
+      "pass": true
+    },
+    {
+      "check": "regional SDM sample",
+      "pass": true
+    },
+    {
+      "check": "unique row {'group': 'regional', 'model': 'SDM_full'}",
+      "pass": true
+    },
+    {
+      "check": "regional SDM AICc",
+      "pass": true
+    },
+    {
+      "check": "unique row {'group': 'regional', 'model': 'SDM_full'}",
+      "pass": true
+    },
+    {
+      "check": "regional SDM rho",
+      "pass": true
+    },
+    {
+      "check": "unique row {'group': 'regional', 'model': 'SDM_full'}",
+      "pass": true
+    },
+    {
+      "check": "regional SDM bootstrap p",
+      "pass": true
+    },
+    {
+      "check": "regional other residual repetitions",
+      "pass": true
+    },
+    {
+      "check": "regional impact repetitions preserved",
+      "pass": true
+    },
+    {
+      "check": "unique row {'group': 'augmented', 'model': 'SDM_full'}",
+      "pass": true
+    },
+    {
+      "check": "national VIF high",
+      "pass": true
+    },
+    {
+      "check": "unique row {'group': 'parsimonious', 'model': 'SDM_exposure'}",
+      "pass": true
+    },
+    {
+      "check": "national VIF reduced",
+      "pass": true
+    },
+    {
+      "check": "unique row {'group': 'legacy'}",
+      "pass": true
+    },
+    {
+      "check": "ICT Moran p",
+      "pass": true
+    },
+    {
+      "check": "unique row {'group': 'legacy'}",
+      "pass": true
+    },
+    {
+      "check": "ICT Moran BY",
+      "pass": true
+    },
+    {
+      "check": "unique row {'group': 'legacy', 'model': 'SDM_exposure', 'term': 'z_exposure', 'effect': 'direct'}",
+      "pass": true
+    },
+    {
+      "check": "legacy direct effect",
+      "pass": true
+    },
+    {
+      "check": "unique row {'group': 'augmented', 'model': 'SDM_exposure', 'term': 'z_exposure', 'effect': 'direct'}",
+      "pass": true
+    },
+    {
+      "check": "unique row {'group': 'augmented', 'model': 'SDM_exposure', 'term': 'z_exposure', 'effect': 'direct'}",
+      "pass": true
+    },
+    {
+      "check": "augmented direct interval crosses zero",
+      "pass": true
+    },
+    {
+      "check": "unique row {'scope': 'EU27', 'year': 2024, 'variable': 'fdi_inward_j_pct_gdp'}",
+      "pass": true
+    },
+    {
+      "check": "FDI coverage 18",
+      "pass": true
+    },
+    {
+      "check": "regional code audit counts",
+      "pass": true
+    },
+    {
+      "check": "unique row {'simulations': 9999}",
+      "pass": true
+    },
+    {
+      "check": "MC interval",
+      "pass": true
+    },
+    {
+      "check": "migration audit scope",
+      "pass": true
+    },
+    {
+      "check": "base and PT expanded coverage",
+      "pass": true
+    },
+    {
+      "check": "8 observed nonEU countries",
+      "pass": true
+    },
+    {
+      "check": "unique row {'country': 'UK'}",
+      "pass": true
+    },
+    {
+      "check": "UK rate",
+      "pass": true
+    },
+    {
+      "check": "unique row {'country': 'PT'}",
+      "pass": true
+    },
+    {
+      "check": "PT age rate",
+      "pass": true
+    },
+    {
+      "check": "all migration sensitivity p > .05",
+      "pass": true
+    },
+    {
+      "check": "unique row {'sample': 'Europe_plus_PT'}",
+      "pass": true
+    },
+    {
+      "check": "Europe PT Moran p",
+      "pass": true
+    },
+    {
+      "check": "unique row {'scope': 'regional'}",
+      "pass": true
+    },
+    {
+      "check": "unique row {'scope': 'regional'}",
+      "pass": true
+    },
+    {
+      "check": "LTA regional rows",
+      "pass": true
+    },
+    {
+      "check": "LTA not fitted",
+      "pass": true
+    },
+    {
+      "check": "figure image 1",
+      "pass": true
+    },
+    {
+      "check": "figure source combined_missingness.csv",
+      "pass": true
+    },
+    {
+      "check": "figure source country_missing_cells.csv",
+      "pass": true
+    },
+    {
+      "check": "figure source sample_quality_flags.csv",
+      "pass": true
+    },
+    {
+      "check": "figure image 2",
+      "pass": true
+    },
+    {
+      "check": "figure source region_code_audit.csv",
+      "pass": true
+    },
+    {
+      "check": "figure source regional_sample_audit_2024.csv",
+      "pass": true
+    },
+    {
+      "check": "figure image 3",
+      "pass": true
+    },
+    {
+      "check": "figure source max_vif.csv",
+      "pass": true
+    },
+    {
+      "check": "figure source all_vif.csv",
+      "pass": true
+    },
+    {
+      "check": "figure image 4",
+      "pass": true
+    },
+    {
+      "check": "figure source all_model_comparisons.csv",
+      "pass": true
+    },
+    {
+      "check": "figure source boundary_constraint_sensitivity.csv",
+      "pass": true
+    },
+    {
+      "check": "figure image 5",
+      "pass": true
+    },
+    {
+      "check": "figure source raw_moran_multiple_testing.csv",
+      "pass": true
+    },
+    {
+      "check": "figure source all_moran.csv",
+      "pass": true
+    },
+    {
+      "check": "figure image 6",
+      "pass": true
+    },
+    {
+      "check": "figure source all_impacts.csv",
+      "pass": true
+    },
+    {
+      "check": "figure source ANALYSIS_VARIABLES.csv",
+      "pass": true
+    },
+    {
+      "check": "figure image 7",
+      "pass": true
+    },
+    {
+      "check": "figure source combined_country_year.csv",
+      "pass": true
+    },
+    {
+      "check": "figure source ANALYSIS_VARIABLES.csv",
+      "pass": true
+    },
+    {
+      "check": "figure image 8",
+      "pass": true
+    },
+    {
+      "check": "figure source combined_region_year.csv",
+      "pass": true
+    },
+    {
+      "check": "figure source regional/sample.csv",
+      "pass": true
+    },
+    {
+      "check": "figure source regional_sample_audit_2024.csv",
+      "pass": true
+    },
+    {
+      "check": "figure image 9",
+      "pass": true
+    },
+    {
+      "check": "figure source legacy/residual_bootstrap.csv",
+      "pass": true
+    },
+    {
+      "check": "figure source augmented/residual_bootstrap.csv",
+      "pass": true
+    },
+    {
+      "check": "figure source industry/residual_bootstrap.csv",
+      "pass": true
+    },
+    {
+      "check": "figure source regional/residual_bootstrap.csv",
+      "pass": true
+    },
+    {
+      "check": "figure image 10",
+      "pass": true
+    },
+    {
+      "check": "figure source legacy/k_sensitivity.csv",
+      "pass": true
+    },
+    {
+      "check": "figure source augmented/k_sensitivity.csv",
+      "pass": true
+    },
+    {
+      "check": "figure source regional/k_sensitivity.csv",
+      "pass": true
+    },
+    {
+      "check": "figure image 11",
+      "pass": true
+    },
+    {
+      "check": "figure source combined_country_year.csv",
+      "pass": true
+    },
+    {
+      "check": "figure source migration/sample.csv",
+      "pass": true
+    },
+    {
+      "check": "figure image 12",
+      "pass": true
+    },
+    {
+      "check": "figure source boundary_profile.csv",
+      "pass": true
+    },
+    {
+      "check": "figure source boundary_constraint_sensitivity.csv",
+      "pass": true
+    },
+    {
+      "check": "figure image 13",
+      "pass": true
+    },
+    {
+      "check": "figure source regional_sdm_bootstrap_comparison.csv",
+      "pass": true
+    },
+    {
+      "check": "figure source regional_sdm_bootstrap_extended_draws.csv",
+      "pass": true
+    },
+    {
+      "check": "figure image 14",
+      "pass": true
+    },
+    {
+      "check": "figure source migration_extension/figure7_missing_country_audit.csv",
+      "pass": true
+    },
+    {
+      "check": "figure source migration_extension/migration_europe_2024.csv",
+      "pass": true
+    },
+    {
+      "check": "figure image 15",
+      "pass": true
+    },
+    {
+      "check": "figure source migration_extension/migration_europe_2024.csv",
+      "pass": true
+    },
+    {
+      "check": "figure source migration_extension/figure7_missing_country_audit.csv",
+      "pass": true
+    },
+    {
+      "check": "figure image 16",
+      "pass": true
+    },
+    {
+      "check": "figure source migration_extension/migration_europe_2024.csv",
+      "pass": true
+    },
+    {
+      "check": "figure source migration_extension/geometry_audit.csv",
+      "pass": true
+    },
+    {
+      "check": "figure image 17",
+      "pass": true
+    },
+    {
+      "check": "figure source migration_extension/migration_europe_2024.csv",
+      "pass": true
+    },
+    {
+      "check": "figure image 18",
+      "pass": true
+    },
+    {
+      "check": "figure source migration_extension/migration_moran_tests.csv",
+      "pass": true
+    },
+    {
+      "check": "figure image 19",
+      "pass": true
+    },
+    {
+      "check": "figure source migration_extension/portugal_revision_audit.csv",
+      "pass": true
+    },
+    {
+      "check": "figure source migration_extension/migration_europe_2024.csv",
+      "pass": true
+    },
+    {
+      "check": "figure image 20",
+      "pass": true
+    },
+    {
+      "check": "figure source lta_design/panel_summary.csv",
+      "pass": true
+    },
+    {
+      "check": "figure source lta_design/wave_coverage.csv",
+      "pass": true
+    },
+    {
+      "check": "figure source lta_design/indicator_dictionary.csv",
+      "pass": true
+    },
+    {
+      "check": "Korean report fonts",
+      "pass": true
+    },
+    {
+      "check": "no PDF layout block overflow",
+      "pass": true
+    },
+    {
+      "check": "PDF count matches renderer",
+      "pass": true
+    },
+    {
+      "check": "all 20 figure titles in PDF",
+      "pass": true
+    },
+    {
+      "check": "20 embedded HTML figures",
+      "pass": true
+    },
+    {
+      "check": "20 PDF chart images",
+      "pass": true
+    },
+    {
+      "check": "no empty PDF page",
+      "pass": true
+    }
+  ],
+  "page_index": [
+    {
+      "page": 1,
+      "title": "연구 판단 요약"
+    },
+    {
+      "page": 2,
+      "title": "두 이론을 무엇으로 구별할 것인가"
+    },
+    {
+      "page": 3,
+      "title": "분석 단위·변수·모형을 읽는 기준"
+    },
+    {
+      "page": 4,
+      "title": "측정과 검정의 공통 주의사항"
+    },
+    {
+      "page": 5,
+      "title": "그림 01. 결합 자료의 변수별·연도별 가용성"
+    },
+    {
+      "page": 6,
+      "title": "그림 02. 지역코드와 NUTS 2024 경계의 연결 감사"
+    },
+    {
+      "page": 7,
+      "title": "그림 03. 국소 변수와 공간지연 변수의 다중공선성"
+    },
+    {
+      "page": 8,
+      "title": "그림 04. 동일 EU27 표본에서의 국가 공간회귀 비교"
+    },
+    {
+      "page": 9,
+      "title": "그림 05. 원변수의 전역 공간자기상관"
+    },
+    {
+      "page": 10,
+      "title": "그림 06. 제한형 SDM의 사전 노출도 직접·간접·총효과"
+    },
+    {
+      "page": 11,
+      "title": "그림 07. ICT 직업과 J산업 고용비중의 국가 분포"
+    },
+    {
+      "page": 12,
+      "title": "그림 08. NUTS2 지역 J산업 고용비중"
+    },
+    {
+      "page": 13,
+      "title": "그림 09. 모형별 혁신잔차의 공간자기상관"
+    },
+    {
+      "page": 14,
+      "title": "그림 10. 이웃 수 k에 대한 모형 선택 민감도"
+    },
+    {
+      "page": 15,
+      "title": "그림 11. 15~64세 일반 이입 강도: COMPLET"
+    },
+    {
+      "page": 16,
+      "title": "그림 12. 공간모수 추정 경계의 우도 민감도"
+    },
+    {
+      "page": 17,
+      "title": "그림 13. 지역 SDM 부트스트랩 반복 수의 확대"
+    },
+    {
+      "page": 18,
+      "title": "그림 14. COMPLET와 REACH 연령 정의의 분리 비교"
+    },
+    {
+      "page": 19,
+      "title": "그림 15. REACH 보완을 통한 EU26 이입 지도"
+    },
+    {
+      "page": 20,
+      "title": "그림 16. 영국을 포함한 유럽 전체 연령 이입 강도"
+    },
+    {
+      "page": 21,
+      "title": "그림 17. 검증된 비EU 8개국의 이입 강도 비교"
+    },
+    {
+      "page": 22,
+      "title": "그림 18. 국가 범위와 연령 정의에 따른 이입률 Moran 검정"
+    },
+    {
+      "page": 23,
+      "title": "그림 19. 포르투갈 국가자료를 이용한 별도 보완"
+    },
+    {
+      "page": 24,
+      "title": "그림 20. LTA 종단연구 후보 자료의 가용성"
+    },
+    {
+      "page": 25,
+      "title": "종합 판단: 가능한 주장과 보류할 주장"
+    },
+    {
+      "page": 26,
+      "title": "추가 자료의 수집 우선순위"
+    },
+    {
+      "page": 27,
+      "title": "후속 연구의 식별·검증 계획"
+    },
+    {
+      "page": 28,
+      "title": "재현 파일과 보고서 사용 방법"
+    },
+    {
+      "page": 29,
+      "title": "공식 원천과 방법 참고문헌"
+    },
+    {
+      "page": 30,
+      "title": "주요 통계 코드와 재현 출처"
+    }
+  ],
+  "visual_review": "PASS: all 30 PDF pages reviewed in contact sheets; dense figure 09, priority table and HTML figure 13 inspected at full size",
+  "analysis_refitted": false,
+  "html_layout": "PASS: 20 images loaded; desktop/mobile no horizontal overflow; internal links valid",
+  "delivered_pdf_sha256": "9fb1e9f7ec7aa33d310da72402f85a70ad0f0c638142ebf530d7deb3e0218722",
+  "delivered_html_sha256": "e18a2202b276e625ed5a1f9c263b9e1d2457b21b9421e36a7fea5ad35da16d8b"
+}

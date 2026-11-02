@@ -1,0 +1,27 @@
+﻿outputs_relative_path,description_ko
+combined_country_year.csv,"국가×연도 결합 결과; 32개국 9년, 주 회귀와 구별"
+combined_region_year.csv,지역코드×연도 합집합; 값과 경계 연결 정보 보존
+country_join_audit.csv,국가코드·추가자료 결합 상태
+combined_missingness.csv / country_missing_cells.csv / coverage_year.csv,"국가·변수별 결측 요약, 개별 결측 셀, 연도별 관측 수"
+region_code_audit.csv,원천별 코드 일치 및 불일치 사유; 고유코드로 중복 제거 후 집계
+regional_sample_audit_2024.csv,지역별 EU 여부·경계·지리창·완전관측·최종 포함 여부
+rebuild_validation.csv / additional_rebuild_validation.csv,원천 CSV에서 재구성한 값과 이전 결합 값 대조
+all_vif.csv / max_vif.csv,모형별 X 또는 X+WX VIF; Wy 내생성 검정이 아님
+all_moran.csv / raw_moran_multiple_testing.csv,"원변수 순열·OLS 조정 Moran, 탐색적 BH/BY 보정"
+all_model_comparisons.csv,모형 29개 우도·정보기준·공간계수·혁신오차 진단
+all_impacts.csv,직접·간접·총효과와 조건부 부트스트랩 95% 구간; 원척도
+boundary_constraint_sensitivity.csv / boundary_profile.csv,추정 범위 하한에 걸린 모형의 별도 모수 구간 진단
+legacy_reproduction.csv / weight_reproduction.csv,기존 v2 수치·W 재현
+sample_quality_flags.csv,분석 표본에 남은 원천 플래그; 해당 분석에 미사용 열도 포함
+non_statistical_input_decisions.csv,정책 달력·사건 자료의 회귀 미편입 사유
+<group>/sample.csv / sample_audit.csv,실제 모형 표본 및 제외 변수 목록
+<group>/weights.csv / neighbours.csv,"샘플 순서에 맞춘 W, 이웃 수·연결 성분"
+<group>/coefficients.csv / scaling.csv,표준화 X 계수와 역변환 기준
+<group>/correlation_X.csv / correlation_WX.csv,국소·공간지연 설명변수의 상관행렬
+<group>/LR_tests.csv / RS_tests.csv,유효한 중첩 비교 LR 및 Rao score 진단; 점근 참고값
+<group>/residual_bootstrap.csv / bootstrap_draws.csv,재추정 부트스트랩 p값·몬테카를로 오차·경계 비율·회별 값
+<group>/k_sensitivity.csv / leave_one_out_influence.csv,이웃 수 민감도; 후자는 국가 주 3구성의 영향도이며 예측 검증 아님
+<group>/ML_validation.csv / impact_validation.csv,우도와 공간승수의 별도 계산 대조
+python_ML_Moran_validation.csv / python_VIF_validation.csv,R 결과를 Python 행렬 계산으로 대조
+all_results.rds / <group>/models.rds,저장된 추정치·모형 객체; R 패키지 버전 확인 필요
+R_sessionInfo.txt / run_log.txt / finalization_status.txt,"실제 R 환경, 추정 기록, 보고서 최종화 완료 기록"

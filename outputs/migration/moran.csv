@@ -1,0 +1,4 @@
+"group","test","I","p","n","simulations"
+"migration","raw_permutation",0.0587065837648433,0.262,20,9999
+"migration","OLS_adjusted_normal",-0.0624073695346732,0.856843050266831,20,
+"migration","OLS_Gaussian_projection",-0.0624073695346732,0.7678,20,9999

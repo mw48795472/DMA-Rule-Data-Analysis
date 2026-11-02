@@ -1,0 +1,4 @@
+﻿company,service,feature,announcement_date,effective_date,geographic_scope,outside_EU_in_same_announcement,observation_kind,brussels_global_extension_evidence,source_url,notes
+Apple,iOS/App Store,alternative_app_distribution,2024-01-25,,EU27,0,announced_options_not_implementation_test,not_demonstrated_by_this_announcement,https://developer.apple.com/news/?id=fsmaf67j,이 발표는 EU 배포 앱 대상이며 역외에는 적용되지 않는다고 명시. 이후 국가별 현황을 뜻하지 않음.
+Apple,iOS/App Store,alternative_payment_processing,2024-01-25,,EU27,0,announced_options_not_implementation_test,not_demonstrated_by_this_announcement,https://developer.apple.com/news/?id=fsmaf67j,이 발표는 EU 배포 앱 대상이며 역외에는 적용되지 않는다고 명시. 이후 국가별 현황을 뜻하지 않음.
+Apple,iOS/App Store,alternative_browser_engines,2024-01-25,,EU27,0,announced_options_not_implementation_test,not_demonstrated_by_this_announcement,https://developer.apple.com/news/?id=fsmaf67j,이 발표는 EU 배포 앱 대상이며 역외에는 적용되지 않는다고 명시. 이후 국가별 현황을 뜻하지 않음.

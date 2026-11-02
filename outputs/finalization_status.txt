@@ -1,0 +1,4 @@
+All R source files parsed successfully.
+Preprocessing and saved-result finalization completed.
+Full model-fit results: outputs/all_results.rds.
+Finalization time: 2026-11-02 09:32:54.585763

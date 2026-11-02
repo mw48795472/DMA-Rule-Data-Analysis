@@ -1,0 +1,17 @@
+﻿variable,rows,observed,missing
+origin_country,17,16,1
+destination_country,17,17,0
+origin_ict_share_pct,17,11,6
+origin_employment_na_j_share_pct,17,11,6
+origin_gdp_pc_pps,17,11,6
+origin_unemployment_pct,17,11,6
+origin_exposure_pre_2017_2019_pct,17,11,6
+origin_pre_j_share_pct,17,11,6
+origin_country_year_row_present,17,17,0
+destination_ict_share_pct,17,4,13
+destination_employment_na_j_share_pct,17,3,14
+destination_gdp_pc_pps,17,3,14
+destination_unemployment_pct,17,3,14
+destination_exposure_pre_2017_2019_pct,17,3,14
+destination_pre_j_share_pct,17,3,14
+destination_country_year_row_present,17,17,0

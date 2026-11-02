@@ -1,0 +1,3 @@
+"group","model","n","original_parameter","extended_parameter","extended_lower","extended_upper","original_logLik","extended_logLik","original_AICc","extended_AICc","constraint"
+"augmented","SEM",27,-0.998999963012686,-1.44888689452201,-1.84313638459996,0.999990000000001,-30.6542718888884,-29.7762112911576,85.3085437777767,83.5524225823079,"positive-Jacobian eigenvalue branch; |parameter|<1 not imposed"
+"augmented","SDM_full",27,-0.998999963012686,-1.35595572112108,-1.84313638459996,0.999990000000001,-20.1149973051234,-19.2507438317599,94.2299946102468,92.5014876635199,"positive-Jacobian eigenvalue branch; |parameter|<1 not imposed"

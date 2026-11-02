@@ -1,0 +1,31 @@
+Analysis started: 2026-11-02 07:41:22
+Join audit: 288 country-years; 3015 region-years; 76 unmatched distinct regional codes.
+legacy OLS: 999/999 bootstrap fits, boundary 0.0%
+legacy SAR: 999/999 bootstrap fits, boundary 0.2%
+legacy SEM: 999/999 bootstrap fits, boundary 4.6%
+legacy SDM_full: 999/999 bootstrap fits, boundary 24.6%
+legacy SDM_exposure: 999/999 bootstrap fits, boundary 0.0%
+augmented OLS: 999/999 bootstrap fits, boundary 0.0%
+augmented SAR: 999/999 bootstrap fits, boundary 0.3%
+augmented SEM: 999/999 bootstrap fits, boundary 82.5%
+augmented SDM_full: 999/999 bootstrap fits, boundary 72.4%
+augmented SDM_exposure: 999/999 bootstrap fits, boundary 0.4%
+parsimonious OLS: 999/999 bootstrap fits, boundary 0.0%
+parsimonious SAR: 999/999 bootstrap fits, boundary 0.1%
+parsimonious SEM: 999/999 bootstrap fits, boundary 9.9%
+parsimonious SDM_full: 999/999 bootstrap fits, boundary 54.8%
+parsimonious SDM_exposure: 999/999 bootstrap fits, boundary 0.1%
+industry OLS: 999/999 bootstrap fits, boundary 0.0%
+industry SAR: 999/999 bootstrap fits, boundary 0.6%
+industry SEM: 999/999 bootstrap fits, boundary 2.2%
+industry SDM_full: 999/999 bootstrap fits, boundary 6.9%
+industry SDM_exposure: 999/999 bootstrap fits, boundary 0.3%
+migration OLS: 999/999 bootstrap fits, boundary 0.0%
+migration SAR: 999/999 bootstrap fits, boundary 10.5%
+migration SEM: 999/999 bootstrap fits, boundary 30.8%
+migration SDM_full: 999/999 bootstrap fits, boundary 18.4%
+migration SDM_exposure: 999/999 bootstrap fits, boundary 10.0%
+regional OLS: 199/199 bootstrap fits, boundary 0.0%
+regional SAR: 199/199 bootstrap fits, boundary 0.0%
+regional SEM: 199/199 bootstrap fits, boundary 0.0%
+regional SDM_full: 199/199 bootstrap fits, boundary 0.0%

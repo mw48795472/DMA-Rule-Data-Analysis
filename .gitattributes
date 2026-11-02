@@ -1,0 +1,8 @@
+# Preserve source bytes, encodings and SHA-256 checksums on every platform.
+* -text
+*.pdf binary
+*.png binary
+*.shp binary
+*.shx binary
+*.dbf binary
+*.zip binary

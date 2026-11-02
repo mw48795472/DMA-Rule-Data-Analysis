@@ -1,0 +1,56 @@
+[
+  [
+    "apple_eu_20240125",
+    "https://developer.apple.com/news/?id=fsmaf67j",
+    "html",
+    "do not apply to apps distributed anywhere else"
+  ],
+  [
+    "apple_global_20240125",
+    "https://developer.apple.com/news/?id=f1v8pyay",
+    "html",
+    "globally"
+  ],
+  [
+    "google_compliance_20240305",
+    "https://blog.google/company-news/inside-google/around-the-globe/google-europe/complying-with-the-digital-markets-act/",
+    "html",
+    "External offers program"
+  ],
+  [
+    "meta_choices_20240122",
+    "https://about.fb.com/news/2024/01/offering-people-more-choice-on-how-they-can-use-our-services-in-the-eu/",
+    "html",
+    "Switzerland"
+  ],
+  [
+    "tiktok_20240304",
+    "https://newsroom.tiktok.com/tiktoks-compliance-with-the-dma?lang=en-150",
+    "html",
+    "portability"
+  ],
+  [
+    "tiktok_api_20240322",
+    "https://developers.tiktok.com/blog/2024-introducing-tiktok-data-portability-api",
+    "html",
+    "European Economic Area"
+  ],
+  [
+    "tiktok_api_current",
+    "https://developers.tiktok.com/products/data-portability-api/",
+    "html",
+    "United Kingdom"
+  ],
+  [
+    "microsoft_windows_report",
+    "https://www.microsoft.com/content/dam/microsoft/mscle/documents/presentations/DMA.100160%20-%20Microsoft%20Compliance%20Report%20-%20Annex%2010%20-%20Windows%20%28Non-Confidential%20Version%29.pdf",
+    "pdf",
+    "worldwide"
+  ],
+  [
+    "ec_breach_20250423",
+    "https://digital-markets-act.ec.europa.eu/commission-finds-apple-and-meta-breach-digital-markets-act-2025-04-23_en",
+    "html",
+    "breached"
+  ]
+]
