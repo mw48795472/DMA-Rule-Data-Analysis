@@ -627,4 +627,3 @@ mechanism_plots <- list(
 ```
 
 [실제 코드 · code/mechanism_plots.R L23–L27](https://github.com/mw48795472/DMA-Rule-Data-Analysis/blob/main/code/mechanism_plots.R#L23-L27)
-

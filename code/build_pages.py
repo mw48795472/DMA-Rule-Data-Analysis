@@ -12,7 +12,7 @@ figures=json.loads((ROOT/'reports/plot_interpretations_20261102.json').read_text
 for folder in ['assets/plots','downloads']:(DOCS/folder).mkdir(parents=True,exist_ok=True)
 
 def write(name,text):
-    (DOCS/name).write_text(text,encoding='utf8',newline='\n')
+    (DOCS/name).write_text(text.rstrip()+'\n',encoding='utf8',newline='\n')
 
 def front(title,order):
     return f'---\nlayout: default\ntitle: "{title}"\norder: {order}\n---\n\n'

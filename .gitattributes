@@ -6,3 +6,9 @@
 *.shx binary
 *.dbf binary
 *.zip binary
+# Public source archives and generated reports are not authored analysis code.
+inputs/** linguist-vendored
+outputs/** linguist-generated
+reports/*.html linguist-generated
+DMA_PoC_v4_Report.html linguist-generated
+docs/** linguist-documentation
