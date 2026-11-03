@@ -101,7 +101,7 @@ def content(m):
       '공개 기업·개발자 문서와 Eurostat 조회에는 개인 API 키가 필요하지 않다. ERM 전수 CSV는 공개 페이지 접근과 달리 비상업적 연구 신청이 필요하며 이번에 제출·승인되었다고 가정하지 않는다. 유료 기업 패널이나 계정이 필요한 자료는 이번 결과에 포함되지 않았다. 무료라는 말은 전수·대표성·무제한 자동 다운로드·실행 완료를 보장하지 않는다. [9] [10]',
       'RStudio에서는 DMA_PoC_v4.Rproj를 연 뒤 RUN_MECHANISMS.R 전체를 Source한다. 기존 project_paths.R 경로 초기화를 재사용하며 새 자료, 통합 목록, 감사표와 ggplot 객체를 불러온다. 그림을 출력해도 기존 회귀나 9,999회 부트스트랩을 재실행하지 않는다. MECHANISMS_REVIEW.ipynb는 동일 CSV 로딩·기본 감사·저장 그림 보기용이다.',
       'integration_catalog.csv에는 자료별 실제 행 수·연도·단위·전체 행 중복·SHA-256이 있다. integration_missingness.csv에는 모든 열의 결측 수를 보존한다. 원문 위치·수집시각·오류·원천 갱신일은 각 축의 SOURCE_MANIFEST.csv를 확인한다. 국가·지역 기존 결과와 기존 20개 그림 보고서는 수정하지 않았다.'
-    ],table=[['파일','용도'],['RUN_MECHANISMS.R','새 자료와 세 기술 그림을 RStudio에서 확인'],['outputs/mechanisms_20261102/integration/','자료 목록·결측·브리지·그림 입력·검증'],['MECHANISMS_REVIEW.ipynb','읽기·감사·그림 확인 노트북'],['reports/DMA_Mechanisms_Research_Design_20261102.pdf/html','이번 설계 보고서'],['reports/DMA_PoC_20plots_Report.pdf/html','동결된 기존 20개 그림 해석']]),
+    ],table=[['파일','용도'],['RUN_MECHANISMS.R','새 자료와 세 기술 그림을 RStudio에서 확인'],['outputs/mechanisms_20261102/integration/','자료 목록·결측·브리지·그림 입력·검증'],['MECHANISMS_REVIEW.ipynb','읽기·감사·그림 확인 노트북'],['reports/DMA_Mechanisms_Research_Design_20261102.pdf/md','이번 설계 보고서'],['reports/DMA_PoC_20plots_Report.pdf/md','동결된 기존 20개 그림 해석']]),
 
     dict(group=None,title='다음 투자는 정확한 시행일과 실제 이전 확인이다',paragraphs=[
       '우선 수집 과제는 자료의 규모보다 인과 경로의 병목에 맞춘다. 첫째, Microsoft의 비EU 실제 기능 가용성, Meta의 스위스 시행일, TikTok 영국 범위의 최초 등장과 동기를 확인한다. 각 기록을 서비스-시장-월 관측으로 전환하되 관측되지 않은 과거를 채우지 않는다. 동시 현지법·제품 업데이트를 함께 기록하면 역외 확산과 독자적 제품 전략을 더 명확히 구분할 수 있다.',

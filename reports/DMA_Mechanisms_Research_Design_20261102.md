@@ -176,8 +176,8 @@ integration_catalog.csv에는 자료별 실제 행 수·연도·단위·전체 �
 | RUN_MECHANISMS.R | 새 자료와 세 기술 그림을 RStudio에서 확인 |
 | outputs/mechanisms_20261102/integration/ | 자료 목록·결측·브리지·그림 입력·검증 |
 | MECHANISMS_REVIEW.ipynb | 읽기·감사·그림 확인 노트북 |
-| reports/DMA_Mechanisms_Research_Design_20261102.pdf/html | 이번 설계 보고서 |
-| reports/DMA_PoC_20plots_Report.pdf/html | 동결된 기존 20개 그림 해석 |
+| reports/DMA_Mechanisms_Research_Design_20261102.pdf/md | 이번 설계 보고서 |
+| reports/DMA_PoC_20plots_Report.pdf/md | 동결된 기존 20개 그림 해석 |
 
 ### 다음 투자는 정확한 시행일과 실제 이전 확인이다
 

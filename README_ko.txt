@@ -7,7 +7,7 @@ MECHANISMS_REVIEW.ipynb : 데이터 결합 감사와 그림 확인
 
 20개 그림 해석 보고서 업데이트 (2026-11-02)
 reports/DMA_PoC_20plots_Report.pdf : 30쪽, 그림별 결과·브뤼셀 효과·티부 효과·한계
-reports/DMA_PoC_20plots_Report.html : 그림 내장 웹 보고서
+reports/DMA_PoC_20plots_Report.md : GitHub에서 읽는 Markdown 본문(figures/ PNG 참조)
 REPORT_UPDATE_README.txt : 변경 내용과 재현 안내
 
 ## RStudio에서 그림 보기 (2026-11-02 보완)
@@ -33,7 +33,7 @@ R 파일 위치에서 프로젝트 폴더를 자동으로 찾습니다. 자세�
 
 DMA 공간분석 PoC v4 | 2026-11-02
 
-가장 먼저 DMA_PoC_v4_Report.html을 브라우저에서 여세요. 그림은 파일 안에 포함돼 있습니다.
+가장 먼저 reports/DMA_PoC_20plots_Report.md를 읽으세요. 이전 v4 요약은 reference/before_20plots/DMA_PoC_v4_Report.md, v3는 reference/v3/DMA_PoC_v3_Report.md에 Markdown으로 보존했습니다.
 RStudio에서 DMA_PoC_v4.Rproj를 연 뒤 START_HERE.R을 Source 하세요.
 
 실행 경로

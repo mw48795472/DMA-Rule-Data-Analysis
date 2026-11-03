@@ -79,36 +79,10 @@ if frozen.exists():
     old=json.loads(frozen.read_text(encoding='utf-8'))
     check('frozen inputs unchanged; review prose before changing snapshot',old==hashes)
 
-def htable(rows):
-    if not rows:return ''
-    return '<table><thead><tr>'+''.join('<th>'+ESC(str(c))+'</th>' for c in rows[0])+'</tr></thead><tbody>'+''.join('<tr>'+''.join('<td>'+ESC(str(c))+'</td>' for c in r)+'</tr>' for r in rows[1:])+'</tbody></table>'
-def section_h(s,anchor):
-    return '<section id="'+anchor+'"><h2>'+ESC(s['title'])+'</h2>'+''.join('<p>'+ESC(p)+'</p>' for p in s['paragraphs'])+htable(s['table'])+'</section>'
-def cite_links(text):
-    return re.sub(r'\[(\d+)\]',lambda m:'<a href="#ref'+m[1]+'">['+m[1]+']</a>',text)
-toc=''.join('<a href="#fig%02d">%02d. %s</a>'%(f['number'],f['number'],ESC(f['title'])) for f in FIGURES)
-css='''body{font-family:"Malgun Gothic","Noto Sans KR",sans-serif;color:#18313b;background:#eff3f5;margin:0;line-height:1.8}main{max-width:1080px;margin:auto;background:#fff;padding:52px}header{border-top:8px solid #126e82;padding:24px 0}h1{font-size:32px;line-height:1.45}h2{color:#126e82;font-size:23px;line-height:1.5}h3{font-size:16px;margin:18px 0 4px}p{margin:10px 0}section{border-top:1px solid #dbe4e8;padding:28px 0;margin-top:14px}nav{display:grid;grid-template-columns:1fr 1fr;gap:5px 20px;font-size:13px}a{color:#126e82;overflow-wrap:anywhere}figure{margin:20px 0}img{display:block;width:100%;height:auto}figcaption,.source,.meta{font-size:12px;color:#536a74}.takeaway{background:#eaf3f5;border-left:4px solid #126e82;padding:13px 16px;font-weight:700}.lenses{display:grid;grid-template-columns:1fr 1fr;gap:20px}table{width:100%;border-collapse:collapse;font-size:13px;margin:18px 0}th,td{padding:10px;text-align:left;border-bottom:1px solid #dbe4e8;vertical-align:top}th{background:#126e82;color:white}tr:nth-child(even){background:#f4f7f8}.limit{background:#faf4eb;padding:10px 14px}.ref{font-size:13px}.top{float:right;font-size:12px}@media(max-width:700px){main{padding:20px}nav,.lenses{grid-template-columns:1fr}h1{font-size:25px}}@media print{body{background:white}main{padding:0;max-width:none}nav{display:none}section{break-before:page}img{max-height:145mm;object-fit:contain}a{color:inherit}table,figure{break-inside:avoid}}'''
-parts=['<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+ESC(TITLE)+'</title><style>'+css+'</style></head><body><main id="top"><header><div class="meta">PoC v4 | 해석 보완판 | '+DATE+'</div><h1>'+ESC(TITLE)+'</h1><p>'+ESC(SUBTITLE)+'</p><p class="meta">주 분석연도 2024 · 수집 자료 스냅샷 2026-11-02 · 인과효과 추정 전 단계</p></header>']
-parts.extend(section_h(s,'intro'+str(i)) for i,s in enumerate(INTRO))
-parts.append('<section><h2>그림별 해석 바로가기</h2><nav>'+toc+'</nav></section>')
-for f in FIGURES:
-    data=base64.b64encode((ROOT/f['png']).read_bytes()).decode('ascii')
-    parts.append('<section class="figure-section" id="fig%02d"><a class="top" href="#top">처음으로</a><h2>그림 %02d. %s</h2><p class="takeaway">%s</p><figure><img alt="그림 %02d. %s" src="data:image/png;base64,%s"><figcaption>실제 저장 결과를 재현한 ggplot. 원그림: %s</figcaption></figure>'%(f['number'],f['number'],ESC(f['title']),ESC(f['takeaway']),f['number'],ESC(f['title']),data,ESC(f['name'])))
-    parts.append('<h3>관측 결과</h3><p>'+ESC(f['result'])+'</p><div class="lenses"><div><h3>브뤼셀 효과 관점</h3><p>'+ESC(f['brussels'])+'</p></div><div><h3>티부 효과 관점</h3><p>'+ESC(f['tiebout'])+'</p></div></div><div class="limit"><h3>해석 범위와 한계</h3><p>'+ESC(f['limits'])+'</p></div><p class="source">근거 파일: '+ESC(' / '.join(f['sources']))+'</p></section>')
-parts.extend(section_h(s,'end'+str(i)) for i,s in enumerate(END))
-parts.append('<section id="references"><h2>공식 원천과 방법 참고문헌</h2><p>법령·이론·방법·정의는 2026-11-02 확인. 통계 수치는 프로젝트에 보존된 원문과 CSV를 기준으로 하며, 웹페이지의 이후 개정과 다를 수 있다.</p>')
-for num,label,url in REFERENCES:parts.append('<p class="ref" id="ref'+num+'"><b>['+num+'] '+ESC(label)+'</b><br><a href="'+ESC(url,quote=True)+'">'+ESC(url)+'</a></p>')
-parts.append('<h3>주요 통계 코드별 직접 링크</h3>')
-datasets=['isoc_sks_itspt','isoc_ec_eseln2','nama_10_a10_e','htec_emp_reg2','nama_10r_2gdp','edat_lfse_04','demo_pjan','migr_imm8','migr_imm5prv','migr_emi3nxt','bop_fdi6_flow','fats_activ']
-for ds in datasets:
-    url='https://ec.europa.eu/eurostat/databrowser/view/'+ds+'/default/table'
-    parts.append('<p class="ref"><a href="'+url+'">'+ds+'</a></p>')
-parts.append('</section><footer class="meta">실제 공개 통계 기반 연구 기획·진단 PoC. 규범 확산 및 규제 유발 이동의 인과효과를 확정하지 않는다.</footer></main></body></html>')
-html_text=cite_links(''.join(parts))
-target=REPORT/'DMA_PoC_20plots_Report.html';target.write_text(html_text,encoding='utf-8')
-original=ROOT/'DMA_PoC_v4_Report.html';backup=ROOT/'reference/before_20plots/DMA_PoC_v4_Report.html'
-if original.exists() and not backup.exists():backup.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(original,backup)
-original.write_text(html_text,encoding='utf-8')
+# Markdown body (figures linked from figures/, no embedded images); same authored content as the PDF.
+from report_markdown import write as write_markdown
+markdown_text=write_markdown(dict(title=TITLE,subtitle=SUBTITLE,date=DATE,figures=FIGURES,intro=INTRO,conclusions=END,references=REFERENCES))
+check('20 figure links in Markdown',markdown_text.count('](../figures/')==20)
 
 # A4, embedded Korean fonts, full-width plots, and explicit continuation pages.
 regular=Path(os.environ.get('DMA_REPORT_FONT','C:/Windows/Fonts/malgun.ttf'))
@@ -204,7 +178,6 @@ check('no PDF layout block overflow',not doc.overflow)
 reader=PdfReader(str(pdf_path));texts=[p.extract_text() or '' for p in reader.pages]
 check('PDF count matches renderer',len(reader.pages)==doc.page)
 check('all 20 figure titles in PDF',all(('그림 %02d.'%f['number']) in '\n'.join(texts) for f in FIGURES))
-check('20 embedded HTML figures',html_text.count('src="data:image/png;base64,')==20)
 check('20 PDF chart images',sum(len(p.images) for p in reader.pages)==20)
 check('no empty PDF page',all(len(t.strip())>80 for t in texts))
 
@@ -215,7 +188,7 @@ with (REPORT/'plot_interpretations_20261102.csv').open('w',encoding='utf-8-sig',
     wr=csv.DictWriter(stream,fieldnames=keys);wr.writeheader()
     for f in FIGURES:wr.writerow({k:' | '.join(f[k]) if k=='sources' else f[k] for k in keys})
 frozen.write_text(json.dumps(hashes,ensure_ascii=False,indent=2),encoding='utf-8')
-validation={'status':'PASS','figures':20,'pdf_pages':len(reader.pages),'pdf_chart_images':20,'html_embedded_images':20,'checks':checks,'page_index':doc.index,'visual_review':'PENDING','analysis_refitted':False}
+validation={'status':'PASS','figures':20,'pdf_pages':len(reader.pages),'pdf_chart_images':20,'markdown_figure_links':20,'checks':checks,'page_index':doc.index,'visual_review':'PENDING','analysis_refitted':False}
 (REPORT/'report_validation.json').write_text(json.dumps(validation,ensure_ascii=False,indent=2),encoding='utf-8')
-(ROOT/'REPORT_UPDATE_README.txt').write_text('20개 그림 해석 보고서 (2026-11-02)\n\nreports/DMA_PoC_20plots_Report.pdf : 인쇄·공유용\nreports/DMA_PoC_20plots_Report.html : 그림 내장, 단독 열기 가능\nDMA_PoC_v4_Report.html : 같은 상세 보고서\nreports/plot_interpretations_20261102.csv : 그림별 해석표\n\n그림 재현은 RUN_PLOTS.R을 RStudio에서 Source하세요.\n이번 갱신은 해석 보고서이며 회귀·부트스트랩·LTA를 새로 적합하지 않았습니다.\n기존 보고서 생성 코드는 reports/DMA_PoC_v4_legacy_refresh.html에 기록합니다.\n새 분석 결과에서는 해석 문구와 report_input_hashes.json 스냅샷을 검토한 뒤 보고서를 재생성하세요.\n',encoding='utf-8')
+(ROOT/'REPORT_UPDATE_README.txt').write_text('20개 그림 해석 보고서 (2026-11-02)\n\nreports/DMA_PoC_20plots_Report.pdf : 인쇄·공유용\nreports/DMA_PoC_20plots_Report.md : GitHub에서 읽는 Markdown 본문(figures/ PNG 참조)\nreports/plot_interpretations_20261102.csv : 그림별 해석표\n\n그림 재현은 RUN_PLOTS.R을 RStudio에서 Source하세요.\n이번 갱신은 해석 보고서이며 회귀·부트스트랩·LTA를 새로 적합하지 않았습니다.\nMarkdown 본문만 다시 만들려면 python code/report_markdown.py 를 실행하세요.\n새 분석 결과에서는 해석 문구와 report_input_hashes.json 스냅샷을 검토한 뒤 보고서를 재생성하세요.\n',encoding='utf-8')
 print(json.dumps({'status':'PASS','figures':20,'pdf_pages':len(reader.pages),'checks':len(checks),'pdf':str(pdf_path)},ensure_ascii=False))
