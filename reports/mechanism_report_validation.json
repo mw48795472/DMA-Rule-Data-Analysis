@@ -2,7 +2,6 @@
   "status": "PASS",
   "pdf_pages": 15,
   "pdf_embedded_figures": 3,
-  "html_embedded_figures": 3,
   "narrative_sections": 12,
   "causal_models_fitted": false,
   "old_analysis_untouched": true,
@@ -1123,7 +1122,7 @@
   },
   "outputs": {
     "dma_poc_v4_20261102\\reports\\DMA_Mechanisms_Research_Design_20261102.pdf": "686e9f6901aa696cc988867618c8e58dc909da7d684608d84c7f7c9fe8116d2a",
-    "dma_poc_v4_20261102\\reports\\DMA_Mechanisms_Research_Design_20261102.html": "2c95e1f46d597c3c231ceee07d4ca1c9e32eb86365ea3ca843057215c9822310",
     "reports\\DMA 규범 확산과 국제 이동 자료.md": "98d22672e819546c74201698554997347b5693f9e4cd6e85b472f416a5cfb596"
-  }
+  },
+  "markdown_figures": 3
 }

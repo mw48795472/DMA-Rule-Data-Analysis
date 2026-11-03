@@ -163,4 +163,4 @@ html<-c('<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="
 dir.create(file.path(root,"reports"),showWarnings=FALSE,recursive=TRUE)
 writeLines(html,file.path(root,"reports","DMA_PoC_v4_legacy_refresh.html"),useBytes=TRUE)
 cat("Legacy summary refreshed: reports/DMA_PoC_v4_legacy_refresh.html\n")
-cat("Reviewed 20-figure interpretation: reports/DMA_PoC_20plots_Report.html\n")
+cat("Reviewed 20-figure interpretation: reports/DMA_PoC_20plots_Report.md\n")

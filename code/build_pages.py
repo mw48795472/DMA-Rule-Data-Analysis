@@ -166,7 +166,7 @@ RStudio에서 `RUN_MECHANISMS.R`이 먼저 프로젝트 경로를 초기화합�
 '''+loadcode
 narrative=narrative.replace('## 두 메커니즘은 다른 관측 단위를 요구한다',insert+'## 두 메커니즘은 다른 관측 단위를 요구한다')
 narrative=narrative.replace('## 원천과 방법 문헌','## 결과를 그리는 코드\n\n'+excerpt('code/mechanism_plots.R','mechanism_plots <-','dir.create(')+'## 원천과 방법 문헌')
-narrative=narrative.replace('`reports/DMA_Mechanisms_Research_Design_20261102.pdf/html`','`reports/DMA_Mechanisms_Research_Design_20261102.pdf`')
+narrative=narrative.replace('`reports/DMA_Mechanisms_Research_Design_20261102.pdf/md`','`reports/DMA_Mechanisms_Research_Design_20261102.pdf`')
 write('mechanisms.md',front('추가 자료와 메커니즘 연구설계',4)+narrative)
 
 reproduce=front('재현과 원천자료',5)+'''# RStudio에서 같은 자료와 그림 열기
@@ -300,8 +300,9 @@ source("RUN_MECHANISMS.R", encoding = "UTF-8") # 새 자료와 3개 그림
 
 ## 보고서·원천자료
 
-- [연구설계 보고서 PDF · 15쪽](reports/DMA_Mechanisms_Research_Design_20261102.pdf)
-- [기존 20개 그림 보고서 PDF · 30쪽](reports/DMA_PoC_20plots_Report.pdf)
+- 연구설계 보고서: [Markdown](reports/DMA_Mechanisms_Research_Design_20261102.md) · [PDF 15쪽](reports/DMA_Mechanisms_Research_Design_20261102.pdf)
+- 20개 그림 해석 보고서: [Markdown](reports/DMA_PoC_20plots_Report.md) · [PDF 30쪽](reports/DMA_PoC_20plots_Report.pdf)
+- 이전 보고서 보존본(Markdown, 그림은 `figures/` 참조): [v3](reference/v3/DMA_PoC_v3_Report.md) · [v4 요약](reference/before_20plots/DMA_PoC_v4_Report.md)
 - `inputs/`: CSV·SHP·원문·출처 메타데이터 / `outputs/`: 결합·결측·검정 결과
 - **신규 흐름 자료는 `outputs/mechanisms_20261102/flows/fresh/`**가 기준입니다.
 - [신규 자료 목록](outputs/mechanisms_20261102/integration/integration_catalog.csv) · [파일 해시 목록](FILE_MANIFEST.csv)
