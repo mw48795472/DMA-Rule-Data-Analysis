@@ -1,4 +1,4 @@
-"""Build self-contained Korean HTML/PDF/Markdown from audited new data only."""
+"""Build the Korean PDF and Markdown research-design report from audited new data only."""
 from pathlib import Path
 import base64,html,json,re,hashlib
 import pandas as pd
@@ -16,14 +16,14 @@ from mechanism_report_content import TITLE,SUBTITLE,REFS,content
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'outputs/mechanisms_20261102/integration'
 REPORT=ROOT/'reports';REPORT.mkdir(exist_ok=True)
-BASE=ROOT.parent;REPORT_MD=BASE/'reports/DMA 규범 확산과 국제 이동 자료.md'
-REPORT_MD.parent.mkdir(exist_ok=True)
+REPORT_MD=REPORT/'DMA_Mechanisms_Research_Design_20261102.md'
+def local(p):return '../'+Path(p).relative_to(ROOT).as_posix()
 REFS.extend([
- ('준수 기록·범위·결합 감사 (로컬)',(ROOT/'outputs/mechanisms_20261102/compliance/JOIN_AUDIT.json').as_posix()),
- ('신규 국제쌍 자료·관측·결합 요약 (로컬)',(ROOT/'outputs/mechanisms_20261102/flows/fresh/summary.json').as_posix()),
- ('기업 사건·목적지·결합 요약 (로컬)',(ROOT/'outputs/mechanisms_20261102/firms/summary.json').as_posix()),
- ('통합 파일 목록·행수·연도·단위·해시 (로컬)',(OUT/'integration_catalog.csv').as_posix()),
- ('흐름 결합·공변량 결측·값 보존 감사 (로컬)',(ROOT/'outputs/mechanisms_20261102/flows/fresh/final_value_preservation_checks.csv').as_posix()),
+ ('준수 기록·범위·결합 감사 (로컬)',local(ROOT/'outputs/mechanisms_20261102/compliance/JOIN_AUDIT.json')),
+ ('신규 국제쌍 자료·관측·결합 요약 (로컬)',local(ROOT/'outputs/mechanisms_20261102/flows/fresh/summary.json')),
+ ('기업 사건·목적지·결합 요약 (로컬)',local(ROOT/'outputs/mechanisms_20261102/firms/summary.json')),
+ ('통합 파일 목록·행수·연도·단위·해시 (로컬)',local(OUT/'integration_catalog.csv')),
+ ('흐름 결합·공변량 결측·값 보존 감사 (로컬)',local(ROOT/'outputs/mechanisms_20261102/flows/fresh/final_value_preservation_checks.csv')),
 ])
 FONT='C:/Windows/Fonts/malgun.ttf';BOLD='C:/Windows/Fonts/malgunbd.ttf'
 ESC=html.escape
@@ -77,29 +77,19 @@ def cite_md(s):
     return re.sub(r'\[(\d+)\]',lambda z:'(['+REFS[int(z[1])-1][0]+']('+REFS[int(z[1])-1][1]+'))',s)
 def cite_html(s):
     return re.sub(r'\[(\d+)\]',lambda z:'<a href="'+ESC(REFS[int(z[1])-1][1],quote=True)+'">['+z[1]+']</a>',ESC(s))
-def htable(rows):
-    return '<table>'+''.join('<tr>'+''.join(('<th>' if i==0 else '<td>')+ESC(str(x))+('</th>' if i==0 else '</td>') for x in row)+'</tr>' for i,row in enumerate(rows))+'</table>'
-css='''body{margin:0;background:#eef3f5;color:#173743;font-family:"Malgun Gothic",sans-serif;line-height:1.85}main{max-width:1000px;margin:auto;background:white;padding:50px}header{border-top:8px solid #177889;padding-top:20px}h1{font-size:34px;line-height:1.45}h2{font-size:25px;color:#146579;line-height:1.5}h3{font-size:21px;line-height:1.55}p{font-size:15px;margin:15px 0}section{padding:25px 0;border-top:1px solid #cddfe5}a{color:#126e82;overflow-wrap:anywhere}img{width:100%;height:auto}table{width:100%;border-collapse:collapse;font-size:13px;margin:20px 0}th{background:#177889;color:white}th,td{padding:10px;text-align:left;vertical-align:top;border-bottom:1px solid #dbe5e9}tr:nth-child(even){background:#f2f7f8}.meta{font-size:12px;color:#5c727a}.ref{font-size:12px}nav{display:grid;grid-template-columns:1fr 1fr;gap:8px;font-size:13px}@media(max-width:700px){main{padding:20px}nav{display:block}}@media print{body{background:white}main{padding:0}section{break-before:page}table,img{break-inside:avoid}}'''
-ht=['<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+TITLE+'</title><style>'+css+'</style></head><body><main><header><div class="meta">공개자료 수집 스냅샷 · 2026-11-02 · 인과모형 미적합</div><h1>'+TITLE+'</h1><p>'+SUBTITLE+'</p></header><nav>']
-ht+=['<a href="#p'+str(i)+'">'+p['title']+'</a>' for i,p in enumerate(PAGES)];ht+=['</nav>']
 md=['# '+TITLE,'',cite_md(PAGES[0]['paragraphs'][0]),'','자료 수집·검증 기준일: 2026-11-02. 기존 20개 그림 보고서와 추정 결과는 보존했다.','']
 for i,p in enumerate(PAGES):
-    ht+=['<section id="p'+str(i)+'"><h2>'+p['title']+'</h2>']
     if p.get('group'):md+=['## '+p['group'],'']
     md+=['### '+p['title'],'']
     if p.get('figure'):
-        fig=figs[p['figure']];ht+=['<img alt="'+ESC(p['title'])+'" src="data:image/png;base64,'+base64.b64encode(fig.read_bytes()).decode()+'">']
-        md+=['!['+p['title']+']('+fig.as_posix()+')','']
-    for para in p['paragraphs']:ht+=['<p>'+cite_html(para)+'</p>'];md+=[cite_md(para),'']
+        fig=figs[p['figure']]
+        md+=['!['+p['title']+']('+local(fig)+')','']
+    for para in p['paragraphs']:md+=[cite_md(para),'']
     if p.get('table'):
-        ht+=[htable(p['table'])]
         md+=['| '+' | '.join(map(str,p['table'][0]))+' |','| '+' | '.join(['---']*len(p['table'][0]))+' |']
         md+=['| '+' | '.join(map(str,row))+' |' for row in p['table'][1:]];md+=['']
-    ht+=['</section>']
-ht+=['<section><h2>원천과 방법 문헌</h2>'];md+=['## 원천과 방법 문헌','']
-for i,(label,url) in enumerate(REFS,1):ht+=['<p class="ref">['+str(i)+'] '+label+'<br><a href="'+ESC(url,quote=True)+'">'+ESC(url)+'</a></p>'];md+=[f'[{i}] [{label}]({url})','']
-ht+=['</section><p class="meta">계수·효과 크기를 새로 추정하지 않았다. 파일 단위 감사와 원문 보존 상태는 동봉 CSV/JSON 참조.</p></main></body></html>']
-htmlfile=REPORT/'DMA_Mechanisms_Research_Design_20261102.html';htmlfile.write_text(''.join(ht),encoding='utf8')
+md+=['## 원천과 방법 문헌','']
+for i,(label,url) in enumerate(REFS,1):md+=[f'[{i}] [{label}]({url})','']
 REPORT_MD.write_text('\n'.join(md),encoding='utf8')
 
 pdfmetrics.registerFont(TTFont('Korean',FONT));pdfmetrics.registerFont(TTFont('KoreanBold',BOLD))
@@ -158,9 +148,9 @@ assert not overflows and all(len(t.strip())>80 for t in texts)
 assert len(reader.pages)==page
 assert all(p['title'] in '\n'.join(texts) for p in PAGES)
 assert len(PAGES)==12
-validation=dict(status='PASS',pdf_pages=page,pdf_embedded_figures=sum(len(p.images) for p in reader.pages),html_embedded_figures=3,
+validation=dict(status='PASS',pdf_pages=page,pdf_embedded_figures=sum(len(p.images) for p in reader.pages),markdown_figures=3,
    narrative_sections=len(PAGES),causal_models_fitted=False,old_analysis_untouched=True,visual_review='PENDING',page_index=index,
-   source_summaries={'compliance':cv,'firms':firm,'fresh_flows':fv},outputs={str(p.relative_to(BASE)):hashlib.sha256(p.read_bytes()).hexdigest() for p in [pdfpath,htmlfile,REPORT_MD]})
+   source_summaries={'compliance':cv,'firms':firm,'fresh_flows':fv},outputs={p.relative_to(ROOT).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in [pdfpath,REPORT_MD]})
 (REPORT/'mechanism_report_validation.json').write_text(json.dumps(validation,ensure_ascii=False,indent=2),encoding='utf8')
 
 cells=[dict(cell_type='markdown',metadata={},source=['# DMA 메커니즘 자료 확인\n','세 관측 단위를 분리한 자료 로딩·감사 노트북. 새 인과모형을 적합하지 않습니다.'])]
@@ -170,5 +160,5 @@ code("compliance=pd.read_csv(out/'compliance/compliance_events.csv')\nfirms=pd.r
 code("for f in ['figure_compliance_scope.png','figure_firm_case_types.png','figure_flow_coverage.png']:\n    display(Image(filename=str(out/'integration'/f)))\n")
 nb=dict(nbformat=4,nbformat_minor=5,metadata={'kernelspec':{'display_name':'Python 3','language':'python','name':'python3'},'language_info':{'name':'python'}},cells=cells)
 (ROOT/'MECHANISMS_REVIEW.ipynb').write_text(json.dumps(nb,ensure_ascii=False,indent=2),encoding='utf8')
-(ROOT/'MECHANISMS_README_ko.txt').write_text('DMA 메커니즘 자료 확장 (2026-11-02)\n\nRStudio: DMA_PoC_v4.Rproj를 열고 RUN_MECHANISMS.R 전체를 Source하세요.\n새 자료는 inputs/mechanisms_20261102/ 및 outputs/mechanisms_20261102/에 있습니다.\n새 Eurostat 패널은 outputs/mechanisms_20261102/flows/fresh/가 기준입니다.\n흐름의 기존 스냅샷은 상위 flows/에 별도로 보존했습니다. 두 범위의 행 수 변화를 경제적 변화로 해석하지 마세요.\n세 기술 그림과 읽을 수 있는 ggplot 객체는 mechanism_plots에 있습니다.\n보고서: reports/DMA_Mechanisms_Research_Design_20261102.pdf 및 .html\n검증: reports/mechanism_report_validation.json 및 outputs/mechanisms_20261102/integration/\n국가·지역 기존 추정 및 20개 그림 보고서는 변경하지 않았습니다.\n결측은 0이 아니며 현재 범위 스냅샷을 소급하지 않습니다. 새 인과모형은 적합하지 않습니다.\n',encoding='utf8')
+(ROOT/'MECHANISMS_README_ko.txt').write_text('DMA 메커니즘 자료 확장 (2026-11-02)\n\nRStudio: DMA_PoC_v4.Rproj를 열고 RUN_MECHANISMS.R 전체를 Source하세요.\n새 자료는 inputs/mechanisms_20261102/ 및 outputs/mechanisms_20261102/에 있습니다.\n새 Eurostat 패널은 outputs/mechanisms_20261102/flows/fresh/가 기준입니다.\n흐름의 기존 스냅샷은 상위 flows/에 별도로 보존했습니다. 두 범위의 행 수 변화를 경제적 변화로 해석하지 마세요.\n세 기술 그림과 읽을 수 있는 ggplot 객체는 mechanism_plots에 있습니다.\n보고서: reports/DMA_Mechanisms_Research_Design_20261102.pdf 및 .md\n검증: reports/mechanism_report_validation.json 및 outputs/mechanisms_20261102/integration/\n국가·지역 기존 추정 및 20개 그림 보고서는 변경하지 않았습니다.\n결측은 0이 아니며 현재 범위 스냅샷을 소급하지 않습니다. 새 인과모형은 적합하지 않습니다.\n',encoding='utf8')
 print(json.dumps(dict(status='PASS',pages=page,pdf=str(pdfpath),markdown=str(REPORT_MD)),ensure_ascii=False))

@@ -465,7 +465,7 @@
       "detail": ""
     },
     {
-      "check": "Report embedded figures and updated values",
+      "check": "Markdown report links 20 figures and carries updated values",
       "passed": true,
       "detail": ""
     }

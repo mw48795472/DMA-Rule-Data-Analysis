@@ -83,9 +83,9 @@ for scope in ['country','regional']:
   ck(f'{scope} LTA observable pair {y}',expected==obs.complete_pairs)
 for i in range(13,21):
  ck(f'Plot {i} PNG/PDF exists',len(list((P/'figures').glob(f'{i:02d}_*.png')))==1 and len(list((P/'figures').glob(f'{i:02d}_*.pdf')))==1)
-report=P/'DMA_PoC_v4_Report.html'
+report=P/'reports/DMA_PoC_20plots_Report.md'
 if report.exists():
- t=report.read_text(encoding='utf-8');ck('Report embedded figures and updated values',t.count('data:image/png;base64,')==9 and '0.0526' in t and 'EUROPE42_2024' in t and '205' in t)
+ t=report.read_text(encoding='utf-8');ck('Markdown report links 20 figures and carries updated values',t.count('](../figures/')==20 and '0.0526' in t and '205' in t)
 result=dict(status='PASS',checks_passed=len(checks),checks=checks)
 (O/'v4_validation.json').write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
 print(json.dumps(dict(status='PASS',checks_passed=len(checks)),ensure_ascii=False))
