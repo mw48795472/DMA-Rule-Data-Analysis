@@ -3,6 +3,7 @@ MECHANISMS_README_ko.txt : 이번 추가 자료와 실행 안내
 reports/DMA_Mechanisms_Research_Design_20261102.pdf : 15쪽 연구설계 보고서
 RUN_MECHANISMS.R : 새 자료 로딩과 ggplot 그림 3개 출력
 MECHANISMS_REVIEW.ipynb : 데이터 결합 감사와 그림 확인
+DMA_SPATIAL_ANALYSIS.ipynb : R 공간분석(W·Moran·VIF·SAR/SEM/SDM·효과·부트스트랩)을 numpy/scipy로 재계산해 outputs/와 대조하는 노트북
 새 수집 흐름은 outputs/mechanisms_20261102/flows/fresh/가 기준입니다.
 
 20개 그림 해석 보고서 업데이트 (2026-11-02)

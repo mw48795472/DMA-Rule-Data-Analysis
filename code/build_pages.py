@@ -200,7 +200,7 @@ source("RUN_FULL_ANALYSIS.R", encoding = "UTF-8")
 ## 실행 파일과 자료
 
 '''
-items=[('DMA_PoC_v4.Rproj','RStudio 프로젝트'),('RUN_PLOTS.R','기존 20개 ggplot 생성'),('RUN_MECHANISMS.R','새 자료와 그림 3개'),('MECHANISMS_REVIEW.ipynb','Python 자료 검토'),('code/03_models.R','VIF·Moran·SAR/SEM/SDM'),('code/07_refine_regional_bootstrap.R','지역 SDM 잔차 재적합 부트스트랩'),('outputs/mechanisms_20261102/integration/integration_catalog.csv','신규 자료 목록'),('outputs/mechanisms_20261102/integration/integration_missingness.csv','결측 감사'),('FILE_MANIFEST.csv','저장소 파일·크기·해시')]
+items=[('DMA_PoC_v4.Rproj','RStudio 프로젝트'),('RUN_PLOTS.R','기존 20개 ggplot 생성'),('RUN_MECHANISMS.R','새 자료와 그림 3개'),('MECHANISMS_REVIEW.ipynb','Python 자료 검토'),('DMA_SPATIAL_ANALYSIS.ipynb','Python 공간분석 재현·검증 (W·Moran·VIF·ML·효과·부트스트랩)'),('code/03_models.R','VIF·Moran·SAR/SEM/SDM'),('code/07_refine_regional_bootstrap.R','지역 SDM 잔차 재적합 부트스트랩'),('outputs/mechanisms_20261102/integration/integration_catalog.csv','신규 자료 목록'),('outputs/mechanisms_20261102/integration/integration_missingness.csv','결측 감사'),('FILE_MANIFEST.csv','저장소 파일·크기·해시')]
 reproduce+='\n'.join(f'- [{label}]({source_link(path)})' for path,label in items)+'\n\n'
 reproduce+='''## 원천과 API 키
 
@@ -296,7 +296,7 @@ source("RUN_PLOTS.R", encoding = "UTF-8")      # 기존 20개 그림
 source("RUN_MECHANISMS.R", encoding = "UTF-8") # 새 자료와 3개 그림
 ```
 
-위 그림 진입점은 저장된 결과를 사용합니다. 전체 분석 재적합은 `RUN_FULL_ANALYSIS.R`이며 9,999회 부트스트랩 등에 시간이 걸립니다. [재현 안내]('''+SITE+'''reproduce.html) · [Python 노트북](MECHANISMS_REVIEW.ipynb)
+위 그림 진입점은 저장된 결과를 사용합니다. 전체 분석 재적합은 `RUN_FULL_ANALYSIS.R`이며 9,999회 부트스트랩 등에 시간이 걸립니다. [재현 안내]('''+SITE+'''reproduce.html) · [Python 자료 검토 노트북](MECHANISMS_REVIEW.ipynb) · [Python 재현·검증 노트북](DMA_SPATIAL_ANALYSIS.ipynb)
 
 ## 보고서·원천자료
 
