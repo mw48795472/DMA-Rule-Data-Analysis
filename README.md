@@ -78,7 +78,7 @@ source("RUN_PLOTS.R", encoding = "UTF-8")      # 기존 20개 그림
 source("RUN_MECHANISMS.R", encoding = "UTF-8") # 새 자료와 3개 그림
 ```
 
-위 그림 진입점은 저장된 결과를 사용합니다. 전체 분석 재적합은 `RUN_FULL_ANALYSIS.R`이며 9,999회 부트스트랩 등에 시간이 걸립니다. [재현 안내](https://mw48795472.github.io/DMA-Rule-Data-Analysis/reproduce.html) · [Python 노트북](MECHANISMS_REVIEW.ipynb)
+위 그림 진입점은 저장된 결과를 사용합니다. 전체 분석 재적합은 `RUN_FULL_ANALYSIS.R`이며 9,999회 부트스트랩 등에 시간이 걸립니다. [재현 안내](https://mw48795472.github.io/DMA-Rule-Data-Analysis/reproduce.html) · [Python 자료 검토 노트북](MECHANISMS_REVIEW.ipynb) · [Python 재현·검증 노트북](DMA_SPATIAL_ANALYSIS.ipynb)
 
 ## 보고서·원천자료
 
