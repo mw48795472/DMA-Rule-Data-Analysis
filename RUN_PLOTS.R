@@ -1,3 +1,9 @@
+# ============================================================================
+# RUN_PLOTS.R — 기존 그림 01~20만 ggplot으로 만들어 Plots 창에 표시하고 figures/에 저장합니다.
+# Source(Ctrl+Shift+S) / Run All(Ctrl+Alt+R) / 아무 줄에서 Run(Ctrl+Enter) 모두 전체 실행됩니다.
+# 23개 전체는 RUN_ALL.R 을 실행하세요. 모형·부트스트랩은 재실행하지 않습니다.
+# ============================================================================
+{
 # ---- DMA path bootstrap (works with RStudio Source and Rscript) ----
 if (.Platform$OS.type == "windows") invisible(suppressWarnings(Sys.setlocale("LC_CTYPE", "English_United States.utf8")))
 .dma_bootstrap <- function() {
@@ -34,20 +40,22 @@ root <- .dma_bootstrap()
 rm(.dma_bootstrap)
 # ---- End path bootstrap ----
 
-# 이 파일 전체를 Source하세요. RStudio Plots 창 + PNG/PDF 파일을 만듭니다.
-# 그림을 다시 그릴 때 9,999회 부트스트랩은 실행하지 않습니다.
-source(dma_path("setup.R"),encoding="UTF-8")
-if(is.null(getOption("dma.show_plots")))options(dma.show_plots=interactive())
-source(dma_path("code","00_plot_helpers.R"),encoding="UTF-8")
-assign("dma_plots",list(),envir=.GlobalEnv)
-source(dma_path("code","11_plot_saved_results.R"),encoding="UTF-8")
-plot_index<-list_dma_plots()
-stopifnot(nrow(plot_index)==20L,identical(plot_index$figure,1:20))
-write.csv(plot_index,dma_path("outputs","plot_index.csv"),row.names=FALSE,fileEncoding="UTF-8")
-print(plot_index[c("figure","name")],row.names=FALSE)
-cat("완료: ggplot 객체 20개가 dma_plots에 있습니다. 그림 파일은 figures/에 저장했습니다.\n")
-cat("RStudio Plots 창의 이전/다음 화살표 또는 show_dma_plot(3), show_dma_plot(17), show_dma_plot(20)을 사용하세요.\n")
-# 직접 수정 예시: 아래 줄만 선택하여 Run 또는 콘솔에서 실행하세요.
-# p_vif <- dma_plots[["03_vif_comparison"]] + ggplot2::labs(title="VIF 비교")
-# print(p_vif)
-# show_all_dma_plots(pause=TRUE)
+  # 기존 그림 01–20만 표시·저장합니다. 전체 23개는 RUN_ALL.R을 실행하세요.
+  .dma_needed <- c("ggplot2","sf","jsonlite")
+  if (any(!vapply(.dma_needed, requireNamespace, logical(1), quietly=TRUE))) source(dma_path("setup.R"), encoding="UTF-8")
+  if (interactive() || is.null(getOption("dma.show_plots"))) options(dma.show_plots=interactive())
+  if (is.null(getOption("dma.save_plots"))) options(dma.save_plots=TRUE)
+  source(dma_path("code","00_plot_helpers.R"), encoding="UTF-8")
+  dma_plots <- list(); dma_figures <- list(); dma_clear_data()
+  source(dma_path("code","11_plot_saved_results.R"), encoding="UTF-8")
+  cat("\n== 그림 표시 (1–20) ==\n")
+  run_plots_status <- dma_show_plots(1:20)
+  if (isTRUE(getOption("dma.save_plots"))) dma_export_plots(1:20, combined=FALSE)
+  plot_index <- list_dma_plots()
+  write.csv(plot_index, dma_path("outputs","plot_index.csv"), row.names=FALSE, fileEncoding="UTF-8")
+  print(plot_index[c("figure","name")], row.names=FALSE)
+  if (!all(run_plots_status$ok)) print(run_plots_status[!run_plots_status$ok, c("figure","name","message")], row.names=FALSE)
+  cat(sprintf("완료: ggplot 객체 %d개가 dma_plots에 있습니다.\n", length(dma_plots)))
+  cat("show_dma_plot(3), show_dma_plot(17) 등으로 다시 보거나 p <- dma_build_plot(3) 으로 수정하세요.\n")
+  rm(.dma_needed)
+}

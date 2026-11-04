@@ -23,7 +23,7 @@ mechanism_bridge <- read_mech(file.path(mi,'country_year_covariate_bridge.csv'))
 compliance_events <- read_mech(dma_path('outputs','mechanisms_20261102','compliance','compliance_events.csv'))
 ```
 
-[실제 코드 · code/mechanism_plots.R L4–L9](https://github.com/mw48795472/DMA-Rule-Data-Analysis/blob/main/code/mechanism_plots.R#L4-L9)
+[실제 코드 · code/mechanism_plots.R L12–L17](https://github.com/mw48795472/DMA-Rule-Data-Analysis/blob/main/code/mechanism_plots.R#L12-L17)
 
 ## 두 메커니즘은 다른 관측 단위를 요구한다
 
@@ -224,9 +224,16 @@ mechanism_plots <- list(
   firm_case_types = ggplot(cases,aes(x=reorder(event_kind,count),y=count)) + geom_col(fill='#176b79') + geom_text(aes(label=count),hjust=-.2) + coord_flip() + scale_y_continuous(expand=expansion(mult=c(0,.15))) + labs(title='Selected firm cases by event type',subtitle='11 cases; no sampling denominator or verified physical completion',x=NULL,y='Cases') + base_theme,
   flow_coverage = ggplot(coverage,aes(x=reorder(label,observed_pct),y=observed_pct)) + geom_col(fill='#176b79') + geom_text(aes(label=sprintf('%.1f%%',observed_pct)),hjust=-.1) + coord_flip() + scale_y_continuous(limits=c(0,105)) + labs(title='Observed values within each source-specific dyad frame',subtitle='Different units and dimensions; this is data availability, not flow volume',x=NULL,y='Observed values (%)') + base_theme
 )
+# 기존 20개와 같은 목록에 번호 21~23으로 등록합니다. show_dma_plot(21) 등으로 선택할 수 있습니다.
+for (i in seq_along(mechanism_plots)) local({
+  nm <- names(mechanism_plots)[i]
+  dma_register(sprintf('%02d_%s',20L+i,nm),width=10,height=5.5,dpi=160,build=function() mechanism_plots[[nm]])
+})
+# figures/에 저장된 21–23 PNG를 integration/r_figures/ 에도 복사합니다(기존 산출 위치 유지).
+dma_export_mechanism_copies <- function() {
 ```
 
-[실제 코드 · code/mechanism_plots.R L23–L27](https://github.com/mw48795472/DMA-Rule-Data-Analysis/blob/main/code/mechanism_plots.R#L23-L27)
+[실제 코드 · code/mechanism_plots.R L33–L44](https://github.com/mw48795472/DMA-Rule-Data-Analysis/blob/main/code/mechanism_plots.R#L33-L44)
 
 ## 원천과 방법 문헌
 

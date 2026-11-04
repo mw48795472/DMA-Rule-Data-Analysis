@@ -17,9 +17,8 @@ source("setup.R", encoding = "UTF-8")
 # 자료·경로 확인
 source("CHECK_PATHS.R", encoding = "UTF-8")
 
-# 저장된 결과를 읽어 그림을 생성합니다.
-source("RUN_PLOTS.R", encoding = "UTF-8")
-source("RUN_MECHANISMS.R", encoding = "UTF-8")
+# 저장된 결과를 읽어 그림 23개를 생성합니다. 추가 자료와 그림 21~23만 보려면 RUN_MECHANISMS.R
+source("RUN_ALL.R", encoding = "UTF-8")
 ```
 
 새 그림은 `mechanism_plots`에 ggplot 객체로 남고 PNG로도 저장됩니다. `RUN_PLOTS.R`은 기존 그림 20개를 다시 만듭니다. 두 진입점은 공간회귀와 부트스트랩을 새로 실행하지 않습니다.
@@ -35,6 +34,7 @@ source("RUN_FULL_ANALYSIS.R", encoding = "UTF-8")
 ## 실행 파일과 자료
 
 - [RStudio 프로젝트](https://github.com/mw48795472/DMA-Rule-Data-Analysis/blob/main/DMA_PoC_v4.Rproj)
+- [23개 ggplot을 Plots 창에 차례로 표시·저장](https://github.com/mw48795472/DMA-Rule-Data-Analysis/blob/main/RUN_ALL.R)
 - [기존 20개 ggplot 생성](https://github.com/mw48795472/DMA-Rule-Data-Analysis/blob/main/RUN_PLOTS.R)
 - [새 자료와 그림 3개](https://github.com/mw48795472/DMA-Rule-Data-Analysis/blob/main/RUN_MECHANISMS.R)
 - [Python 자료 검토](https://github.com/mw48795472/DMA-Rule-Data-Analysis/blob/main/MECHANISMS_REVIEW.ipynb)
