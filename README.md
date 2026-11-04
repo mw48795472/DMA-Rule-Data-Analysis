@@ -73,9 +73,9 @@ subset(comparison, group == "parsimonious",
 저장소 전체를 내려받아 `DMA_PoC_v4.Rproj`를 열고 실행합니다.
 
 ```r
-source("setup.R", encoding = "UTF-8")          # 최초 패키지 준비
-source("RUN_PLOTS.R", encoding = "UTF-8")      # 기존 20개 그림
-source("RUN_MECHANISMS.R", encoding = "UTF-8") # 새 자료와 3개 그림
+source("RUN_ALL.R", encoding = "UTF-8")        # 그림 23개를 Plots 창에 차례로 표시 후 figures/ 저장 (패키지가 없으면 setup.R 자동 실행)
+source("RUN_PLOTS.R", encoding = "UTF-8")      # 기존 20개 그림만
+source("RUN_MECHANISMS.R", encoding = "UTF-8") # 새 자료와 3개 그림만
 ```
 
 위 그림 진입점은 저장된 결과를 사용합니다. 전체 분석 재적합은 `RUN_FULL_ANALYSIS.R`이며 9,999회 부트스트랩 등에 시간이 걸립니다. [재현 안내](https://mw48795472.github.io/DMA-Rule-Data-Analysis/reproduce.html) · [Python 자료 검토 노트북](MECHANISMS_REVIEW.ipynb) · [Python 재현·검증 노트북](DMA_SPATIAL_ANALYSIS.ipynb)

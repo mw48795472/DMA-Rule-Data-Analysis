@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "ggplot_objects": 23,
+  "registered_builders": 23,
+  "expected_graphics_pages": 49,
+  "run_all_seconds": 55.5,
+  "source_invocation": "Source from outside the project",
+  "analysis_outputs_unchanged": true,
+  "display_test": "Explicit print() per figure on a Cairo PDF graphics device; native RStudio UI not automated",
+  "export_test": "dma_export_plots(): 23 PNG + 23 PDF + ALL_PLOTS.pdf",
+  "file": "C:/Users/mw595/Documents/GitHub/DMA-Rule-Data-Analysis/outputs/run_all_display_smoke.pdf"
+}

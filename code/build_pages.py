@@ -121,12 +121,11 @@ analysis+='## 10. LTA는 아직 연구 준비 단계다\n\n'+plot_md(20)+'[전�
 write('analysis.md',analysis)
 
 plot_lines=(ROOT/'code/11_plot_saved_results.R').read_text(encoding='utf8').splitlines()
-save_indices=[i for i,l in enumerate(plot_lines) if re.search(r'(?:save_plot|savefig|dma_save_plot)\(p,"\d{2}_',l)]
+# 2026-11-04: each figure is a registered builder  dma_register("NN_name", w, h, function(){ ... })
+save_indices=[i for i,l in enumerate(plot_lines) if re.search(r'dma_register\("\d{2}_',l)]
 def plot_code(f):
-    b=next(i for i in save_indices if '"'+f['name']+'"' in plot_lines[i])
-    previous=max([i for i in save_indices if i<b],default=25)
-    a=previous+1
-    if b-a>22:a=b-22
+    a=next(i for i in save_indices if '"'+f['name']+'"' in plot_lines[i])
+    b=next(i for i in range(a+1,len(plot_lines)) if plot_lines[i].strip()=='})')
     code='\n'.join(plot_lines[a:b+1]).strip()
     return f'```r\n{code}\n```\n\n[전체 시각화 코드 · L{a+1}–L{b+1}]({source_link("code/11_plot_saved_results.R")}#L{a+1}-L{b+1})\n\n'
 gallery=front('23개 plot · 코드와 해석',3)+'''# 그림을 코드와 함께 읽기
@@ -134,11 +133,12 @@ gallery=front('23개 plot · 코드와 해석',3)+'''# 그림을 코드와 함�
 기존 공간분석 20개와 추가 자료 검토 3개를 모았습니다. 각 그림 아래에 관측 결과, 두 이론의 해석 범위, 한계와 실제 시각화 코드가 이어집니다. 발췌 코드에 사용하는 데이터 객체·공통 함수는 전체 R 파일 앞부분에서 정의합니다.
 
 ```r
-# RStudio 프로젝트에서 실행: 저장 결과로 20개 그림을 생성합니다.
-source("RUN_PLOTS.R", encoding = "UTF-8")
-# 추가 자료와 그림 3개
-source("RUN_MECHANISMS.R", encoding = "UTF-8")
+# RStudio 프로젝트에서 실행: 저장 결과로 23개 그림을 차례로 Plots 창에 표시하고 figures/에 저장합니다.
+source("RUN_ALL.R", encoding = "UTF-8")
+# 부분 실행: 기존 20개만 RUN_PLOTS.R, 추가 자료와 그림 3개만 RUN_MECHANISMS.R
 ```
+
+그림은 하나씩 `dma_register("NN_name", 폭, 높이, function(){ ggplot ... })` 블록으로 정의되어 있어 `dma_build_plot(번호)`로 개별 재생성할 수 있습니다.
 
 ## 그림 목록
 
@@ -182,9 +182,8 @@ source("setup.R", encoding = "UTF-8")
 # 자료·경로 확인
 source("CHECK_PATHS.R", encoding = "UTF-8")
 
-# 저장된 결과를 읽어 그림을 생성합니다.
-source("RUN_PLOTS.R", encoding = "UTF-8")
-source("RUN_MECHANISMS.R", encoding = "UTF-8")
+# 저장된 결과를 읽어 그림 23개를 생성합니다. 추가 자료와 그림 21~23만 보려면 RUN_MECHANISMS.R
+source("RUN_ALL.R", encoding = "UTF-8")
 ```
 
 새 그림은 `mechanism_plots`에 ggplot 객체로 남고 PNG로도 저장됩니다. `RUN_PLOTS.R`은 기존 그림 20개를 다시 만듭니다. 두 진입점은 공간회귀와 부트스트랩을 새로 실행하지 않습니다.
@@ -200,7 +199,7 @@ source("RUN_FULL_ANALYSIS.R", encoding = "UTF-8")
 ## 실행 파일과 자료
 
 '''
-items=[('DMA_PoC_v4.Rproj','RStudio 프로젝트'),('RUN_PLOTS.R','기존 20개 ggplot 생성'),('RUN_MECHANISMS.R','새 자료와 그림 3개'),('MECHANISMS_REVIEW.ipynb','Python 자료 검토'),('DMA_SPATIAL_ANALYSIS.ipynb','Python 공간분석 재현·검증 (W·Moran·VIF·ML·효과·부트스트랩)'),('code/03_models.R','VIF·Moran·SAR/SEM/SDM'),('code/07_refine_regional_bootstrap.R','지역 SDM 잔차 재적합 부트스트랩'),('outputs/mechanisms_20261102/integration/integration_catalog.csv','신규 자료 목록'),('outputs/mechanisms_20261102/integration/integration_missingness.csv','결측 감사'),('FILE_MANIFEST.csv','저장소 파일·크기·해시')]
+items=[('DMA_PoC_v4.Rproj','RStudio 프로젝트'),('RUN_ALL.R','23개 ggplot을 Plots 창에 차례로 표시·저장'),('RUN_PLOTS.R','기존 20개 ggplot 생성'),('RUN_MECHANISMS.R','새 자료와 그림 3개'),('MECHANISMS_REVIEW.ipynb','Python 자료 검토'),('DMA_SPATIAL_ANALYSIS.ipynb','Python 공간분석 재현·검증 (W·Moran·VIF·ML·효과·부트스트랩)'),('code/03_models.R','VIF·Moran·SAR/SEM/SDM'),('code/07_refine_regional_bootstrap.R','지역 SDM 잔차 재적합 부트스트랩'),('outputs/mechanisms_20261102/integration/integration_catalog.csv','신규 자료 목록'),('outputs/mechanisms_20261102/integration/integration_missingness.csv','결측 감사'),('FILE_MANIFEST.csv','저장소 파일·크기·해시')]
 reproduce+='\n'.join(f'- [{label}]({source_link(path)})' for path,label in items)+'\n\n'
 reproduce+='''## 원천과 API 키
 
@@ -291,9 +290,9 @@ subset(comparison, group == "parsimonious",
 저장소 전체를 내려받아 `DMA_PoC_v4.Rproj`를 열고 실행합니다.
 
 ```r
-source("setup.R", encoding = "UTF-8")          # 최초 패키지 준비
-source("RUN_PLOTS.R", encoding = "UTF-8")      # 기존 20개 그림
-source("RUN_MECHANISMS.R", encoding = "UTF-8") # 새 자료와 3개 그림
+source("RUN_ALL.R", encoding = "UTF-8")        # 그림 23개를 Plots 창에 차례로 표시 후 figures/ 저장 (패키지가 없으면 setup.R 자동 실행)
+source("RUN_PLOTS.R", encoding = "UTF-8")      # 기존 20개 그림만
+source("RUN_MECHANISMS.R", encoding = "UTF-8") # 새 자료와 3개 그림만
 ```
 
 위 그림 진입점은 저장된 결과를 사용합니다. 전체 분석 재적합은 `RUN_FULL_ANALYSIS.R`이며 9,999회 부트스트랩 등에 시간이 걸립니다. [재현 안내]('''+SITE+'''reproduce.html) · [Python 자료 검토 노트북](MECHANISMS_REVIEW.ipynb) · [Python 재현·검증 노트북](DMA_SPATIAL_ANALYSIS.ipynb)

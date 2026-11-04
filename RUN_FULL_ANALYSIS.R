@@ -39,3 +39,5 @@ rm(.dma_bootstrap)
 source("setup.R",encoding="UTF-8")
 source("RUN_BASE_ANALYSIS.R",encoding="UTF-8")
 source("analysis.R",encoding="UTF-8")
+# 재적합을 마친 뒤 최종 결과에서 23개 그림을 만들고 Plots 창에 표시합니다.
+source(dma_path("RUN_ALL.R"),encoding="UTF-8")

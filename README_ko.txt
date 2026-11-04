@@ -11,23 +11,26 @@ reports/DMA_PoC_20plots_Report.pdf : 30쪽, 그림별 결과·브뤼셀 효과·
 reports/DMA_PoC_20plots_Report.md : GitHub에서 읽는 Markdown 본문(figures/ PNG 참조)
 REPORT_UPDATE_README.txt : 변경 내용과 재현 안내
 
-## RStudio에서 그림 보기 (2026-11-02 보완)
+## RStudio에서 그림 보기 (2026-11-04 재설정)
 
-압축을 모두 풀고 `DMA_PoC_v4.Rproj`를 연 다음 `RUN_PLOTS.R` 전체를 **Source**하세요.
-저장된 분석 결과와 공간자료로 ggplot 그래프 20개를 만들며, RStudio **Plots** 창과
-`figures/`의 PNG/PDF 파일에 출력합니다. 분석과 9,999회 부트스트랩은 재실행하지 않습니다.
+압축을 모두 풀고 `DMA_PoC_v4.Rproj`를 연 다음 `RUN_ALL.R`을 **Source**(또는 Run All, 아무 줄에서 Run)하세요.
+저장된 분석 결과와 공간자료로 ggplot 그래프 23개를 하나씩 RStudio **Plots** 창에 먼저 표시하고,
+그 뒤 `figures/`에 PNG/PDF와 통합본 `ALL_PLOTS.pdf`를 저장합니다. 분석과 9,999회 부트스트랩은 재실행하지 않습니다.
+그림마다 독립 함수로 정의되어 있어 한 그림이 실패해도 나머지는 계속 표시됩니다. 자세한 안내: `RUN_ALL_README_ko.txt`.
 
 ```r
 show_dma_plot(3)   # VIF 비교
 show_dma_plot(17)  # 영국 및 주변 비EU국
 show_dma_plot(20)  # LTA 종단자료 관측률
 list_dma_plots()   # 전체 그림 목록
-p <- dma_plots[["03_vif_comparison"]] + ggplot2::labs(title="VIF 비교")
-print(p)          # 직접 수정한 그림 표시
+p <- dma_build_plot(3) + ggplot2::labs(title="VIF 비교")
+print(p)          # 자료에서 새로 만든 뒤 수정한 그림 표시
+dma_plot_overview()   # 23개 축소판 한 장
 ```
 
 다른 그림은 Plots의 이전/다음 화살표 또는 `show_dma_plot(번호)`로 확인하세요.
-자세한 사용법: `PLOTS_README.txt`. `RUN_PLOTS.R` 단독이 아닌 프로젝트 전체가 필요합니다.
+자세한 사용법: `RUN_ALL_README_ko.txt`. `RUN_ALL.R` 단독이 아닌 프로젝트 전체가 필요합니다.
+기존 20개만: `RUN_PLOTS.R`, 추가 자료와 그림 21~23만: `RUN_MECHANISMS.R`.
 
 경로 수정본: CHECK_PATHS.R을 먼저 Source하여 JSON 읽기 성공을 확인하세요.
 R 파일 위치에서 프로젝트 폴더를 자동으로 찾습니다. 자세한 안내: PATH_FIX_README.txt
